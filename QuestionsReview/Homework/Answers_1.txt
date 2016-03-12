@@ -1,0 +1,590 @@
+﻿1、C 看板是一个及时的库存控制调度系统。产品流程只有在收到命令信号时才执行。用这种方式谨慎控制库存确保了没有机器生产多余或者无序的产品。而机器只有在当时有能力执行生产时才发出命令信号。因此，库存（或者WIP）不会在机器备份或者成为瓶颈，这是因为库存的命令信号是高度控制的并且是基于流程速度和绝对的需求的。 
+ 
+2、C 未开始的任务应当收录在“准备进行”目录中。 
+ 
+3、C 格雷格应该将此任务卡放在任务板的“准备测试”目录下。所有任务都必须蒋经过测试或者验证流程，来确保质量已建入开发流程中。完成的任务通常移到“准备测试”目录下，然后由项目测试者和客户执行测试。值得注意的是，任务板上的部分任务没有详细的验证或测试标准。这些任务不会移入“准备测试”下，但仍需要进行验证并通常移至“准备验证”目录下。 
+ 
+4、B   项目章程是重要的管理文件，需要所有干系人的参与。虽然专家建议章程应不超过一页，但是因为所有的干系人必须参与进来并且达成一致意见，所以创建项目章程是非常具有挑战性的。 
+项目章程中应包含3个关键信息：前景，任务和成功标准。 
+前景是“为什么”或者项目的理论基础。 
+任务是项目的“什么”内容，并说明团队达到预期前景所要做的内容。 
+成功标准是管理的指标，定义项目“如何”是成功。 
+ 
+5、B   MoSCoW技术是通常用在敏捷，取优先排序用户故事和创造故事规划图的。 
+MoSCoW技术把用户故事以降序进行优先顺序排列： 
+M-must have必须有； 
+S-should have应该有； 
+C-could have可能有； 
+W-won't have this time这次不会有。 
+必须有的事物是对开发很重要的产品特征。 
+应该有的事物是对开发不是很重要但有重要商业价值的产品特征。 
+能有的事物能增加一些商业价值的产品特征。 
+会有的事物是有一点商业价值的产品特征。 
+ 
+6、B 精益生产理论是指估算浪费，其中一定义的浪费类型是库存，也指限制WIP。WIP是指材料或部分已开始生产但是还未完成的产品。库存也属于浪费，因为在购买，储存和维护方面花去费用。减少库存的一个方法是通过移除最慢的机器或处理器（即系统瓶颈）来减少WIP。敏捷亦致力于通过在开发新特性前完全完成所有特性的WIP限制来控制WIP。一项迭代或者冲刺可以想象成可开发若干数量特性的一个过程。在这个类比中，WIP限制相当于冲刺待办事项。通过保持WIP限制等同于冲刺待办事项，在冲刺审阅时所有的特性都应当完成。 
+ 
+7、D 极限编程(XP)是一项以编程人员为中心的敏捷架构，注重小而迅速的发布。 
+XP极限编程强调以下原则： 
+结对编程 
+可持续速度 
+不断自动测试 
+有效沟通 
+简单性 
+反馈 
+勇气 
+集体所有权 
+持续整合 
+激励工作 
+共享工作空间 
+现场客户代表 
+使用隐喻说明概念。 
+ 
+8、A 产品待办事项是一列所有需要在迭代中开发的产品特性综合性清单，它是不断变化的，以适应客户需求。随着项目发展，因为客户逐渐理解产品需要更完备，所以待办事项中的项目特性更明确。 
+ 
+9、C 产品负责人的主要职责之一是投资回报率。 
+ 
+10、A 常见的敏捷架构/方法论包括： 
+scrum， 
+XP极限编程， 
+精益软件开发， 
+水晶， 
+特性驱动开发（FDD）， 
+动态系统开发方法（DSDM）， 
+敏捷统一过程（AUP）。 
+ 
+11、C 敏捷项目管理着重强调“持续完善”。从迭代后客户提供反馈，到迭代后团队保留时间回顾和反思执行情况，持续完善已经进入敏捷方法论中。 
+进行的单元，一体化测试和适应技术/工业开发三者同样是持续完善中的一部分。 
+持续完善也是精益方法论的一个重点原则，注重从价值流中清除浪费。 
+ 
+12、C 持续整合的极限编程（XP）原则是代码建立后即集成到完整代码库。由此集成后，代码库和整个系统即建成和测试完成。持续整合只是提高快速软件交付和集成缺陷早期探测的一个极限编程的原则。持续整合理论上是指随时有可传输的工作产品。 
+ 
+13、C 敏捷中，故事地图本质上等同于项目计划，它将用户故事/产品特性按逻辑主题排列，作为开发的计划。 
+ 
+14、A 单独的速度用来和两个或以上的团队对比生产率是无效的。因为没有哪两支团队共享相同的故事点定义。 
+ 
+15、A 计划扑克是基于宽带德尔菲估算技能、也是以共识为基础的工作量估算技能。有时候也称为scrum扑克，往往在故事点和开发用户故事中用来估算相对工作量。 
+在计划扑克会议中，每一位估算师各派有一副相同的价值范围宽广的计划扑克卡片。 
+斐波那契数列常用来衡量计划扑克的价值（即0,1,2,3,5,8，等）； 
+另一种常见数列是（问号，0,1/2,1,2,3,5,8,13,20,40，和100）。 
+计划扑克会议按如下运行： 
+1）一名调停人，主持会议，不参与估算。 
+2）产品负责人/管理人员对用户故事作概述，并回答开发者提出的澄清问题，往往产品负责人不参与投票。 
+3）每一位估算师抽取一张卡片来估算工作量。 
+4）每人抽取一张卡片后，同时将他们的卡片翻转， 
+5）持高和低估算的估算师各有一个机会作立场辩护。 
+6）达成共识前，不断重复以上流程。持有用户故事的开发者往往拥有较高可信度。 
+ 
+16、D 在估算开发一个用户故事的相对工作量时，计划扑克是较受欢迎的一个敏捷游戏。每一名团队成员拥有一副不同数字价值的卡片，他们可从中出牌（抽出一张卡片）来表示他们开发一个用户故事的估算点值。 
+ 
+17、D 4宣言：个体和交互胜过过程和工具；客户合作胜过合同谈判；工作的软件胜过全面的文档；响应变化重于遵循计划。 
+12原则： 
+准则1：Our highest priority is to satisfy the customer through early and continuous delivery of valuable software. 
+我们的最高目标是，通过尽早和持续地交付有价值的软件来满足客户。 
+准则2：Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage. 
+欢迎对需求提出变更——即使是在项目开发后期。要善于利用需求变更，帮助客户获得竞争优势。 
+准则3：Deliver working software frequently, from a couple of weeks to a couple of mouths, with a preference for the shorter timescale. 
+要不断交付可用的软件，周期从几周到几个月不等，且越短越好。 
+准则4：Business people and developers must work together daily throughout the project. 
+项目过程中，业务人员与开发人员必须在一起工作。 
+准则5：Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.  
+要善于激励项目人员，给他们以所需要的环境和支持，并相信他们能够完成任务。 
+准则6：The most efficient and effective method of conveying information to and within a development team is face-to-face conversation. 
+无论是团队内还是团队间，最有效的沟通方法是面对面的交谈。 
+准则7：Working software is the primary measure of progress. 
+可用的软件是衡量进度的主要指标。 
+准则8：Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely. 
+敏捷过程提倡可持续的开发。项目方、开发人员和用户应该能够保持恒久稳定的进展速度。 
+准则9：Continuous attention to technical excellence and good design enhances agility. 
+对技术的精益求精以及对设计的不断完善将提升敏捷性。 
+准则10：Simplicity--the art of maximizing the amount of work not done--is essential. 
+要做到简洁，即尽最大可能减少不必要的工作。这是一门艺术。 
+准则11：The best architectures, requirements, and designs emerge from self-organizing teams.  
+最佳的架构、需求和设计出自于自组织的团队。 
+准则12：At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.  
+团队要定期反省如何能够做到更有效，并相应地调整团队的行为。 
+ 
+18、D 4宣言：个体和交互胜过过程和工具；客户合作胜过合同谈判；工作的软件胜过全面的文档；响应变化重于遵循计划。 
+12原则： 
+准则1：Our highest priority is to satisfy the customer through early and continuous delivery of valuable software. 
+我们的最高目标是，通过尽早和持续地交付有价值的软件来满足客户。 
+准则2：Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage. 
+欢迎对需求提出变更——即使是在项目开发后期。要善于利用需求变更，帮助客户获得竞争优势。 
+准则3：Deliver working software frequently, from a couple of weeks to a couple of mouths, with a preference for the shorter timescale. 
+要不断交付可用的软件，周期从几周到几个月不等，且越短越好。 
+准则4：Business people and developers must work together daily throughout the project. 
+项目过程中，业务人员与开发人员必须在一起工作。 
+准则5：Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.  
+要善于激励项目人员，给他们以所需要的环境和支持，并相信他们能够完成任务。 
+准则6：The most efficient and effective method of conveying information to and within a development team is face-to-face conversation. 
+无论是团队内还是团队间，最有效的沟通方法是面对面的交谈。 
+准则7：Working software is the primary measure of progress. 
+可用的软件是衡量进度的主要指标。 
+准则8：Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely. 
+敏捷过程提倡可持续的开发。项目方、开发人员和用户应该能够保持恒久稳定的进展速度。 
+准则9：Continuous attention to technical excellence and good design enhances agility. 
+对技术的精益求精以及对设计的不断完善将提升敏捷性。 
+准则10：Simplicity--the art of maximizing the amount of work not done--is essential. 
+要做到简洁，即尽最大可能减少不必要的工作。这是一门艺术。 
+准则11：The best architectures, requirements, and designs emerge from self-organizing teams.  
+最佳的架构、需求和设计出自于自组织的团队。 
+准则12：At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.  
+团队要定期反省如何能够做到更有效，并相应地调整团队的行为。 
+ 
+19、D 4宣言：个体和交互胜过过程和工具；客户合作胜过合同谈判；工作的软件胜过全面的文档；响应变化重于遵循计划。 
+12原则： 
+准则1：Our highest priority is to satisfy the customer through early and continuous delivery of valuable software. 
+我们的最高目标是，通过尽早和持续地交付有价值的软件来满足客户。 
+准则2：Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage. 
+欢迎对需求提出变更——即使是在项目开发后期。要善于利用需求变更，帮助客户获得竞争优势。 
+准则3：Deliver working software frequently, from a couple of weeks to a couple of mouths, with a preference for the shorter timescale. 
+要不断交付可用的软件，周期从几周到几个月不等，且越短越好。 
+准则4：Business people and developers must work together daily throughout the project. 
+项目过程中，业务人员与开发人员必须在一起工作。 
+准则5：Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.  
+要善于激励项目人员，给他们以所需要的环境和支持，并相信他们能够完成任务。 
+准则6：The most efficient and effective method of conveying information to and within a development team is face-to-face conversation. 
+无论是团队内还是团队间，最有效的沟通方法是面对面的交谈。 
+准则7：Working software is the primary measure of progress. 
+可用的软件是衡量进度的主要指标。 
+准则8：Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely. 
+敏捷过程提倡可持续的开发。项目方、开发人员和用户应该能够保持恒久稳定的进展速度。 
+准则9：Continuous attention to technical excellence and good design enhances agility. 
+对技术的精益求精以及对设计的不断完善将提升敏捷性。 
+准则10：Simplicity--the art of maximizing the amount of work not done--is essential. 
+要做到简洁，即尽最大可能减少不必要的工作。这是一门艺术。 
+准则11：The best architectures, requirements, and designs emerge from self-organizing teams.  
+最佳的架构、需求和设计出自于自组织的团队。 
+准则12：At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.  
+团队要定期反省如何能够做到更有效，并相应地调整团队的行为。 
+ 
+20、C 当估计敏捷项目，宏观方法是常用的。首先是高级估计，接着是详细估计。 
+ 
+21、A 敏捷团队应约定试用一种估算方法，故事点或者理想时间，因为这两种方法使用不同的测量单位，会造成混乱。 
+ 
+22、D  在日常站立会议中，团队成员会讨论进来取得的进步和其他任何阻碍进步的问题或障碍。每个成员都会分享他自上次会议以来取得的成绩，和下次会议之前将要实现的事情，以及可能遇到的阻碍。 
+23、D  在冲刺方法论中，日常站立会议或是Scrum，都不应该超过15分钟。一些Scrum事例会用到stop watches来记录时间，或是使用一根“发言棒”来指明到哪一位分享相关信息。 
+ 
+24、B “站立会议”的由来是鼓励所有团队成员站立进行会议以确保会议的效率，理由是站立带来的不舒适感，会使成员减少浪费的时间。 
+ 
+25、C 开发一个用户故事的理想持续时长是2-5天。 
+ 
+26、C 一个用户故事包含3个基本要素： 
+一个角色，一个目标和一个可达到的商业价值，通常的形式是：“作为，我需要，由此我可以。” 
+例如“作为一名网上客户，我需要有能力通过产品名称和描述来进行搜索，由此可在购物车中添加产品。”  
+ 
+27、B 用户故事是基于顾客价值去优先排序的。价值由投资效益，团队知识增长，风险减少决定。 
+ 
+28、A 基于价值的分析致力于了解由客户定义的价值与产品中的不同部分如特性和任务之间的关系是如何的。特性通常以基于价值和风险的优先级得到优先处理。 
+通过风险-价值指标和成本-价值指标，使用MoSCoW或Kano方法可执行优先级。 
+ 
+29、C 价值流程图是敏捷采用的精益生产分析技能，用于对形成客户产品或服务的原料和信息（即价值）的流动进行分析。 
+执行价值流程图大致包括5个步骤： 
+1）确认产品，客户和范围（即流程的始末）。 
+2）地图作为团队或者个人现时价值流，确认流程步骤，延时和信息需求。估算流程步骤的持续时长和前置期持续时长（lead time durations）。前置期是指在发生前一项流程或者事件需等待的时长。 
+3）分析价值流程图来确认浪费存在的地方（比如前置期）和流程可完善的地方（流程时间通常认为是价值增加时间，但是应尽量减少整个流程的时间，由此来缩短向客户交付价值流的时间）。 
+4）通过分析，总结出一份展示价值流应努力达到的前景或者目标的未来价值流程图。 
+5）通过流程完善活动（即完善）或者其他方法来达到目标的一些工作。 
+ 
+30、C 价值流程图是敏捷采用的精益生产分析技能，用于对形成客户产品或服务的原料和信息（即价值）的流动进行分析。 
+执行价值流程图大致包括5个步骤： 
+1）确认产品，客户和范围（即流程的始末）。 
+2）地图作为团队或者个人现时价值流，确认流程步骤，延时和信息需求。估算流程步骤的持续时长和前置期持续时长（lead time durations）。前置期是指在发生前一项流程或者事件需等待的时长。 
+3）分析价值流程图来确认浪费存在的地方（比如前置期）和流程可完善的地方（流程时间通常认为是价值增加时间，但是应尽量减少整个流程的时间，由此来缩短向客户交付价值流
+的时间）。 
+4）通过分析，总结出一份展示价值流应努力达到的前景或者目标的未来价值流程图。 
+5）通过流程完善活动（即完善）或者其他方法来达到目标的一些工作。" 
+ 
+31、D 看板，意思是广告牌或告示牌，是丰田公司在19世纪40-50年代开发的一个及时（JIT）生产调度系统。它是通过卡片或者信号来请求（需求信号）其他独立系统中（供应方）生产流程的必须部分，以此控制和减少库存。看板已被应用于敏捷中，来帮助控制工作流。 
+ 
+32、A MoSCoW技术是通常用在敏捷，取优先排序用户故事和创造故事规划图的。 
+MoSCoW技术把用户故事以降序进行优先顺序排列： 
+M-must have必须有； 
+S-should have应该有； 
+C-could have可能有； 
+W-won't have this time这次不会有。 
+必须有的事物是对开发很重要的产品特征。 
+应该有的事物是对开发不是很重要但有重要商业价值的产品特征。 
+能有的事物能增加一些商业价值的产品特征。 
+会有的事物是有一点商业价值的产品特征。 
+ 
+33、A 和精益相似，敏捷工作尝试将WIP减少至可管理和可持续的水平。 
+ 
+34、C 在敏捷项目，产品待办事项通常让所有用户故事开发。 
+ 
+35、B 解聚指将大的用户故事分解为小的更易于处理的小的故事，类似分解。 
+ 
+36、A 在迭代计划中，敏捷团队和客户为开发协作选择用户故事。虽然在发布计划期间，用户故事起初在产品待办事项中被优先处理，但是敏捷团队和客户应以逐步完善（即增加知识和观点）为基础审查优先化。优先化常以价值和风险为基础，可运用MoSCoW和Kano方法和通过风险-价值与成本-价值指标执行。敏捷团队执行分解，将用户故事细分为更多可操纵的任务，以此评估任务时间。迭代任务同样可以价值为基础进行优先处理，类似于优先处理用户故事。 
+ 
+37、D 在发布计划，敏捷项目管理者和开发团队相信讨论产品前景。这确保适当要求，验收标准，优先排序建立。 
+ 
+38、B 总的来说，故事点能被看作开发一个用户故事的成本，虽然价值点能看作开发用户故事的利益。 
+ 
+39、D 计划扑克是基于宽带德尔菲估算技能、也是以共识为基础的工作量估算技能。有时候也称为scrum扑克，往往在故事点和开发用户故事中用来估算相对工作量。 
+在计划扑克会议中，每一位估算师各派有一副相同的价值范围宽广的计划扑克卡片。 
+斐波那契数列常用来衡量计划扑克的价值（即0,1,2,3,5,8，等）； 
+另一种常见数列是（问号，0,1/2,1,2,3,5,8,13,20,40，和100）。 
+计划扑克会议按如下运行： 
+1）一名调停人，主持会议，不参与估算。 
+2）产品负责人/管理人员对用户故事作概述，并回答开发者提出的澄清问题，往往产品负责人不参与投票。 
+3）每一位估算师抽取一张卡片来估算工作量。 
+4）每人抽取一张卡片后，同时将他们的卡片翻转， 
+5）持高和低估算的估算师各有一个机会作立场辩护。 
+6）达成共识前，不断重复以上流程。持有用户故事的开发者往往拥有较高可信度。 
+ 
+40、C 4宣言：个体和交互胜过过程和工具；客户合作胜过合同谈判；工作的软件胜过全面的文档；响应变化重于遵循计划。 
+12原则： 
+准则1：Our highest priority is to satisfy the customer through early and continuous delivery of valuable software. 
+我们的最高目标是，通过尽早和持续地交付有价值的软件来满足客户。 
+准则2：Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage. 
+欢迎对需求提出变更——即使是在项目开发后期。要善于利用需求变更，帮助客户获得竞争优势。 
+准则3：Deliver working software frequently, from a couple of weeks to a couple of mouths, with a preference for the shorter timescale. 
+要不断交付可用的软件，周期从几周到几个月不等，且越短越好。 
+准则4：Business people and developers must work together daily throughout the project. 
+项目过程中，业务人员与开发人员必须在一起工作。 
+准则5：Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.  
+要善于激励项目人员，给他们以所需要的环境和支持，并相信他们能够完成任务。 
+准则6：The most efficient and effective method of conveying information to and within a development team is face-to-face conversation. 
+无论是团队内还是团队间，最有效的沟通方法是面对面的交谈。 
+准则7：Working software is the primary measure of progress. 
+可用的软件是衡量进度的主要指标。 
+准则8：Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely. 
+敏捷过程提倡可持续的开发。项目方、开发人员和用户应该能够保持恒久稳定的进展速度。 
+准则9：Continuous attention to technical excellence and good design enhances agility. 
+对技术的精益求精以及对设计的不断完善将提升敏捷性。 
+准则10：Simplicity--the art of maximizing the amount of work not done--is essential. 
+要做到简洁，即尽最大可能减少不必要的工作。这是一门艺术。 
+准则11：The best architectures, requirements, and designs emerge from self-organizing teams.  
+最佳的架构、需求和设计出自于自组织的团队。 
+准则12：At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.  
+团队要定期反省如何能够做到更有效，并相应地调整团队的行为。 
+ 
+41、B 4宣言：个体和交互胜过过程和工具；客户合作胜过合同谈判；工作的软件胜过全面的文档；响应变化重于遵循计划。 
+12原则： 
+准则1：Our highest priority is to satisfy the customer through early and continuous delivery of valuable software. 
+我们的最高目标是，通过尽早和持续地交付有价值的软件来满足客户。 
+准则2：Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage. 
+欢迎对需求提出变更——即使是在项目开发后期。要善于利用需求变更，帮助客户获得竞争优势。 
+准则3：Deliver working software frequently, from a couple of weeks to a couple of mouths, with a preference for the shorter timescale. 
+要不断交付可用的软件，周期从几周到几个月不等，且越短越好。 
+准则4：Business people and developers must work together daily throughout the project. 
+项目过程中，业务人员与开发人员必须在一起工作。 
+准则5：Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.  
+要善于激励项目人员，给他们以所需要的环境和支持，并相信他们能够完成任务。 
+准则6：The most efficient and effective method of conveying information to and within a development team is face-to-face conversation. 
+无论是团队内还是团队间，最有效的沟通方法是面对面的交谈。 
+准则7：Working software is the primary measure of progress. 
+可用的软件是衡量进度的主要指标。 
+准则8：Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely. 
+敏捷过程提倡可持续的开发。项目方、开发人员和用户应该能够保持恒久稳定的进展速度。 
+准则9：Continuous attention to technical excellence and good design enhances agility. 
+对技术的精益求精以及对设计的不断完善将提升敏捷性。 
+准则10：Simplicity--the art of maximizing the amount of work not done--is essential. 
+要做到简洁，即尽最大可能减少不必要的工作。这是一门艺术。 
+准则11：The best architectures, requirements, and designs emerge from self-organizing teams.  
+最佳的架构、需求和设计出自于自组织的团队。 
+准则12：At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.  
+团队要定期反省如何能够做到更有效，并相应地调整团队的行为。 
+ 
+42、B 敏捷团队应当与客户商讨决定是否以及用户故事完成的时间。 
+ 
+43、B "项目的燃尽图是一个常用的来展示迭代进度的信息发射源。 
+它记录两项序列：剩余的实际工作和剩余的理想/预估的工作。 
+竖轴是工作单元（常是故事点或时间），横轴是迭代持续时长（常是日期数字）。 
+理想/预估的工作序列是条向下倾斜的直线，由需完成工作价值（例如20故事点）的竖轴出发，延长至横轴上迭代的最后一天（即0故事点）。 
+实际工作序列每日更新，取决于敏捷团队的生产率和任务的复杂性。实际工作序列常常是易变的，并非直线，它随着项目团队干涉开发流程而消长。 
+ 
+44、D 一个健全的站立会议的重点特征包括： 
+同辈压力——因为团队靠大家，所以同辈的期望可带动进步； 
+密切的配合——团队应当理解对专注的必要性并独立工作； 
+细在专注——团队应当理解每日站立会议中简洁的必要性，由此团队才有效益； 
+每日承诺——团队应当理解对每人每日承诺的价值所在，并兑现这些承诺； 
+辨别障碍——团队应当集体意识到每个人的困难，由此团队可集体尝试解决。 
+ 
+45、B 每日站立会议上，来不及解决的问题应当记录下来，在每日站立会议后的适当聚会上重新解决。这样可以保证会议简短而有效。 
+ 
+46、D 每日站立会议上，来不及解决的问题应当记录下来，在每日站立会议后的适当聚会上重新解决。这样可以保证会议简短而有效。 
+ 
+47、D 价值，成本和风险是优先处理用户故事时考虑的重点因素。 
+ 
+48、B 当开发者注意到用户故事或任务用时比时间框显示的长，应该提醒团队并采取措施。包括：把任务分解为更小的用户故事 
+ 
+49、D 用于定义用户故事的罗恩.杰弗里斯的3C是卡片，对话和确认。 
+ 
+50、C 一个用户故事包含3个基本要素： 
+一个角色，一个目标和一个可达到的商业价值，通常的形式是：“作为，我需要，由此我可以。” 
+例如“作为一名网上客户，我需要有能力通过产品名称和描述来进行搜索，由此可在购物车中添加产品。”  
+ 
+51、D 敏捷开发中的主题是指一组有关的用户故事。 
+ 
+52、D 敏捷开发的基石是“增量交付”。增量交付是指为及时反馈和接纳，频繁向客户交付连续改善的工作产品。为演示和反馈，往往在每一个冲刺或迭代的末期交付产品。这项反馈技能，可使客户评价产品并提出新的需求。在敏捷流程中，接受变动/更新/改善的需求，以确保客户得到有价值和质量的产品。一个冲刺或迭代往往持续2-4周，最后，渐进地交付一个新的并改善的产品。 
+ 
+53、D 敏捷开发的基石是“增量交付”。增量交付是指为及时反馈和接纳，频繁向客户交付连续改善的工作产品。为演示和反馈，往往在每一个冲刺或迭代的末期交付产品。这项反馈技能，可使客户评价产品并提出新的需求。在敏捷流程中，接受变动/更新/改善的需求，以确保客户得到有价值和质量的产品。一个冲刺或迭代往往持续2-4周，最后，渐进地交付一个新的并改善的产品。 
+ 
+54、A 共识性标准是每个专业人士都要支持的，但不是强制性的。强制要求是被要求的，
+被法律支持的。 
+ 
+55、B 缩写INVEST（independent独立的，negotiable可协商的，valuable有价值的，estimable可估算的，small小的和testable可测试的）有助于敏捷工作者记忆优秀的用户故事的特点。 
+I-Independent独立故事是指可在任何顺序下开发，避免依赖，使开发更复杂的故事。 
+N-Negotiable可协商故事是指客户和开发者可自由分析和采用用户故事来达到客户需求的故事。 
+V-Valuable有价值的故事是指向客户描述产品特性如何提供价值的故事。 
+E-Estimable可估算故事是指已准备就绪，开发者可用来估算开发这些用户故事所需的工作量或时长的故事。 
+S-Small小故事是指需要2-5天执行的故事。 
+T-Testable可测试故事是指根据接受标准可验证，来确保价值的故事。 
+ 
+56、D 缩写INVEST（independent独立的，negotiable可协商的，valuable有价值的，estimable可估算的，small小的和testable可测试的）有助于敏捷工作者记忆优秀的用户故事的特点。 
+I-Independent独立故事是指可在任何顺序下开发，避免依赖，使开发更复杂的故事。 
+N-Negotiable可协商故事是指客户和开发者可自由分析和采用用户故事来达到客户需求的故事。 
+V-Valuable有价值的故事是指向客户描述产品特性如何提供价值的故事。 
+E-Estimable可估算故事是指已准备就绪，开发者可用来估算开发这些用户故事所需的工作量或时长的故事。 
+S-Small小故事是指需要2-5天执行的故事。 
+T-Testable可测试故事是指根据接受标准可验证，来确保价值的故事。 
+ 
+57、B 缩写INVEST（independent独立的，negotiable可协商的，valuable有价值的，estimable可估算的，small小的和testable可测试的）有助于敏捷工作者记忆优秀的用户故事的特点。 
+I-Independent独立故事是指可在任何顺序下开发，避免依赖，使开发更复杂的故事。 
+N-Negotiable可协商故事是指客户和开发者可自由分析和采用用户故事来达到客户需求的故事。 
+V-Valuable有价值的故事是指向客户描述产品特性如何提供价值的故事。 
+E-Estimable可估算故事是指已准备就绪，开发者可用来估算开发这些用户故事所需的工作量或时长的故事。 
+S-Small小故事是指需要2-5天执行的故事。 
+T-Testable可测试故事是指根据接受标准可验证，来确保价值的故事。 
+ 
+58、A 缩写INVEST（independent独立的，negotiable可协商的，valuable有价值的，estimable可估算的，small小的和testable可测试的）有助于敏捷工作者记忆优秀的用户故事的特点。 
+I-Independent独立故事是指可在任何顺序下开发，避免依赖，使开发更复杂的故事。 
+N-Negotiable可协商故事是指客户和开发者可自由分析和采用用户故事来达到客户需求的故事。 
+V-Valuable有价值的故事是指向客户描述产品特性如何提供价值的故事。 
+E-Estimable可估算故事是指已准备就绪，开发者可用来估算开发这些用户故事所需的工作量或时长的故事。 
+S-Small小故事是指需要2-5天执行的故事。 
+T-Testable可测试故事是指根据接受标准可验证，来确保价值的故事。 
+ 
+59、C 缩写INVEST（independent独立的，negotiable可协商的，valuable有价值的，estimable可估算的，small小的和testable可测试的）有助于敏捷工作者记忆优秀的用户故事的特点。 
+I-Independent独立故事是指可在任何顺序下开发，避免依赖，使开发更复杂的故事。 
+N-Negotiable可协商故事是指客户和开发者可自由分析和采用用户故事来达到客户需求的故事。 
+V-Valuable有价值的故事是指向客户描述产品特性如何提供价值的故事。 
+E-Estimable可估算故事是指已准备就绪，开发者可用来估算开发这些用户故事所需的工作量或时长的故事。 
+S-Small小故事是指需要2-5天执行的故事。 
+T-Testable可测试故事是指根据接受标准可验证，来确保价值的故事。 
+ 
+60、B 精益生产理论是指估算浪费，其中一定义的浪费类型是库存，也指限制WIP。WIP是指材料或部分已开始生产但是还未完成的产品。库存也属于浪费，因为在购买，储存和维护方面花去费用。减少库存的一个方法是通过移除最慢的机器或处理器（即系统瓶颈）来减少WIP。敏捷亦致力于通过在开发新特性前完全完成所有特性的WIP限制来控制WIP。一项迭代或者冲刺可以想象成可开发若干数量特性的一个过程。在这个类比中，WIP限制相当于冲刺待办事项。通过保持WIP限制等同于冲刺待办事项，在冲刺审阅时所有的特性都应当完成。 
+ 
+61、D 基于价值的分析致力于了解由客户定义的价值与产品中的不同部分如特性和任务之间的关系是如何的。特性通常以基于价值和风险的优先级得到优先处理。 
+通过风险-价值指标和成本-价值指标，使用MoSCoW或Kano方法可执行优先级。 
+ 
+62、D 基于价值的分析致力于了解由客户定义的价值与产品中的不同部分如特性和任务之间的关系是如何的。特性通常以基于价值和风险的优先级得到优先处理。 
+通过风险-价值指标和成本-价值指标，使用MoSCoW或Kano方法可执行优先级。 
+ 
+63、D 价值流程图是一项协作性地流程分析技能，一支功能多样的团队绘制一个流程来识别浪费发生的地方并且确认可完善的地方。它是流程分析技能的一个例子。 
+和价值流程图类似，流程图也用于绘制一个流程来识别瓶颈（即流程会减缓和产生库存的地方）。 
+ 
+64、D 价值流程图是敏捷采用的精益生产分析技能，用于对形成客户产品或服务的原料和信息（即价值）的流动进行分析。 
+执行价值流程图大致包括5个步骤： 
+1）确认产品，客户和范围（即流程的始末）。 
+2）地图作为团队或者个人现时价值流，确认流程步骤，延时和信息需求。估算流程步骤的持续时长和前置期持续时长（lead time durations）。前置期是指在发生前一项流程或者事件需等待的时长。 
+3）分析价值流程图来确认浪费存在的地方（比如前置期）和流程可完善的地方（流程时间通常认为是价值增加时间，但是应尽量减少整个流程的时间，由此来缩短向客户交付价值流的时间）。 
+4）通过分析，总结出一份展示价值流应努力达到的前景或者目标的未来价值流程图。 
+5）通过流程完善活动（即完善）或者其他方法来达到目标的一些工作。 
+ 
+65、C 日语“看板”的意思是看板是告示板或信号板，一个及时的库存控制调度系统，在20世纪40-50年代有丰田开发的。 
+产品流程只有在收到命令信号时才执行。用这种方式谨慎控制库存确保了没有机器生产多余或者无序的产品。 
+看板应用于敏捷中以帮助控制工作流。  
+ 
+66、C 项目章程是重要的管理文件，需要所有干系人的参与。虽然专家建议章程应不超过一页，但是因为所有的干系人必须参与进来并且达成一致意见，所以创建项目章程是非常具有挑战性的。 
+项目章程中应包含3个关键信息：前景，任务和成功标准。 
+前景是“为什么”或者项目的理论基础。 
+任务是项目的“什么”内容，并说明团队达到预期前景所要做的内容。 
+成功标准是管理的指标，定义项目“如何”是成功。 
+ 
+67、D 敏捷团队必须时常处理产品待办事项里的产品特性优先级问题。从发布计划到迭代计划，敏捷团队必须优先处理产品的用户故事/特性来确保高质量和高价值的特性优先得以开发，以此帮助带来乐观和较早的投资收益。 
+敏捷团队往往在相对价值和风险方面优先处理需求或用户故事/特性；价值由客户决定（即客户-价值优先级）。 
+两个处理产品优先级的常用方法是：MoSCow和Kano。MoSCoW方法将产品特性分为“必需含有”，“应该含有”，“可以含有”和“会含有”四类。 
+而Kano方法将特性分为“必须含有（开端）”，“不满足因素”，“满足因素”和“愉悦因素”。 
+“必需含有”是指必需含有的特性。 
+“不满足因素”是指反过来影响感知价值而应该移除的特性。 
+“满足因素”是指此类因素越多客户越满意，能够正相关地增加感知价值的特性，但并不是必需的。 
+“愉悦因素”是指能指数型地增加感知价值来满足客户的特性。 
+依据风险来优先处理特性，可运用风险-价值指标。 
+风险-价值指标含4个象限，横轴表示价值，竖轴表示风险。用户故事被分配到其中一个分类/象限：低价值，低风险；低价值，高风险；高价值，低风险；高价值，高风险。 
+成本-价值指标同样可用这种方式形成。 
+敏捷中所有的优先化都是“相对的”，也就是说一个用户故事只是相对优先于其他用户故事，而非在固定规模上得到优先处理。 
+ 
+68、C MoSCoW技术是通常用在敏捷，取优先排序用户故事和创造故事规划图的。 
+MoSCoW技术把用户故事以降序进行优先顺序排列： 
+M-must have必须有； 
+S-should have应该有； 
+C-could have可能有； 
+W-won't have this time这次不会有。 
+必须有的事物是对开发很重要的产品特征。 
+应该有的事物是对开发不是很重要但有重要商业价值的产品特征。 
+能有的事物能增加一些商业价值的产品特征。 
+会有的事物是有一点商业价值的产品特征。 
+ 
+69、A 干系人管理是在策略管理中不断发展的话题区，干系人管理通常在引导原则和价值的背景下被定义。 
+R.E.Freeman的“干系人管理”包括十个原则： 
+1.干系人的利益点需要随着时间而趋于一致 
+2.我们需要一个志愿者原则——联合干系人并经营关系，而不是留给政府。 
+3.我们要找到同时让各个顾客满意的方法 
+4.我们所做的都是为服务顾客，我们从不以一个人的利益换取其他人利益。 
+5.我们充满目标完成对干系人的承诺。我们充满抱负实现我们和他人的梦想。 
+6.我们需要和所有干系人彻底的沟通。 
+7.干系人包括有姓名样貌的成人和小孩，错综复杂。 
+8.需要概括市场营销方法。 
+9.我们与首要和次要干系人接洽。 
+10.我们不断监督和重设计过程变得更好去服务干系人。 
+因为干系人的参与对项目成功很重要，否则会易于失败。干系人管理应该被每个敏捷团队了解。 
+ 
+70、A 不仅在敏捷中，富有动力的团队对其他任何项目都至关重要。富有动力的团队运作更流畅，生产效率高，表现超越期望值。 
+可提高动力的简单步骤包括： 
+1）共度黄金时间，团队成员可在个人层面上了解他人以此营造社区氛围， 
+2）提供反馈，指导和训练，赞扬和感谢团队成员的出色工作，同时为技能和能力提升提供指导和训练， 
+3）授权，授权团队成员作关键决策，在此期间，建立信任并显示领导对团队能力的信任。 
+ 
+71、A 高敏捷情商的意思是自我意识，控制自己的情绪并能注意到其他团队成员的情绪。高敏捷情商使团队成员之间有效协作。 
+ 
+72、C 故事点是估计开发一个用户故事相关工作成果的典型单元。 
+ 
+73、A 在使用负责项目的滚动波或滚动预测未来计划时，敏捷团队计划在下几个迭代中的工作。一个滚动波或滚动预测未来计划聚焦于计划准备完成的工作，并非超出这个门槛的工作，因为未来太遥远。 
+ 
+74、C 时间，预算和成本估算是敏捷中重要的知识和技能板块。根据海史密斯的观点，由于其接受变动的范围，敏捷方法的本质意味着它为固定的预算和进度提供良好的支持，但变动的范围使总成本的估算更艰难。 
+总体来说，预算和调度的约束是已知的，但是这发生在项目初始阶段开始需要定义一组商定的基础产品功效前；固定的范围降低了敏捷团队提供提高的价值的创新趋势。 
+对于熟悉固定价格合同的公司来说，合同签订前里面的需求已是商定好的，而采取敏捷会是一个折磨人的冒险。 
+相反，其他的合同类型会推荐给敏捷工作，包括：初始阶段的一般服务协议和为迭代或用户故事分开设置的固定价合同；工料合同；不超过固定费用合同；最后，奖励性合同（例如，固定价加激励；成本加酬金及奖励合同）。 
+ 
+75、A 减少误解和错误传达的一个沟通技能是积极聆听。优秀的听者和传达者是一项运作良好的敏捷项目中不可或缺的，积极聆听有助于两者的培养。 
+积极聆听的基本包括： 
+1）关注当下，集中精力于演讲者。 
+2）作笔记，不打断。 
+3）用意译来确认和回顾所收听的内容。 
+4）讲话结束时为后续归纳对话内容。擅用开放式问题，适当肢体语言和沉默来提高聆听技巧。 
+ 
+76、A 计划扑克是用于估算用户故事价值点的一个常用敏捷计划技能。 
+ 
+77、B 计划扑克是基于宽带德尔菲估算技能、也是以共识为基础的工作量估算技能。有时候也称为scrum扑克，往往在故事点和开发用户故事中用来估算相对工作量。 
+在计划扑克会议中，每一位估算师各派有一副相同的价值范围宽广的计划扑克卡片。 
+斐波那契数列常用来衡量计划扑克的价值（即0,1,2,3,5,8，等）； 
+另一种常见数列是（问号，0,1/2,1,2,3,5,8,13,20,40，和100）。 
+计划扑克会议按如下运行： 
+1）一名调停人，主持会议，不参与估算。 
+2）产品负责人/管理人员对用户故事作概述，并回答开发者提出的澄清问题，往往产品负责人不参与投票。 
+3）每一位估算师抽取一张卡片来估算工作量。 
+4）每人抽取一张卡片后，同时将他们的卡片翻转， 
+5）持高和低估算的估算师各有一个机会作立场辩护。 
+6）达成共识前，不断重复以上流程。持有用户故事的开发者往往拥有较高可信度。 
+ 
+78、C 通常计划扑克的参照点用户故事是中码或者均码。估算者可利用参照点来做相对估算。 
+ 
+79、D 进行计划扑克时，通常设定的时间值是2到3分钟来讨论用户故事。 
+ 
+80、A 在进行计划扑克时，讨论用户故事设定的时间箱值通常是2到3分钟。 
+ 
+81、A 计划扑克是流行的敏捷“比赛”，用于估计开发用户故事的相关工作成果。 
+ 
+82、C 团队内的教练和指导有助于新生的敏捷团队及经验丰富的敏捷团队。教练和指导是帮助个人或团队提高绩效和实现实际目标的一种方式。因为敏捷拥有一个持续改善的价值，教练和指导不单是为新生的或未成熟的团队服务，同时由于指导有助于达到高水平的绩效，所以也服务有经验的团队。对敏捷团队教练和指导的尺度是可变化的。一些新生的团队会一直需要指导，而其他的团队可能只在特殊的挑战环境下需要指导。有一名指导人员在冲刺/迭代计阶段共同帮助团队，然后再迭代阶段帮助指导个别的团队成员，这样的情况是很常见
+的。 
+ 
+83、D 4宣言：个体和交互胜过过程和工具；客户合作胜过合同谈判；工作的软件胜过全面的文档；响应变化重于遵循计划。 
+12原则： 
+准则1：Our highest priority is to satisfy the customer through early and continuous delivery of valuable software. 
+我们的最高目标是，通过尽早和持续地交付有价值的软件来满足客户。 
+准则2：Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage. 
+欢迎对需求提出变更——即使是在项目开发后期。要善于利用需求变更，帮助客户获得竞争优势。 
+准则3：Deliver working software frequently, from a couple of weeks to a couple of mouths, with a preference for the shorter timescale. 
+要不断交付可用的软件，周期从几周到几个月不等，且越短越好。 
+准则4：Business people and developers must work together daily throughout the project. 
+项目过程中，业务人员与开发人员必须在一起工作。 
+准则5：Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.  
+要善于激励项目人员，给他们以所需要的环境和支持，并相信他们能够完成任务。 
+准则6：The most efficient and effective method of conveying information to and within a development team is face-to-face conversation. 
+无论是团队内还是团队间，最有效的沟通方法是面对面的交谈。 
+准则7：Working software is the primary measure of progress. 
+可用的软件是衡量进度的主要指标。 
+准则8：Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely. 
+敏捷过程提倡可持续的开发。项目方、开发人员和用户应该能够保持恒久稳定的进展速度。 
+准则9：Continuous attention to technical excellence and good design enhances agility. 
+对技术的精益求精以及对设计的不断完善将提升敏捷性。 
+准则10：Simplicity--the art of maximizing the amount of work not done--is essential. 
+要做到简洁，即尽最大可能减少不必要的工作。这是一门艺术。 
+准则11：The best architectures, requirements, and designs emerge from self-organizing teams.  
+最佳的架构、需求和设计出自于自组织的团队。 
+准则12：At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.  
+团队要定期反省如何能够做到更有效，并相应地调整团队的行为。 
+ 
+84、C 4宣言：个体和交互胜过过程和工具；客户合作胜过合同谈判；工作的软件胜过全面的文档；响应变化重于遵循计划。 
+12原则： 
+准则1：Our highest priority is to satisfy the customer through early and continuous delivery of valuable software. 
+我们的最高目标是，通过尽早和持续地交付有价值的软件来满足客户。 
+准则2：Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage. 
+欢迎对需求提出变更——即使是在项目开发后期。要善于利用需求变更，帮助客户获得竞争优势。 
+准则3：Deliver working software frequently, from a couple of weeks to a couple of mouths, with a preference for the shorter timescale. 
+要不断交付可用的软件，周期从几周到几个月不等，且越短越好。 
+准则4：Business people and developers must work together daily throughout the project. 
+项目过程中，业务人员与开发人员必须在一起工作。 
+准则5：Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.  
+要善于激励项目人员，给他们以所需要的环境和支持，并相信他们能够完成任务。 
+准则6：The most efficient and effective method of conveying information to and within a development team is face-to-face conversation. 
+无论是团队内还是团队间，最有效的沟通方法是面对面的交谈。 
+准则7：Working software is the primary measure of progress. 
+可用的软件是衡量进度的主要指标。 
+准则8：Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely. 
+敏捷过程提倡可持续的开发。项目方、开发人员和用户应该能够保持恒久稳定的进展速度。 
+准则9：Continuous attention to technical excellence and good design enhances agility. 
+对技术的精益求精以及对设计的不断完善将提升敏捷性。 
+准则10：Simplicity--the art of maximizing the amount of work not done--is essential. 
+要做到简洁，即尽最大可能减少不必要的工作。这是一门艺术。 
+准则11：The best architectures, requirements, and designs emerge from self-organizing teams.  
+最佳的架构、需求和设计出自于自组织的团队。 
+准则12：At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.  
+团队要定期反省如何能够做到更有效，并相应地调整团队的行为。 
+ 
+85、D 有效沟通是敏捷的奠基石。沟通是在不同部分传递信息。沟通管理是敏捷的一个知识和技术区域。PMI除此之外有几个关于沟通的定义。 
+1.沟通计划：确定项目干系人信息和沟通的需要 
+2.信息分布：适时地提供给项目干系人需要的信息 
+3.绩效报告：收集，分派绩效信息，包括状态报告，进展衡量，预告 
+4.管理项目干系人：管理沟通去满足要求还有和项目干系人一起解决问题。 
+从敏捷角度而言： 
+团队间的沟通建立在过程中，通过协作，信息散热器，日常站立会议，回顾等促进。 
+虽然希望产品负责人，顾客，用户能高度参与项目并使用沟通技巧，但如果情况并非如此，那么一个对干系人表达信息的计划可能是被需要的。 
+ 
+86、C 额外收益是指向现有客户销售新产品特性或服务期间实现的额外收益。 
+ 
+87、D "敏捷团队往往使用故事点来估算开发一个用户故事的相对大小或工作量。 
+ 
+88、B 亲和估算是预测工作量的一个方法，通常在故事点，开发用户故事中，而尤其在大型产品待办事项中作用巨大。虽然还有其他估算方法，但是基本的亲和估算模式涉及从小到大范围里测量用户故事。这个范围可以是斐波那契数列或者T-shirt尺码，常常贴在大型会议室墙上。然后参与者在估算时可将他们的用户故事贴到这面墙上。这种估算常在无声中进行，且直到评估用户故事，常伴有若干迭代。 
+ 
+89、B 一个健全的站立会议的重点特征包括： 
+同辈压力——因为团队靠大家，所以同辈的期望可带动进步； 
+密切的配合——团队应当理解对专注的必要性并独立工作； 
+细在专注——团队应当理解每日站立会议中简洁的必要性，由此团队才有效益； 
+每日承诺——团队应当理解对每人每日承诺的价值所在，并兑现这些承诺； 
+辨别障碍——团队应当集体意识到每个人的困难，由此团队可集体尝试解决。 
+ 
+90、B 一个健全的站立会议的重点特征包括： 
+同辈压力——因为团队靠大家，所以同辈的期望可带动进步； 
+密切的配合——团队应当理解对专注的必要性并独立工作； 
+细在专注——团队应当理解每日站立会议中简洁的必要性，由此团队才有效益； 
+每日承诺——团队应当理解对每人每日承诺的价值所在，并兑现这些承诺； 
+辨别障碍——团队应当集体意识到每个人的困难，由此团队可集体尝试解决。 
+ 
+91、B 商业论证开发是敏捷项目管理中重要的起步点。商业论证是对项目的构想，目标，达到目标的策略，重大事件，所需投资和预期回收所作的简明概要文件。商业论证向客户阐明该项目为什么和怎么样会带来价值。 
+ 
+92、A 渗透沟通有助于确保在敏捷项目团队内部问题，思想和信息分享的自然流动。 
+ 
+93、B 授权团队进行自主管理，了解如何通过最少的管理参与解决问题，是敏捷方法论的基石——这是传统项目管理者持有的传统观点截然不同的，传统项目管理者控制所有决策同时委托任务给团队，几乎无反馈。敏捷团队决策必须包含所有成员和干系人且决策便利。因为用户/客户参与到开发中相对重要的，所以理想情况下鼓励用户/客户通过集中/现场支持和敏捷团队密切融合。当敏捷团队总体地承担产品传递的责任时（即拥有所有权），团队自身能感受到授权。 
+ 
+94、A 速度是指对每一迭代团队完成的用户故事点或故事数量的衡量。一个敏捷团队可根据稍前的速度记录来估算下一个迭代可完成的用户故事点数量。 
+ 
+95、B 10×1+2×5=20.部分完成故事的故事点不包括在速度指标里。 
+ 
+96、D 不仅在敏捷中，富有动力的团队对任何项目都至关重要。富有动力的团队运作更流畅，生产效率高，表现超越期望值。 
+可提高动力的简单步骤包括： 
+1）共度黄金时间，团队成员可在个人层面上了解他人以此营造社区氛围， 
+2）提供反馈，指导和训练，赞扬和感谢团队成员的出色工作，同时为技能和能力提升提供
+指导和训练， 
+3）授权，授权团队成员作关键决策，在此期间，建立信任并显示领导对团队能力的信任。" 
+ 
+97、B 因为“露营者可作网页导航”这个活动没有清晰的结束点，所以是最佳答案，而其他选项的活动都有清晰的结束点。 
+ 
+98、A 用于定义用户故事的罗恩.杰弗里斯的3C是卡片，对话和确认。 
+ 
+99、D 相对级别/优先级是指根据团队对优先的定义，对一列清单（比如用户故事，叙事诗，任务，缺陷等）进行排序。 
+ 
+100、C 敏捷开发的基石是“增量交付”。增量交付是指为及时反馈和接纳，频繁向客户交付连续改善的工作产品。为演示和反馈，往往在每一个冲刺或迭代的末期交付产品。这项反馈技能，可使客户评价产品并提出新的需求。在敏捷流程中，接受变动/更新/改善的需求，以确保客户得到有价值和质量的产品。一个冲刺或迭代往往持续2-4周，最后，渐进地交付一个新的并改善的产品。 
+
+ZZZZZ

@@ -1,0 +1,1083 @@
+1、Michael, in his review of estimated user story points for the upcoming iteration, finds that the project manager is artificially inflating the user story points to significantly lengthen the project period of performance in order to increase project revenue. It is a time and material contract and lengthening the period of performance would help boost Michael’s parent company’s profit. What should Michael do? 
+A. Confront the customer representative 
+B. Confront Michael’s project manager’s boss 
+C. Report the unethical and illegal conduct to the appropriate parties 
+D. Confront his project manager 
+迈克尔，估算即将发生迭代的用户故事点过程中，他发现，项目管理人员正人为地夸大用户故事点，大幅度地延长项目绩效时间，以此来增加项目的收入。这是一份工料合同，同时延长业绩时间会大大增加迈克尔总公司的收益。迈克尔应该怎么做？ 
+A. 与客户代表对质 
+B. 与项目管理人员的上司对质 
+C. 向有关人员反映这种不道德且违法的行为 
+D. 与项目经理对质 
+ 
+2、Which agile framework emphasizes a heavy focus on proving the fitness or marketability of a product (i.e. has a strong business emphasis)? 
+A. static systems development method (SSDM)  
+B. extreme systems development (XSDM) 
+C. dynamic systems development method (DSDM)  
+D. dynamic product development method (DPDM) 
+哪一个敏捷架构强调侧重关注证明一个产品的适合性和市场性（特别强调交易）？ 
+A.静态的系统开发方法(SSDM) 
+B.极端系统开发方法(XSDM) 
+C.动态系统开发方法(DSDM) 
+D.动态产品开发方法(DPDM) 
+ 
+3、Which software development framework has a development process that is planned, managed, and tracked by feature? 
+A. Acceptance test driven development (ATDD) 
+B. Defect driven development (3D) 
+C. Test driven development (TDD) 
+D. Feature driven development (FDD) 
+哪个软件开发框架有一个被特征规划、管理和跟踪的发展过程？ 
+A.验收测试驱动开发（ATDD） 
+B.缺陷驱动开发（3D） 
+C.测试驱动开发（TDD） 
+D.特征驱动开发（FDD） 
+ 
+4、Ralph is describing the INVEST acronym used for user story development in an agile practitioner seminar. What does the S in INVEST stand for? 
+A.Smart 
+B.Small  
+C.Superlative 
+D.Specific 
+拉尔夫正在一敏捷工作者研讨会上描述用于用户故事开发的INVEST，那么S在INVEST中代表的是什么呢？ 
+A.聪明的 
+B.小的 
+C.最高级的 
+D.具体的 
+ 
+5、What is a WIP limit? 
+A. A limit of how many sprints can be performed at one time 
+B. A limit of how many user stories can be authored at one time 
+C. A limit of how many WIPs can be in process at one time 
+D. A limit of how many object classes can be performed during a sprint.  
+什么是限制WIP？ 
+A.一个关于有多少次冲刺能同时完成的限制 
+B.一个关于有多少用户故事能同时被授权的限制 
+C.一个关于有多少WIPs能同时处理的限制 
+D.一个关于在冲刺阶段有多少对象类别能被处理的限制 
+ 
+6、What manufacturing technique is generally credited with the creation of value stream mapping? 
+A. Intrepid  
+B. Lean/Toyota production system 
+C. Agile  
+D. Six sigma 
+以下哪一项生产技能通常被认为是价值流程图的创新 
+A. 无畏 
+B. 精益/丰田生产系统 
+C. 敏捷 
+D. 六个西格玛 
+ 
+7、George as a product owner believes steadfastly in the feature prioritization. Why might George believe in prioritization? 
+A. Because it ensures that the most valuable features are developed first 
+B. Because it ensures that all product features get delivered in a release 
+C. Because it ensures that all team members know that valuable product features will always be developed in the affinity plan 
+D. Because it ensures that the local safety of all features are developed first 
+作为一个产品负责人，George坚信要将特征进行优选级排序。原因是： 
+A.因为优先级保证了最有价值的特征会先被开发 
+B.因为优先级确保了所有的产品特征都会在产品发布时体现出来 
+C.因为优先级使得全体团队成员确信有价值的产品特征在亲和计划里被开发 
+D.因为优先级确保了所有与本地安全相关的特征将首先开发 
+ 
+8、Kyle is using a popular agile framework that emphasizes the use of information radiators such as task boards and burndown charts and includes three major phases; pre-game, game, and post-game. Which framework is Kyle most likely using? 
+A. Lean 
+B. Crystal 
+C. Scrum 
+D. XP 
+ Kyle在使用一个受欢迎的、强调信息发射源的敏捷框架，比如任务板和燃尽图，包括三个主要阶段：赛前，赛中，赛后。哪个框架是kyle最有可能用的？ 
+A. Lean 
+B. Crystal 
+C. Scrum 
+D. XP 
+ 
+9、What is a typical scrum timebox value for a sprint planning meetings? 
+A.16 hours 
+B.24 hours 
+C.4 hours 
+D.8 hours 
+通常一个冲刺计划会议典型的Scrum时间限定是？ 
+A.16小时 
+B.24小时 
+C.4小时 
+D.8小时 
+ 
+10、In which framework are core roles categorized as the following three: product owner, scrum master, development team? 
+A. Extreme programming (XP)                  B. Scrum 
+C. Lean software development                  D. Agile unified process (AUP) 
+下列选项中，哪个框架的核心角色分别是以下这三个：产品负责人，Scrum主管，开发团队 
+A.极限编程（XP） 
+B.Scrum 
+C.精益软件开发 
+D.AGILE统一过程（AUP） 
+ 
+11、What is a control limit? 
+A.An objective range that indicates if a process is considered stable  
+B.An objective range that indicates if a process is improving in residual activity  
+C.A threshold value that indicates if a process is improving in reaction time  
+D.A threshold value that indicates if a process is declining in responsiveness  
+什么是控制限制 
+A.一个显示进程是否稳定的目标范围 
+B.一个显示进程在剩余活动中是否有提高的目标范围 
+C.一个显示进程在反应时期中是否有提高的临界值 
+D.一个显示进程在响应时期中是否变得衰退的临界值 
+ 
+12、What does TDD stand for in agile parlance? 
+A. Top-down design  
+B. Test-design development 
+C. Test-driven development  
+D. Test-driven design 
+TDD在敏捷术语中是指 
+A. 自上而下的设计 
+B. 测试设计开发 
+C. 测试驱动开发 
+D. 测试驱动设计 
+ 
+13、Hank’s agile team is currently initiating a new project and determining which agile practices, standards, techniques it will use through the course of the project. What is Hank’s agile team doing? 
+A. Process kindling 
+B. Process tailoring 
+C. Process adapting 
+D. Process initiating 
+汉克他们的敏捷团队目前开启了一项新的项目，决定项目过程中使用的敏捷实践，标准和技能。团队实际上是在进行 
+A. 流程点燃 
+B. 流程裁剪 
+C. 流程采用 
+D. 流程启动 
+ 
+14、During Vanessa’s daily stand-up meeting update,the agile team helped her make a quick decision on what type of memory she should use for object access.When a team makes decisions together,It is known as: 
+A. A participatory decision model      B. A hominem decision model 
+C. A user-first decision model         D. A done-done decision model 
+在Vanessa的每日站立会议中，AGILE团队帮助她在对象访问中应该用到哪种类型的存储器的问题上作出快速决定。当一个团队一起做决定时，我们知道这是： 
+A.参与式决策模型 
+B.个人推论式决策模型 
+C.用户第一决策模型 
+D.完成式决策模型 
+ 
+15、How does a product backlog change over a project? 
+A. It does not and should not be expected to change 
+B. It becomes less defined as the project progresses 
+C. It evolves to capture the most recent requirements of the customer 
+D. It is static with requirements remaining fixed until the release 
+ 随着项目发展，产品待办事项如何改变？ 
+A. 产品待办事项不会也不应该改变 
+B. 随着项目进展，产品待办事项更模糊 
+C. 产品待办事项发展为可精准抓住客户的最新需求 
+D. 产品待办事项直至发布前，都与需求保持一致 
+ 
+16、Which framework often leveraged in agile heavily emphasizes continuous improvement? 
+A. Extreme software development  
+B. Kaizen value development  
+C. Lean software development 
+D. Extreme unified process(EUP) 
+受敏捷影响，以下哪一框架着重强调持续完善？ 
+A. 极限软件开发 
+B. kaizen价值开发 
+C. 精益软件开发 
+D. 极限统一过程(EUP) 
+ 
+17、Esther is looking at a document that holds a list of all the product features to be developed in the upcoming sprint/iteration. What document is Ester reviewing? 
+A. Product backlog 
+B. Task backlog 
+C. Scrum backlog 
+D. Sprint backlog 
+Esther正看着一份文件。这份文件含有一系列在即将来临的冲刺/迭代中需要发展的产品特征。Ester在看什么文件呢? 
+A.产品待办事项 
+B.任务待办事项 
+C.Scrum待办事项 
+D.冲刺待办事项 
+ 
+18、What is the first step agile team’ take during iteration planning ? 
+A.Aggregating similar user stories into meta-stories 
+B.Decomposing large or complex user stories into smaller ,more manageable user stories  
+C.Aggregating dissimilar user stories into meta-stories 
+D.Refactoring testing code for the upcoming iteration  
+在迭代计划中，敏捷团队迈出的第一步是什么？ 
+A.聚集不同的用户故事为初始故事 
+B.将大型或复杂的用户故事分解成更小的，更易于管理的用户故事 
+C.聚集不同的用户故事为初始故事 
+D.为即将到来的迭代重构测试代码 
+ 
+19、What is the process called when a team constructively criticizes its performance for the 
+purpose of improving performance going forward? 
+A. reflection 
+B. refactoring  
+C. returning  
+D. reimaging 
+团队为了提高接下来的绩效，有建设性地批评他们的工作绩效，这个过程叫什么 
+A.反思 
+B.重构 
+C.重返 
+D.重新考虑 
+ 
+20、Which agile methodology has as one of  its core principle the concept of osmotic communication? 
+A.Scrum 
+B.FDD 
+C.Crystal 
+D.XP 
+下列哪个AGILE方法论含有关于渗透沟通的概念，并以此作为自己的其中一个首要原则 
+A.Scrum 
+B.FDD 
+C.Crystal 
+D.XP 
+ 
+21、How does acceptance test-driven software help define done? 
+A. In the demo step of the ATDD process, the agile team demonstrates the product to business stakeholders who, in turn, provide feedback about whether the team  is to done 
+B. In the discuss step of the ATDD process, developers and business stakeholders explore expected behavior of the user story. If  the behavior is met, the user story is done 
+C. In the develop step of the ATDD process, developers develop the expected behavior of the product with the intent of meeting the acceptance criteria. At this point, the user story is done 
+D. In the distill step of the ATDD process, developers and business stakeholders identify acceptance criteria for a user story. If the acceptance criteria are well-defined, the user story is done 
+验收测试驱动软件如何有助于定义完成 
+A. 在验收测试驱动开发过程的示范阶段，敏捷团队向商业干系人展示产品，反过来可获得干系人对团队是否完成的反馈 
+B. 在验收测试驱动开发过程的讨论阶段，开发者和商业干系人探索用户故事的预期行为，如果发现这些行为，那么用户故事即完成 
+C. 在验收测试驱动开发过程的开发阶段，开发者为符合验收标准，开发产品的预期行为，这时用户故事即完成 
+D. 在验收测试驱动开发过程的提炼阶段，开发者和商业干系人确认用户故事的验收标准，如果验收标准充分明确，那么用户故事即完成 
+ 
+22、Which agile framework has a project life cycle with the following five stages: feasibility study, 
+business study, functional model iteration, design and build iteration, and implementation? 
+A.Dynamic systems development method (DSDM) 
+B.Static systems development method (SSDM) 
+C.Extreme systems development method (XSDM) 
+D.Dynamic product development method (DPDM) 
+以下哪个AGILE构架有以下五个项目生命周期：可行性研究，交易研究，功能模型迭代，创建迭代和实施 
+A.动态系统开发方法（DSDM） 
+B.静态系统开发方法（SSDM） 
+C.极端系统开发方法（XSDM） 
+D.动态产品开发方法（DPDM） 
+ 
+23、Hanson and his team are using a framework in their agile effort where the team follows a prescriptive five step process that is managed and tracked from the perspective of the product features.Which framework is Hanson’s team  incorporating into its agile effort? 
+A. Defect driven development (3D)            
+B. Test driven development (TDD) 
+C. Acceptance test driven development (ATDD) 
+D. Feature driven development (FDD) 
+汉森和他的团队在按照产品特征视角中的5步骤过程使用敏捷方法中的框架。请问下列哪个体系Hanson的团队将会用于现在的工作中？ 
+A.缺陷驱动开发（3D） 
+B.测试驱动开发（TDD） 
+C.接受测试驱动开发（ATDD） 
+D.特征驱动开发（FDD） 
+ 
+24、Jack and his agile team want to incorporate test-driven development(TDD) into standard practice. Briefly, what does test-driven development mean？ 
+A. That the product owner tests the customer during the definition of the product vision to ensure the business value is clearly stated 
+B. That software developers test the customer during release planning to ensure user stories are properly outlined 
+C. That software developers design and develop product software first and use extensive unit testing afterwards to ensure code meets acceptance criteria 
+D. That software developers design and develop tests first before developing product software to ensure code meets acceptance criteria 
+Jack和他的敏捷团队想把测试驱动开发纳入到标准作法中。简言之，测试驱动开发是什么意思呢？ 
+A.在产品前景的定义中，产品负责人测试客户以确保商业价值是明确的 
+B.在发布计划中，软件开发者测试客户以确保用户故事被正确概述 
+C.软件开发者设计和先开发产品软件及后使用广泛的单元测试以确保代码符合验收标准 
+D.软件开发者设计和在开发产品软件前先开发测试以确保代码符合验收标准 
+ 
+25、 From the following,select a common agile framework/methodology. 
+A. Static systems development method (SSDM) 
+B. Dynamic product development method (DPDM) 
+C. Dynamic systems development method (DSDM) 
+D. Extreme systems development method (XSDM) 
+以下哪一项是常用敏捷框架或方法论？ 
+A.静态系统开发方法（SSDM） 
+B.动态产品开发方法（DPDM） 
+C.动态系统开发方法（DSDM） 
+D.极端系统开发方法（XSDM） 
+ 
+26、Jerry on an XP influenced agile team has just completed coding a new feature. When should he integrate the new code into the code base? 
+A. At the end of the release  
+B. At the end of the sprint 
+C. At iteration intervals to synchronize configuration management  
+D. Immediately  
+杰瑞是受XP极限编程影响的敏捷团队的一员，他在完成一个新特性的编码后，应在何时将新代码合成到代码库？ 
+A. 在发布末 
+B. 在冲刺末 
+C. 在同步配置管理的迭代间歇 
+D. 马上 
+ 
+27、Which of the following best describes the crystal framework? 
+A. a technical approach that can be used in the agile framework that is a family of methodologies for flexible and lightweight software development 
+B. a technical approach that can be used in the agile framework that focus on simple design and constant testing 
+C. a technical approach that can be used in the agile framework that focus on the elimination of waste and amplification of learning  
+D. a technical approach that can be used in the agile framework that focus on paired programming and integrated testing 
+以下哪个选项最好地描述了水晶架构？ 
+A.能用于敏捷架构，灵活轻便软件开发方法家族的技术方法 
+B.能用于敏捷架构，专注于简单设计和持续测试的技术方法 
+C.能用于敏捷架构，专注于根除浪费和放大学习的技术方法 
+D.能用于敏捷架构，专注于结对编程和集成测试的技术方法 
+ 
+28、During the last iteration, Steve and his agile team completed 3 user stories worth 4 points each, 2 user stories worth 3 points each, and nearly completed one user story point worth 20 points. What was the team’s velocity for the previous iteration? 
+A. 18 
+B. 8 
+C. 38 
+D. 28 
+在最后一个迭代期间，史蒂夫他们的敏捷团队完成了3个各值4点的用户故事，2个各值3点的用户故事，差不多完成1个值20点的用户故事点，那么团队的前一个迭代的速度是 
+A. 18 
+B. 8 
+C. 38 
+D. 28 
+ 
+29、Code refactoring allows for 
+A. Restructuring of test code to update unit test code without changing external behavior 
+B. Restructuring of source code to update external functionality and internal behavior 
+C. Restructuring of source code to update external functionality without changing internal behavior. 
+D. Restructuring of source code to update internal code without changing external behavior 
+代码重构考虑的是 
+A. 在不改变外部行为的情况下，重构测试代码来升级单元测试码 
+B. 重构源代码来升级外部设计功能和内部行为 
+C. 在不改变内部行为的情况下，重构源代码来升级外部设计功能 
+D. 在不改变外部行为的情况下，重构源代码来升级内部代码 
+ 
+30、Of the following responses, which is NOT a community value per the PMI agile community of practice community charter? 
+A. Courage 
+B. Humble  
+C. Openness 
+D. Honesty 
+基于《PMI敏捷社区实践章程》，以下哪一项不属于社区价值？ 
+A.勇气 
+B.谦卑 
+C.开放 
+D.诚实 
+ 
+31、Jane and her team are discussing with the business stakeholder what the expected behavior is of a particular user story.What step is Jane on in the ATDD four step process? 
+A. 2nd      B. 3rd       C. 4th      D. 1st 
+Jane和她的团队在跟企业干系人商讨在一个具体用户故事中，什么是预期行为。在ATDD四个步骤过程中，Jane正处于哪一步？ 
+A.第二步 
+B.第三步 
+C.第四步 
+D.第一步 
+ 
+32、What is the second step of the ATDD four step process? 
+A. Discuss  
+B. Develop 
+C. Distill 
+D. Demo 
+验收测试驱动开发的第二个步骤是 
+A. 讨论 
+B. 开发 
+C. 提取 
+D. 示范 
+ 
+33、Sarah is explaining to Hanson the similarities between test-driven development and acceptance test-driven development. Can you help her identify a similarity? 
+A. Both strategies involve using an inversion model to refactor old software code 
+B. Both techniques involve using a cyclical, four-step process. 
+C. Both strategies are for the Visual Basic programming language only 
+D. Both strategies are for the C# programming language only 
+撒拉正向汉森解释测试驱动开发和验收测试驱动开发的相似点，那么他们的相似之处在于 
+A. 两个策略均使用反转模型来重构旧软件代码 
+B. 两个策略均使用循环四步的流程 
+C. 两个策略均只适用Visual Basic编程语言 
+D. 两个策略均只适用C# 编程语言 
+ 
+34、 Jane and her team are demonstrating to the business stakeholder recently developed product code. At the demonstration,the team reviews what the expected behavior of the code is based on previous collaborative discussions with the stakeholders and also brings up and risks the team found during the development process (e.g.,other ways the code may fail that were not thought of in previous discussions). What step is Jane on in the ATDD four step process? 
+Jane和她的团队向商业干系人展示了最近已研发的产品代码。在展示中，团队述评了代码的预期行为，这是基于以往与合作方的协作讨论得到的。同时团队也提出了在研发过程中发现的一些问题。（例如：代码可能会在其他方面失败，这是在以往的讨论中未曾想过的问题）Jane正处于ATDD（验收测试驱动开发）四步过程的哪一步？ 
+A. 2nd 
+B. 4th 
+C. 1st 
+D. 3rd 
+ 
+35、What is the fourth step of the ATDD four step process? 
+A.Demo 
+B.Develop 
+C.Distill  
+D.Discuss 
+ATDD（验收测试驱动开发）四步过程的第四步是？ 
+A.示范 
+B.开发 
+C.提取 
+D.讨论 
+ 
+36、Stella and her team are using a framework where the team follows a prescriptive development process that plans and manages from the perspective of product features. Which framework is Stella’s team incorporating into its agile effort? 
+A. Test driven development (TDD) 
+B. Defect driven development (3D) 
+C. Feature driven development (FDD) 
+D. Acceptance driven development (ATDD) 
+Stella和她的团队正在使用一个能够从产品特征上进行规划和管理的体系。请问是下列哪个体系？ 
+A. 测试驱动开发（TDD） 
+B. 缺陷驱动开发（3D） 
+C. 特征驱动开发（FDD） 
+D. 验收驱动开发（ATDD） 
+ 
+37、Which software development framework used in agile uses a prescriptive model where the development process is planned, managed, and tracked by feature? 
+A. acceptance test driven development (ATDD) 
+B. test driven development (TDD) 
+C. feature driven development (FDD) 
+D. defect driven development (3D) 
+敏捷中使用与哪个物件开发架构是运用特定模型，模型中与开发过程通过特征来规划、管理、追踪。 
+A.验收测试驱动开发(ATDD) 
+B.测试驱动开发(FDD) 
+C.特征驱动开发(FDD) 
+D.缺陷驱动开发(3D) 
+ 
+38、Help Julian select a key principle of lean software development. 
+A. Increasing inventory            B. Amplifying defect detection 
+C. Quality stream mapping         D. Eliminating waste 
+请帮助朱莉安选出关于精益软件开发的一个重要原则 
+A.库存增加 
+B.加强缺陷检测 
+C.质量流程图 
+D.杜绝浪费 
+ 
+39、If an agile team sets a feature WIP limit of four for its sprint, how many features may be simultaneously developed during the sprint? 
+A. No more than one  
+B. No more than two  
+C. No more than eight 
+D. No more than four  
+如果一敏捷团队为冲刺设置四个特性WIP限制，那么在冲刺期间可同时开发多少个特性？ 
+A. 不超过一个 
+B. 不超过两个 
+C. 不超过八个 
+D. 不超过四个 
+ 
+40、Ken’s agile team has set a feature WIP limit of five. How many features may the team be simultaneously building during the iteration? 
+A. No more than five 
+B. No more than two 
+C. No more than one 
+D. No more than ten 
+Ken的敏捷团队限定WIP特征个数在五个以内。问在迭代过程中团队可能同时建立多少个特征？ 
+A.不超过五个 
+B.不超过两个 
+C.不超过一个 
+D.不超过十个 
+ 
+41、 Value stream mapping is an example of a  
+A. Defect technique  
+B. Process analysis technique 
+C. Done done technique  
+D. Code refactoring technique 
+价值流程图是以下哪一项的例子？ 
+A. 缺陷技术 
+B. 流程分析技术 
+C. 完成技术 
+D. 代码重构技术 
+ 
+42、Which of the following is a process analysis technique 
+A. Value stream mapping 
+B. Kanban board  
+C. Iteration plan  
+D. Product roadmap 
+以下哪一项属于流程分析技术？ 
+A. 价值流程图 
+B. 看板图 
+C. 迭代计划 
+D. 产品路线图 
+ 
+43、Ethan and his team are using a value stream map to identify waste and opportunities for improvement in a business process. Value stream mapping is an example of a  
+A. Process analysis technique 
+B. Iteration plan  
+C. Product roadmap 
+D. Kanban board 
+伊桑他们的团队运用一张价值流程图来识别一个商业流程中浪费的地方和可完善的地方。价值流程图是以下哪一项的例子？ 
+A. 流程分析技术 
+B. 迭代计划 
+C. 产品路线图 
+D. 看板图 
+ 
+44、Ethan and his team just highlighted two processes that each have a lead time an order of magnitude more than any other processes in the system. When an agile team uses value stream mapping like Ethan’s team it is an example of a  
+A. Product roadmap 
+B. Kanban board 
+C. Process analysis technique 
+D. Iteration plan 
+伊桑他们的团队着重两个流程，这两个流程都有前置时间，比系统中的任何其他流程都重要。他们团队的价值流程图是以下哪一项的例子？ 
+A. 产品路线图 
+B. 看板图 
+C. 流程分析技能 
+D. 迭代计划 
+ 
+45、Steve and his agile team are using progress mapping to understand how inputs in his business are turned into outputs and where bottlenecks form. Process mapping is an example of a  
+A. Process analysis technique 
+B. Code refactoring technique  
+C. Done done technique 
+D. Defect technique 
+史蒂夫他们的敏捷团队正使用流程图来了解业务中的输入是如何转成输出的，同时了解瓶颈产生的地方。他们团队的价值流程图是以下哪一项的例子？ 
+A. 流程分析技能 
+B. 代码重构技能 
+C. 完成技能 
+D. 缺陷技能 
+ 
+46、Steve and his team, in a process mapping workshop, just identified two process steps that are significantly impacting the overall performance of the system. Process mapping is an example of a  
+A. Business value maximization technique 
+B. Performance improvement plan technique 
+C. Process analysis technique  
+D. Kanban technique 
+在一流程图研讨会上，史蒂夫他们的团队刚识别出两个会严重影响系统整体绩效的流程步骤。他们团队的价值流程图是以下哪一项的例子？ 
+A. 商业价值最大化技术 
+B. 绩效提高计划技术 
+C. 流程分析技术 
+D. 看板技术 
+ 
+47、Ethan and his team just identified two processes for upcoming Kaizen events in a three day value stream mapping workshop. When an agile team uses value stream mapping like Ethan’s team, it is an example of a  
+A. Performance improvement plan technique 
+B. Process analysis technique 
+C. Kanban technique 
+D. Business value maximization technique 
+在一次为期3天的价值流程图研讨会上，内森他们的团队刚识别出即将进行的改善活动的两个流程。他们团队的价值流程图是以下哪一项的例子？ 
+A. 绩效提高计划技术 
+B. 流程分析技术 
+C. 看板技术 
+D. 商业价值最大化技术 
+ 
+48、Which of the following best defines value stream mapping? 
+A. A lean manufacturing technique used to analyze the flow of material and information that form a product to the consumer 
+B. A six sigma manufacturing technique used to analyze the occurrence of defects 
+C. A lean manufacturing technique used to control the flow of inventory (WIP) in a manufacturing plant 
+D. A six sigma manufacturing technique used to control the visual management board 
+价值流程图的定义是 
+A. 一项精益生产技能，用于对形成客户产品的原料和信息的流动进行分析 
+B. 一项六个西格玛生产技能，用于控制生产工厂的待办事项（WIP）流动 
+C. 一项精益生产技能，用于控制生产工厂的待办事项（WIP）流动 
+D. 一项六个西格玛生产技能，用于控制视觉管理板 
+ 
+49、What is one purpose of value stream mapping? 
+A. Identify areas of Kaizen in a process 
+B. Identify areas of Yokoten in a process 
+C. Identify areas of Kanban in a process 
+D. Identify areas of waste in a process 
+价值流程图的其中一个目的是 
+A. 识别流程中的完善领域 
+B. 识别流程中的展开领域 
+C. 识别流程中的看板领域 
+D. 识别流程中的浪费领域 
+ 
+50、 What is total lead time considered as in a value stream map? 
+A. Waste 
+B. Value-forma 
+C. Value-pro 
+D. Value-added 
+在价值流程图中，总前置期被认为是 
+A. 浪费 
+B. 价值变型 
+C. 价值前期 
+D. 价值增加 
+ 
+51、Karen is reviewing a value stream map that she and her agile team just created. The team is debating whether it should reduce a lead time by 90% or increase a process time by 20%. Which of the previous two actions would you suggest her team take? 
+A. Increase process time by 20% 
+B. Reduce lead time by 90% 
+C. Both  
+D. Neither. Both represent adding more waste into the value stream 
+凯伦正在查看她们团队刚创建的一份价值流程图。团队正在讨论是否应该减少90%前置期，或者增加20%流程时间。在此，你建议团队 
+A. 增加20%流程时间 
+B. 减少90%前置期 
+C. 两者都进行 
+D. 两者都不进行，因为两者都为价值流增加更多浪费 
+ 
+52、If you were shown a diagram of an existing system and the diagram had process steps, information flow, lead times, and process times, what type of diagram would you believe it to be? 
+A. Current-state value stream map 
+B. Value stream analysis 
+C. Future-state value stream map 
+D. Waste stream map 
+如果你看到其中一份现存系统的图表，里面包括流程步骤，信息流，前置期和流程时间，那么这份图表可能是 
+A. 当前价值流程图 
+B. 价值流分析 
+C. 未来价值流程图 
+D. 浪费流图 
+ 
+53、 Jill and Stephanie are reviewing a large chart that visually depicts the flow of information from origin to customer. On the chart are times indication the duration of value-added processes and non value-added processes. What are Jill and Stephanie reviewing? 
+A. A muda stream map 
+B. A kaizen stream map  
+C. A lean stream map 
+D. A value stream map 
+吉尔和斯蒂芬妮正在查看一份大型图表，当中直观地向客户描述了起于源头的信息流，也包含了价值增加流程的持续时长而后非价值增加流程的持续时长这两者的时间要求。吉尔和斯蒂芬妮是在看 
+A. 一份浪费流程图 
+B. 一份完善流程图 
+C. 一份精益流程图 
+D. 一份价值流程图 
+ 
+54、What is it called when a team collaboratively charts the flow of information or material of a process from origin to destination along with all its instances of waste? 
+A. Procedure charting 
+B. Multiple regression 
+C. Value stream mapping 
+D. Process shortening mapping  
+当一支团队协作性地绘制一项流程从源头到目的地的信息或者原料流，以及所有的浪费实例时，这种行为称为 
+A. 步骤绘制 
+B. 多重回归分析 
+C. 价值流程图绘制 
+D. 流程缩短图绘制 
+ 
+55、Name the two types of integrity in the lean software development framework 
+A. Prescriptive and descriptive  
+B. Ideal and actual  
+C. Perceived and actual  
+D. Perceived and conceptual  
+指出精益软件开发方法中的两种集成类型 
+A. 规范性的和描述性的 
+B. 理想的和实际的 
+C. 感知的和实际的 
+D. 感知的和概念性的 
+ 
+56、 If the NPV of an investment is above zero, what does that indicates to the potential buyer? 
+A. That it would neither add to nor subtract value from the buyer’s portfolio 
+B. That it would add value to the buyer’s portfolio 
+C. That it would subtract value from the buyer’s portfolio 
+D. None of the above 
+如果一项投资的净现值（NPV：Net Present Value）大于零，那么对于有意的顾客来说，这说明了什么 
+A.它既不会增加也不会减少买方的投资组合的价值 
+B.它会增加买方的投资组合的价值 
+C.它会减少买方的投资组合的价值 
+D.以上都不是 
+ 
+57、Which agile framework emphasizes the always having a product that you could potentially ship/release? 
+A. XP 
+B. FDD 
+C. Crystal  
+D. Scrum  
+哪个敏捷框架强调总会有一个产品你可能会运送或发布产品？ 
+A.XP  
+B.FDD 
+C.Crystal 
+D.Scrum  
+ 
+58、Xavier has just written test code as part of the four step process of TDD.  
+What step is Xavier performing? 
+A.4th   B. 2nd    C. 1st    D. 3rd     
+按照TDD四个步骤过程，Xavier完成了测试码的编写，请问他在实施哪一个步骤？ 
+A.第四个 
+B.第二个 
+C.第一个 
+D.第三个 
+ 
+59、Xavier has just refactored his production code after testing it as part of the four step process of TDD.What step is Xavier performing? 
+A. 1st       B. 4th       C.2nd       D. 3rd 
+按照TDD四个步骤过程，Xavier做测试后重构了产品代码。请问他在实施哪个步骤？ 
+A.第一个 
+B.第四个 
+C.第二个 
+D.第三个 
+ 
+60、 TDD has four basic steps. What is the first step in TDD? 
+A. Verify and validate that the test fails 
+B. Write product code and apply the test  
+C. Refactor the product code  
+D. Write test code that will fail  
+TDD具有四个步骤，它的第一个步骤是 
+A. 验证和校验测试失败 
+B. 编写产品代码和运用测试 
+C. 重构产品代码 
+D. 编写可能会失败的测试代码 
+ 
+61、TDD has four basic steps. What is the second step in TDD? 
+A. Write product code and apply the test 
+B. Refactor the product code 
+C. Verify and validate that the test fails 
+D. Write test code that will fail 
+TDD有四个基本步骤，第二步是 
+A. 编写产品代码和应用测试 
+B. 重构产品代码 
+C. 验证和检验失败的测试 
+D. 编写可能会失败的代码 
+ 
+62、Jim has just finished building, testing, and integrating a feature in an iteration that has a WIP limit of four for features. How many other features could be in the middle of development on Jim’s team? 
+A. No more than five 
+B. No more than four  
+C. No more than three 
+D. No more than two 
+Jim在一次有4个特性WIP限制的迭代中完成了一项特性的建立、测试和集成，那么Jim的团队在开发中期会再出现多少个特性？ 
+A.不超过5 
+B. 不超过4 
+C. 不超过3 
+D. 不超过2 
+ 
+63、What does the XP phrase 'caves and common' mean? 
+A. A caves area where programmers may have peace and quiet for development user stories and a common room for eating lunch and other social activities. 
+B. A single room where on one side is an open space with information radiators and a whiteboard for meetings, and on the other side are programming cubicles. 
+C. A common area that is public to team members and where osmotic communication and collaboration are at play,and a caves area that is a reserved space for private business. 
+D. A common area reserved for iteration reviews, daily stand-ups, and retrospectives and a caves area reserved for the development team 
+在极限编程（XP）中，’caves和common’分别代表什么意思？ 
+A.洞穴区域是可以给予程序员安静环境去开发用户故事的场所，普通空间是进餐和举行其他社交活动的场所。 
+B.一个空间，在一边是有信息发射源和会议白板的开阔空间，另一边是编程小房间。 
+C.普通区域对于团队成员是公共的，渗透交流和合作在此起作用，而洞穴区域是一个私人活动的预留空间。 
+D.普通区域是为循环检查，日常站立会议，回顾预留的，洞穴区域为开发团队预留。 
+ 
+64、Which agile framework emphasizes the importance of an on-site customer? 
+A. HUP 
+B. AUP 
+C. XP 
+D. DSDM 
+以下哪一敏捷框架强调现场客户的重要性？ 
+A. HUP 
+B. AUP 
+C. XP 
+D. DSDM 
+ 
+65、Which software development framework stresses a sustainable pace of development, simple design, collective ownership, and an on-site customer? 
+A. Ultra programming (UP) 
+B. Peer perfect programming (3P) 
+C. Paired programming (PP) 
+D. Extreme programming (XP) 
+以下哪一项软件开发架构强调开发的可持续速度，简单设计，集体所有和现场客户？ 
+A. 极端编程 (UP) 
+B. 同行完美编程 (3P) 
+C. 结对编程 (PP) 
+D. 极限编程 (XP) 
+ 
+66、Which software development framework stresses the use of metaphor to describe concepts? 
+A. ultra programming (UP) 
+B. paired programming (PP) 
+C. peer perfect programming (3P) 
+D. extreme programming (XP) 
+哪个软件开发架构强调运用隐喻去描述概念？ 
+A.极端编程(UP) 
+B.结对编程(PP) 
+C.同伴完美编程(3P) 
+D.极限编程(XP) 
+ 
+67、 Which software development framework stresses the use of pair-programming and shared workspaces? 
+A.Extreme programming (XP) 
+B.Lean software development 
+C.Agile unified process (AUP) 
+D. Scrum 
+下列哪一项软件开发构架着重于结对编程和共享工作区的使用？ 
+A.极限编程(XP) 
+B.精益软件开发 
+C.敏捷统一过程(AUP) 
+D.Scrum 
+ 
+68、Select a common agile framework/methodology. 
+A.Agile codified process (ACP)                B.Agile framework process (AFP) 
+C.Agile lean process (ALP)                   D.Agile unified process (AUP) 
+以下哪一项是常用敏捷框架或方法论？ 
+A.AGILE编纂过程（ACP） 
+B.AGILE框架流程（AFP） 
+C.AGILE精益过程（ALP） 
+D.AGILE统一过程（AUP） 
+ 
+69、In the XP principle of continuous integration,what happens after new code has been tested and integrated into the production code base? 
+A.The production code is reviewed in its entirety by pair programmers  
+B.The production code is tested  
+C.Other code is integrated before testing the production code  
+D.The production code is postfactored to add redundancy measures 
+在XP持续整合原则下，当新代码被测试和集成到产品代码库后，会出现什么？ 
+A.生产代码被配对程序员进行全部审查 
+B.生产代码被检测 
+C.其他代码在检测生产代码前已被集成 
+D.生产代码被后来分解成添加冗余措施 
+ 
+70、Following the XP principle of continuous integration, when is completed code integrated into the code base? 
+A. Immediately 
+B. At the end of the release 
+C. At iteration intervals to synchronize configuration management  
+D. At the end of the sprint 
+根据持续整合的XP极限编程原则，完成的代码应在何时整合到代码库？ 
+A. 即刻 
+B. 在发布结束时 
+C. 在同步配置管理的迭代间歇 
+D. 在冲刺结束时 
+ 
+71、Drew and his pair programming partner Steve are working on a new piece of software. As they build the software feature, what should Steve and Drew be sure to perform to ensure quality? 
+A. Mirroring  
+B. Rapid reflection 
+C. Unit testing  
+D. Conversion testing  
+德鲁和他的结对编程搭档史蒂夫正在进行一款新的软件。他们在建立软件特性时，为了保证质量，他们务必执行？ 
+A. 反映 
+B. 快速反思 
+C. 单元测试 
+D. 转换测试 
+ 
+72、Drew and his pair programming partner Steve have just finished building new code. What should happen next according to the XP principle of continuous integration? 
+A. Extensive testing before integration with the production code base 
+B. Complete inspection by the customer or customer representative 
+C. Conversion to the target coding language 
+D. Postfactoring to add contingency measures 
+德鲁和他的结对编程搭档史蒂夫刚结束了新代码的建立。根据持续整合的XP极限编程原则，下一步会发生 
+A. 广泛测试后集成到产品代码库 
+B. 由客户或者客户代表彻底检查 
+C. 转换成目标代码语言 
+D. 后分解以添加应急措施 
+ 
+73、Select the response that best defines the XP practice of continuous integration 
+A. The incremental development of software that is immediately integrated into the full code base 
+B. The coding of new software directly within the production code base 
+C. The incremental development of software that is extensively tested before integrating into the full code base, followed by testing of the full code to ensure successful integration 
+D. The coding of integration software for new product features 
+选择关于XP实践中持续整合的最佳定义： 
+A.立即被集成到完整代码库的软件增量开发 
+B.直接在生产代码库内编新软件的编码 
+C.在被集成到完整的代码库前被广泛的测试的，其次是完整的代码测试以确保成功整合的软件增量开发 
+D.为新产品特征的集成软件的编码 
+ 
+74、Kaitlin is providing an overview of the XP principle of continuous integration. Which response provides the best definition of continuous integration? 
+A. The integration of built and tested code with the production code base. Once the test code is integrated the entire product code base is tested 
+B. The integration of new code with the production code base. One the code is integrated, the product may be released to the customer for feedback 
+C. The coding of new software directly within the production code base 
+D. The coding of integration software for new product features 
+Kaitlin正赋予XP持续整合准则的概念。哪一个是持续整合的最佳定义？ 
+A.已建立和被测试的代码与产品代码库的集成 
+B.新代码与产品代码库的集成。一旦代码被集成，产品可能对客户发布从而得到反馈 
+C.直接在生产代码库内编新软件的编码 
+D.为新产品特征的集成软件的编码 
+ 
+75、Jill and her team are scheduled to hold a reflective improvement workshop the next business 
+day. Which agile project management methodology uses reflective improvement workshops as a key tool to apply its principles? 
+A. Extreme Programming                       
+B. Agile Unified Process 
+C. Crystal                                    
+D. Feature Driven Development 
+Jill和她的团队计划于下个工作日举行一个有关回顾改进的会议。下列哪一个AGILE的项目管理方法论会把回顾改进作为运用其原则的一个关键工具？ 
+A.极限编程 
+B.AGILE统一过程 
+C.水晶方法 
+D.特征驱动开发 
+ 
+76、Ursula and her team are scheduled to hold a reflective improvement workshop the next business day. Which agile project management methodology is the team most likely applying? 
+A. Feature Driven Development 
+B. Kanban Visual Management 
+C. Lean Software Development 
+D. Crystal  
+乌苏拉和她的团队计划在下一个工作日进行一次反思提高研讨会，他们最有可能运用的敏捷项目管理方法是 
+A. 特性驱动开发 
+B. 看板可视化管理 
+C. 精益软件开发 
+D. 水晶方法论 
+ 
+77、 In the Crystal framework, what is one benefit of collocation? 
+A. Osmotic communication 
+B. Osmotic coding  
+C. Osmotic integration 
+D. Osmotic refactoring 
+在水晶方法中，集中式的一个益处是 
+A. 渗透沟通 
+B. 渗透编码 
+C. 渗透整合 
+D. 渗透重构 
+ 
+78、Peter knows that effective communication is highly important for an agile team. What is the knowledge and skill area that deals with communication? 
+A. Communications management  
+B. Process flow mapping 
+C. Value stream mapping 
+D. Task-network modeling 
+彼特知悉有效的沟通对一支敏捷团队来说相当重要。以下哪一项是讲述沟通问题的知识和技
+能领域 
+A. 沟通管理 
+B. 生产流程图 
+C. 价值流程图 
+D. 任务网络模型 
+ 
+79、How long does creating a charter typically take in the Crystal development process? 
+A. A few hours.           B. From four to eight hours. 
+C. A few months.          D. From a few days to a few weeks. 
+在水晶方法中，通常需要多长时间来创建一个章程？ 
+A.几个小时 
+B.四到八个小时 
+C.几个月 
+D.几天到几周 
+ 
+80、List the primary steps in the Crystal development process project chartering activity . 
+A.Building the team ;Performing an Exploratory 360;Picking team conventions and practices ;Building the initial project plan  
+B.Building the team ;Performing an Exploratory 180;Picking team conventions and practices ;Building the initial project plan  
+C.Choosing the product owner Performing an Exploratory 360;Picking  team conventions and practices ;Building the initial project plan  
+D.Building the team ;Performing an Performing an Exploratory 360;Picking story points or ideal days ;Building the initial project plan  
+下列哪个选项列出在水晶发展过程项目章程活动的主要步骤。 
+A.建设团队,进行探索360；挑选团队公约和惯例；建立初始项目计划 
+B.建立团队,进行探索180；挑选团队公约和惯例；建立初始项目计划 
+C.选择产品负责人,进行探索360；挑选团队公约和惯例；建立初始项目计划 
+D.建设团队,执行探索360；挑选的故事点或理想日子；建立初始项目计划 
+ 
+81、 In which agile project management methodology does chartering play a significant role? 
+A. TDD 
+B. Crystal  
+C. XP 
+D. FDD 
+章程在以下哪一种敏捷项目管理方法论中作用巨大？ 
+A. 测试驱动开发 
+B. 水晶方法论 
+C. XP极限编程 
+D. 特征驱动开发 
+ 
+82、Bob is an agile practitioner and works on a team that employs the Crystal methodology. His team has just started building the project charter. How long should Bob expect project chartering to last? 
+A. From four to eight hours. 
+B. A few months 
+C. A few hours 
+D. From a few days to a few weeks 
+鲍勃是敏捷工作者，工作于一支运用水晶方法论的团队，他们的团队刚开始建立项目的章程，那么鲍勃预期项目章程的持续时长是 
+A. 四到八个小时 
+B. 数月 
+C. 数小时 
+D. 数天到数月 
+ 
+83、Which agile framework uses an Exploratory 360 in its formal chartering process? 
+A. AUP 
+B. DSDM 
+C. Crystal  
+D. XP 
+以下哪个敏捷框架在其正式章程过程使用一个探索性360？ 
+A.AUP 
+B.DSDM 
+C.Crystal 
+D.XP 
+ 
+84、What are the three fundamental processes in the crystal framework? 
+A. Chartering, delivery cycles, wrap-up 
+B. Negotiating, delivering, closing  
+C. Initiating, developing, closing  
+D. Envisioning, speculating, adapting 
+水晶方法的三项基本流程是 
+A. 大纲，交付循环，完成 
+B. 谈判，交付，关闭 
+C. 初始化，开发，关闭 
+D. 展望，推测，调整 
+ 
+85、What is one reason to have a motivated team on an agile project? 
+A. Meet expectations  
+B. Maintain velocity  
+C. Improve productivity  
+D. Decrease productivity 
+敏捷项目中需要拥有一支富有动力的团队的原因是 
+A. 达到期望 
+B. 保持速度 
+C. 提高生产率 
+D. 降低生产率 
+ 
+86、Often times during release planning user stories are categorized and organized by theme. Which of the following agile artifact is often used to show organization and progress of user stories by theme? 
+A. Theme parking garage 
+B. Theme runway 
+C. Story theme chart 
+D. Parking lot chart 
+通常发布计划期间，用户故事均按主题进行分类和管理。以下哪一项敏捷工件常用来展示按主题的用户故事的组织和进度？ 
+A. 主题停车场 
+B. 主题跑道 
+C. 故事主题图表 
+D. 停车场图表 
+ 
+87、Greg is pleased when the customer and project testers test his most recently developed feature, find that it passes acceptance criteria, and integrate it into the product. In which column should Greg now place the associated task card? 
+A. To do  
+B. Done  
+C. In progress 
+D. Ready for testing  
+格雷格最近开发的特性通过客户和项目测试者的测试，符合验收标准，并被合成到产品中，由此他非常高兴。现在格雷格应将相关任务卡片放置在哪一目录？ 
+A. 准备进行 
+B. 完成 
+C. 进展中 
+D. 准备测试 
+ 
+88、Select the response that is NOT an advantage of using an information radiator.  
+A. Makes it easy for all team members to track progress 
+B. Makes communication less time consuming  
+C. Increases the efficiency of software developers 
+D. Improves team communication  
+以下不属于使用信息发射源的优点的是 
+A. 为所有团队成员跟踪流程提供便利 
+B. 为沟通节省时间消耗 
+C. 提高软件开发者的效率 
+D. 促进团队沟通 
+ 
+89、Of the following, which event is typically the one where acceptance criteria is first defined? 
+A. release planning 
+B. sprint retrospective 
+C. product road mapping 
+D. envisioning 
+以下哪个事件通常有一个验收标准的定义？ 
+A.发布计划 
+B.冲刺回顾 
+C.产品路线图 
+D.构想 
+ 
+90、 Select the response that holds one of Ron Jeffries three Cs used to help define user stories. 
+A. Collaboration 
+B. Card  
+C. Creative  
+D. Customer-driven 
+以下哪一项属于用来帮助定义用户故事的罗恩•杰弗里斯的3C的是 
+A. 合作 
+B. 卡片 
+C. 创新 
+D. 客户导向 
+ 
+91、What are three essential elements of a user story? 
+A. Product, goal, process 
+B. Role, product, process 
+C. Role, goal, achieved business value 
+D. Role, goal, process 
+以下哪一项是一个用户故事的三项基本要素 
+A. 产品，目标和流程 
+B. 角色，产品和流程 
+C. 角色，目标和可达到的商业价值 
+D. 目标，角色和流程 
+ 
+92、What does a wireframe help an agile team accomplish? 
+A. It serves as a method to track team defects 
+B. It serves as an archive for the user stories 
+C. It serves as a prototype t facilitate customer feedback  
+D. It serves as a decision gate for the customer to approve or disapprove moving to the next project phase 
+线框图帮助敏捷团队 
+A. 作为跟踪团队缺陷的方法 
+B. 归档用户故事 
+C. 作为促进客户反馈的原型 
+D. 作为给客户赞成或不赞成进入下一项目阶段的决策节点 
+ 
+93、When is value and progress typically measured in an agile effort? 
+A. After a release planning event  
+B. After an affinity planning event  
+C. After the envisioning phase 
+D. After an iteration  
+一项敏捷工作中，衡量价值和流程的时间通常是 
+A. 一次发布计划活动后 
+B. 一次亲和计划活动后 
+C. 构想阶段后 
+D. 一项迭代后 
+ 
+94、Select the type of delivery most associated with agile 
+A. Iterative delivery  
+B. Sprint delivery   
+C. Just-in-time delivery  
+D. Incremental delivery  
+和敏捷联系最强的交付类型是 
+A. 迭代交付 
+B. 冲刺交付 
+C. 及时交付 
+D. 增量交付 
+ 
+95、What is the typical duration of an iteration? 
+A. Two to four weeks 
+B. Three to five weeks 
+C. Two months 
+D. One week 
+一项迭代正常的持续时长是 
+A. 2至4周 
+B. 3至5周 
+C. 两个月 
+D. 1周 
+ 
+96、If you have a cost variance of negative $2000, what does it imply? 
+A. That the earned value exceeds the actual costs of the project 
+B. That the planned costs of the project exceed the earned value 
+C. That the expected value of the project exceeds the actual costs of the project 
+D. That the actual costs incurred by the project exceed the earned value 
+如果你得到负2000美元的成本差异，这表明什么？ 
+A.挣值超过项目的实际成本 
+B.项目的计划成本超过挣值 
+C.项目的预期价值超过实际成本 
+D.由项目所产生的实际成本超过了挣值、 
+ 
+97、Joyce, as a certified agile practitioner, believes in the value of knowledge sharing. Which of the following is the best definition of knowledge sharing? 
+A. The tightly controlled flow of information among top ranking team members 
+B. The conveyance of data between refactored code modules 
+C. Keeping all team members and stakeholders informed by the equitable sharing of important project information 
+D. The heavily controlled conveyance of information to only certain team members 
+Joyce作为一名认证的敏捷从业人员，深信知识共享有着重要价值。知识共享的最佳定义是？ 
+A.一流的团队成员之间严格控制的信息流 
+B.重构代码模块之间的数据传送 
+C.通过重要项目信息的公平共享来保持所有团队成员和干系人之间消息灵通 
+D.严厉控制只在确定团队成员之间信息的传送 
+ 
+98、In agile parlance, what does progressive elaboration refer to? 
+A. Continuous planning with the expectation that plans and details will inevitably change but become more refined as the project progresses. 
+B. Continuous planning with the expectation that velocity will increase progressively as the project progresses. 
+C. Continuous planning with the expectation that estimates of task time will become more progressive as the project evolves. 
+D. Continuous planning with the expectation that story point values will decrease in relation to the steep learning curve of developers. 
+敏捷术语中，逐步完善是指 
+A. 基于随着项目的推进，计划和细节不可避免地会发生变化，但是趋向精炼的期望，不断修正计划。 
+B. 基于随着项目的推进，速度会持续稳定地提高的期望，不断修正计划。 
+C. 基于随着项目的推进，对任务时间的评估趋向稳定的期望，不断修正计划。 
+D. 基于随着开发者学习难度的提升，故事点值会下降的期望，不断修正计划。 
+ 
+99、Empathy is a valuable human emotion for generating trust in a team .What types of empathy on an agile project can help build trust ? 
+A.Customer-programmer empathy and programmer-tester empathy  
+B.Customer-stakeholder empathy and customer-product owner empathy  
+C.Stakeholder-customer empathy and customer-programmer empathy 
+D.Customer-product owner empathy and programmer-tester empathy  
+共鸣作为人类难得的情感，对促成团队信任有莫大帮助。在AGILE项目中，哪种类型的共鸣有助于建立信任 
+A.客户-程序员的共鸣和程序员-测试员的共鸣 
+B.客户-干系人的共鸣和客户-产品负责人的共鸣 
+C.干系人-客户的共鸣和客户-程序员的共鸣 
+D.客户-产品负责人的共鸣和程序员-测试者的共鸣 
+ 
+100、What occurs during the initiating phase of traditional project management? 
+A. Comparing actual VS planned work  
+B. Detailed project planning  
+C. Execution of the project plan  
+D. Definition of the business objectives 
+以下选项中发生在传统项目管理初始阶段的行为的是 
+A. 对比实际工作和计划工作 
+B. 详细项目计划 
+C. 执行项目计划 
+D. 定义商业目标 
+
+ZZZZZ
