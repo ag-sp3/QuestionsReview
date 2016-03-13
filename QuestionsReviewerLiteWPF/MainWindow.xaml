@@ -24,40 +24,40 @@
             <ColumnDefinition Width="Auto" />
             <ColumnDefinition Width="Auto" />
             <ColumnDefinition Width="Auto" />
-            
+
         </Grid.ColumnDefinitions>
 
         <TextBlock Grid.Row="0" Grid.Column="0" Margin="10,10,5,5" Text="Questions: " 
-                   VerticalAlignment="Center"/>
+                   VerticalAlignment="Center" FontSize="14.667"/>
         <TextBox Grid.Row="0" Grid.Column="1" Margin="5,10,5,5" VerticalAlignment="Center"
-                 Text="1:45,78-81,100;2:[23]0,1;3:67;"
-                 VerticalContentAlignment="Center" x:Name="tbx_QuestionRange" FontStyle="Italic" />
+                 Text="1:45,78,81,100;2:23,60;3:97;" 
+                 VerticalContentAlignment="Center" x:Name="tbx_QuestionRange" BorderThickness="0.5" Foreground="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" FontSize="14.667" FontStyle="Italic" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" FontWeight="Bold" />
         <CheckBox Grid.Row="0" Grid.Column="2" Margin="5,10,5,5"
                   x:Name="chbx_Randomized" IsChecked="False" VerticalAlignment="Center"
-                  VerticalContentAlignment="Stretch">Randomized</CheckBox>
+                  VerticalContentAlignment="Stretch" FontSize="14.667">Randomized</CheckBox>
         <CheckBox Grid.Row="0" Grid.Column="3" Margin="5,10,5,5"
                   x:Name="chbx_ViewAnswer" IsChecked="True" VerticalAlignment="Center"
-                  VerticalContentAlignment="Stretch" Click="chbx_ViewAnswer_Click">View Answer</CheckBox>
+                  VerticalContentAlignment="Stretch" Click="chbx_ViewAnswer_Click" FontSize="14.667">View Answer</CheckBox>
         <Button Grid.Row="0" Grid.Column="4" x:Name="btn_Load" Width="75"
-                VerticalAlignment="Center" Margin="5,10,10,5" IsDefault="True" Click="btn_Load_Click">Load</Button>
-        <TextBox Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="5" Margin="10,5,10,5"
+                VerticalAlignment="Center" Margin="5,10,10,5" IsDefault="True" Click="btn_Load_Click" FontSize="14.667">Load</Button>
+        <TextBox Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="5" Margin="10,5,10,5" BorderThickness="0.5" 
                  IsReadOnly="True" ScrollViewer.VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"
-                 x:Name="tbx_QuestionDesc"></TextBox>
-        <TextBox Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="5" Margin="10,5,10,5"
+                 x:Name="tbx_QuestionDesc" FontSize="14.667"/>
+        <TextBox Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="5" Margin="10,5,10,5" BorderThickness="0.5" 
                  IsReadOnly="True" ScrollViewer.VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"
-                 x:Name="tbx_AnswerDesc"></TextBox>
+                 x:Name="tbx_AnswerDesc" FontSize="14.667"/>
 
         <DockPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="5">
             <TextBlock Margin="10,5,5,10" x:Name="tb_Status" VerticalAlignment="Center" HorizontalAlignment="Left"
-                       Text="Basic mode and Advanced mode are supported for searching." />
+                       Text="Only Basic mode is supported in WPF version." FontSize="14.667" />
 
             <StackPanel Margin="10,5,10,10" VerticalAlignment="Center" HorizontalAlignment="Right" Orientation="Horizontal">
-                <Button x:Name="btn_Previous" Margin="10,5,5,0" VerticalAlignment="Center" Width="75" Click="btn_Previous_Click">Previous</Button>
-                <Button x:Name="btn_Next" Margin="5,5,0,0" VerticalAlignment="Center" Width="75" Click="btn_Next_Click">Next</Button>
+                <Button x:Name="btn_Previous" Margin="10,5,5,0" VerticalAlignment="Center" Width="75" Click="btn_Previous_Click" FontSize="14.667">Previous</Button>
+                <Button x:Name="btn_Next" Margin="5,5,0,0" VerticalAlignment="Center" Width="75" Click="btn_Next_Click" FontSize="14.667">Next</Button>
             </StackPanel>
         </DockPanel>
 
-        
+
 
     </Grid>
 </Window>

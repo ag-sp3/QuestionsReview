@@ -34,10 +34,11 @@ namespace QuestionsReviewerLiteWPF
                             "3 types of values are accepted for question ranges:\r\n" +
                             " - digit like 45\r\n" +
                             " - range like 78-81\r\n" +
-                            " - patterns in Regular Expression like [23]0\r\n" +
+                            " - pattern in Regular Expression like [23]0\r\n" +
                             "Values for question ranges should be separated by comma(,).\r\n";
 
-            var howtouse2 = "2. Advanced mode: search with filter combination of batch, \r\nquestion number, question description and answer description\r\n" +
+            var howtouse2 = "!!!NOT AVAILABLE FOR WPF VERSION!!!\r\n" +
+                            "Advanced mode: search with filter combination of batch, \r\nquestion number, question description and answer description\r\n" +
                             "via the support of patterns in Regular Expression.\r\n" +
                             "For example, 'Re>b:1;n:^4;q:osmotic'\r\n" +
                             "If you want to just load Questions with 'osmotic' in the question description,\r\n" +
@@ -54,6 +55,9 @@ namespace QuestionsReviewerLiteWPF
 
             btn_Next.IsEnabled = false;
             btn_Previous.IsEnabled = false;
+
+            //limited version
+            chbx_Randomized.IsEnabled = false;
         }
 
         private void InitializeData()
@@ -72,12 +76,13 @@ namespace QuestionsReviewerLiteWPF
             InitializeComponent();
 
             InitializeUI();
-            
+            InitializeData();
+
         }
 
         private void btn_Load_Click(object sender, RoutedEventArgs e)
         {
-            InitializeData();
+            
             var filter = tbx_QuestionRange.Text.Trim();
             var results = Questions.FilterBy(filter).ToList();
             if (chbx_Randomized.IsChecked == true)
@@ -125,7 +130,8 @@ namespace QuestionsReviewerLiteWPF
 
                 tb_Status.Text = CursorQ.ToString() + " of " + Count.ToString() + " Questions: Batch " + Current.BatchID + ", Number " + Current.ID;
             }
-            else
+
+            if(CursorQ == Count)
             {
                 btn_Next.IsEnabled = false;
             }

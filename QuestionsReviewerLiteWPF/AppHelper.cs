@@ -99,52 +99,53 @@ namespace QuestionsReviewerLiteWPF
 
             if (filter.ToUpper().StartsWith("RE>"))//advanced mode
             {
-                //Re>b:[25];n:^1[1-9]$;q:meeting;a:meeting
-                var re_Patterns = filter.Substring(3).Split(";".ToCharArray());
+                //limited version
+                ////Re>b:[25];n:^1[1-9]$;q:meeting;a:meeting
+                //var re_Patterns = filter.Substring(3).Split(";".ToCharArray());
 
-                var temp_Target = questions.ToList();
+                //var temp_Target = questions.ToList();
 
-                foreach (var re_Pattern in re_Patterns)
-                {
-                    if (re_Pattern.ToUpper().StartsWith("B:"))
-                    {
-                        var batch_Pattern = re_Pattern.Substring(2);
-                        var target = from q in temp_Target
-                                     where Regex.IsMatch(q.BatchID, batch_Pattern)
-                                     select q;
-                        temp_Target = target.ToList();
-                    }
-                    else if (re_Pattern.ToUpper().StartsWith("N:"))
-                    {
-                        var number_Pattern = re_Pattern.Substring(2);
-                        var target = from q in temp_Target
-                                     where Regex.IsMatch(q.ID, number_Pattern)
-                                     select q;
-                        temp_Target = target.ToList();
-                    }
-                    else if (re_Pattern.ToUpper().StartsWith("Q:"))
-                    {
-                        var question_Pattern = re_Pattern.Substring(2);
-                        var target = from q in temp_Target
-                                     where Regex.IsMatch(q.QuestionDesc, question_Pattern, RegexOptions.IgnoreCase)
-                                     select q;
-                        temp_Target = target.ToList();
-                    }
-                    else if (re_Pattern.ToUpper().StartsWith("A:"))
-                    {
-                        var answer_Pattern = re_Pattern.Substring(2);
-                        var target = from q in temp_Target
-                                     where Regex.IsMatch(q.AnswerDesc, answer_Pattern, RegexOptions.IgnoreCase)
-                                     select q;
-                        temp_Target = target.ToList();
-                    }
-                    else
-                    {
-                        temp_Target = questions.ToList();
-                    }
-                }
+                //foreach (var re_Pattern in re_Patterns)
+                //{
+                //    if (re_Pattern.ToUpper().StartsWith("B:"))
+                //    {
+                //        var batch_Pattern = re_Pattern.Substring(2);
+                //        var target = from q in temp_Target
+                //                     where Regex.IsMatch(q.BatchID, batch_Pattern)
+                //                     select q;
+                //        temp_Target = target.ToList();
+                //    }
+                //    else if (re_Pattern.ToUpper().StartsWith("N:"))
+                //    {
+                //        var number_Pattern = re_Pattern.Substring(2);
+                //        var target = from q in temp_Target
+                //                     where Regex.IsMatch(q.ID, number_Pattern)
+                //                     select q;
+                //        temp_Target = target.ToList();
+                //    }
+                //    else if (re_Pattern.ToUpper().StartsWith("Q:"))
+                //    {
+                //        var question_Pattern = re_Pattern.Substring(2);
+                //        var target = from q in temp_Target
+                //                     where Regex.IsMatch(q.QuestionDesc, question_Pattern, RegexOptions.IgnoreCase)
+                //                     select q;
+                //        temp_Target = target.ToList();
+                //    }
+                //    else if (re_Pattern.ToUpper().StartsWith("A:"))
+                //    {
+                //        var answer_Pattern = re_Pattern.Substring(2);
+                //        var target = from q in temp_Target
+                //                     where Regex.IsMatch(q.AnswerDesc, answer_Pattern, RegexOptions.IgnoreCase)
+                //                     select q;
+                //        temp_Target = target.ToList();
+                //    }
+                //    else
+                //    {
+                //        temp_Target = questions.ToList();
+                //    }
+                //}
 
-                global.AddRange(temp_Target);
+                //global.AddRange(temp_Target);
 
             }
 
