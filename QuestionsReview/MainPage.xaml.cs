@@ -26,7 +26,7 @@ namespace QuestionsReview
     public sealed partial class MainPage : Page
     {
         public IEnumerable<Question> Questions;
-        public Queue<Question> QuestionQueue;
+        public List<Question> QuestionQueue;
         public Question Current;
         public int Count;
         public int Cursor;
@@ -79,52 +79,55 @@ namespace QuestionsReview
             }
 
             btn_Next.IsEnabled = false;
+            btn_Previous.IsEnabled = false;
 
             
         }
 
         private void btn_Load_Click(object sender, RoutedEventArgs e)
         {
-
-            if(QuestionQueue!=null)
-            {
-                QuestionQueue = null;
-            }
-
-            QuestionQueue = new Queue<Question>();
-            
+                    
 
             var filter = tbx_QuestionRange.Text.Trim();
             var results = Questions.FilterBy(filter).ToList();
             if (chbx_Randomized.IsChecked == true)
                 results = results.OrderBy(q => Guid.NewGuid()).ToList();
-            foreach(var r in results)
-            {
-                QuestionQueue.Enqueue(r);
-            }
+            
 
             //tbx_QuestionDesc.Text = QuestionQueue.Count.ToString() + " questions loaded.";
-            tb_Status.Text = QuestionQueue.Count.ToString() + " questions loaded.";
+            
 
-            if (QuestionQueue.Count > 0)
+            if (results.Count > 0)
             {
                 btn_Next.IsEnabled = true;
                 //btn_Previous.IsEnabled = false;
 
-                Count = QuestionQueue.Count;
+                Count = results.Count;
                 Cursor = 0;
-                
+
+                QuestionQueue = results;
+
+                tb_Status.Text = QuestionQueue.Count.ToString() + " questions loaded.";
+
+            }
+            else
+            {
+                Count = 0;
+                QuestionQueue = null;
+
+                tb_Status.Text = "0 questions loaded.";
             }
 
             tbx_AnswerDesc.Text = "";
             tbx_QuestionDesc.Text = "";
+            btn_Previous.IsEnabled = false;
         }
 
         private void btn_Next_Click(object sender, RoutedEventArgs e)
         {
-            if(QuestionQueue.Count > 0)
+            if(Count > 0 && Cursor < Count)
             {
-                Current = QuestionQueue.Dequeue();
+                Current = QuestionQueue[Cursor];
 
                 Cursor++;
 
@@ -137,6 +140,11 @@ namespace QuestionsReview
             else
             {
                 btn_Next.IsEnabled = false;
+            }
+
+            if(Cursor > 1)
+            {
+                btn_Previous.IsEnabled = true;
             }
         }
 
@@ -170,6 +178,39 @@ namespace QuestionsReview
             {
                 tbx_AnswerDesc.Text = "";
             }
+        }
+
+        private void btn_Previous_Click(object sender, RoutedEventArgs e)
+        {
+            
+
+            if (Cursor > 1)
+            {           
+
+                Current = QuestionQueue[Cursor - 2];
+
+                Cursor--;
+
+
+                tbx_QuestionDesc.Text = Current.QuestionDesc;
+
+                if (chbx_ViewAnswer.IsChecked == true) tbx_AnswerDesc.Text = Current.AnswerDesc;
+
+                tb_Status.Text = $"{Cursor} of {Count} Questions: Batch {Current.BatchID}, Number {Current.ID}";
+
+                btn_Next.IsEnabled = true;
+
+                
+
+            }
+
+
+            if (Cursor == 1)
+            {
+                btn_Previous.IsEnabled = false;
+            }
+
+
         }
     }
 }
