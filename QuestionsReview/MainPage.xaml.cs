@@ -43,7 +43,7 @@ namespace QuestionsReview
             titleBar.ButtonForegroundColor = Colors.White;
 
             var howtouse1 = "1. Basic mode: search with multiple batches and question ranges.\r\n" +
-                            "For example, '1:45,78-81,100;2:[23]0,1;3:67\r\n'" +
+                            "For example, '1:45,78-81,100;2:[23]0,1;3:67'\r\n" +
                             "Of course, if you want to simply load Questions #1-#20 in Batch 1,\r\n" +
                             "you can use '1:1-20' in the search textbox.\r\n" +
                             "3 types of values are accepted for question ranges:\r\n" +
@@ -56,7 +56,7 @@ namespace QuestionsReview
                             "via the support of patterns in Regular Expression.\r\n" +
                             "For example, 'Re>b:1;n:^4;q:osmotic'\r\n" +
                             "If you want to just load Questions with 'osmotic' in the question description,\r\n" +
-                            "you can use 'Re>q:osmotic' in the search textbox." +
+                            "you can use 'Re>q:osmotic' in the search textbox.\r\n" +
                             "4 types of values are accepted for search filters:\r\n" +
                             " - b means Batch like 1\r\n" +
                             " - n means Question Number like ^4\r\n" +
@@ -77,6 +77,8 @@ namespace QuestionsReview
                 var initialQuestions = folder.InitializeQuestions();
                 Questions = folder.EnrichAnswersOn(initialQuestions).ToList();
             }
+
+            btn_Next.IsEnabled = false;
 
             
         }
