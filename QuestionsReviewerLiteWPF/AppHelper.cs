@@ -5,11 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace QuestionsReview
+namespace QuestionsReviewerLiteWPF
 {
     public static class AppHelper
-
-        
     {
         public static string LoadText(this string filename)
         {
@@ -30,10 +28,10 @@ namespace QuestionsReview
 
             //target file pattern: Questions_1.txt
             var files = from f in Directory.GetFiles(folder)
-                            where f.Contains("Questions")
-                            select f;
+                        where f.Contains("Questions")
+                        select f;
 
-            foreach(var file in files)
+            foreach (var file in files)
             {
                 var ptnBatchID = @"Questions_(\d+)";
                 var batchID = Regex.Match(file, ptnBatchID, RegexOptions.Singleline).Groups[1].Value;
@@ -41,16 +39,16 @@ namespace QuestionsReview
                 var rawQuestions = file.LoadText().ParseElements();
 
                 var results = from q in rawQuestions
-                               let length = q.IndexOf(@"、")
-                               let questionID = q.Substring(0, length)
-                               select new Question
-                               {
-                                   ID = questionID,
-                                   BatchID = batchID,
-                                   QuestionDesc = q
-                               };
+                              let length = q.IndexOf(@"、")
+                              let questionID = q.Substring(0, length)
+                              select new Question
+                              {
+                                  ID = questionID,
+                                  BatchID = batchID,
+                                  QuestionDesc = q
+                              };
 
-                global.AddRange(results);            
+                global.AddRange(results);
 
             }
 
@@ -220,10 +218,9 @@ namespace QuestionsReview
 
             }
 
-            
+
 
             return global;
         }
-
     }
 }

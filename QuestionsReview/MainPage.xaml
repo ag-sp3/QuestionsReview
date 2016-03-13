@@ -23,7 +23,7 @@
                        
                        RelativePanel.AlignVerticalCenterWithPanel="True">Questions:</TextBlock>
 
-            <Button x:Name="btn_Load"                     
+            <Button x:Name="btn_Load" Width="75"                 
                     RelativePanel.AlignRightWithPanel="True"
                     RelativePanel.AlignVerticalCenterWithPanel="True" Click="btn_Load_Click" VerticalAlignment="Top">Load</Button>
 
@@ -64,9 +64,9 @@
             BorderThickness="0.5" AcceptsReturn="True"></TextBox>
 
         <RelativePanel Margin="10,5,10,5" x:Name="rp_Footer" Grid.Row="3">
-            <Button x:Name="btn_Next" RelativePanel.AlignRightWithPanel="True"
+            <Button x:Name="btn_Next" RelativePanel.AlignRightWithPanel="True" Width="75"
                     Margin="10,0,0,5" Click="btn_Next_Click" >Next</Button>
-            <Button x:Name="btn_Previous" RelativePanel.LeftOf="btn_Next"
+            <Button x:Name="btn_Previous" RelativePanel.LeftOf="btn_Next" Width="75"
                     Margin="10,0,0,5" Click="btn_Previous_Click" >Previous</Button>
 
             <TextBlock x:Name="tb_Status" RelativePanel.AlignLeftWithPanel="True" Margin="10,0,10,0"

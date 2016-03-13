@@ -1,0 +1,63 @@
+﻿<Window x:Class="QuestionsReviewerLiteWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuestionsReviewerLiteWPF"
+        mc:Ignorable="d"
+        Title="ACP Questions Reviewer Lite (WPF)" Height="600" Width="800">
+    <Grid>
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="2.5*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="Auto" />
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+            
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Margin="10,10,5,5" Text="Questions: " 
+                   VerticalAlignment="Center"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Margin="5,10,5,5" VerticalAlignment="Center"
+                 Text="1:45,78-81,100;2:[23]0,1;3:67;"
+                 VerticalContentAlignment="Center" x:Name="tbx_QuestionRange" FontStyle="Italic" />
+        <CheckBox Grid.Row="0" Grid.Column="2" Margin="5,10,5,5"
+                  x:Name="chbx_Randomized" IsChecked="False" VerticalAlignment="Center"
+                  VerticalContentAlignment="Stretch">Randomized</CheckBox>
+        <CheckBox Grid.Row="0" Grid.Column="3" Margin="5,10,5,5"
+                  x:Name="chbx_ViewAnswer" IsChecked="True" VerticalAlignment="Center"
+                  VerticalContentAlignment="Stretch" Click="chbx_ViewAnswer_Click">View Answer</CheckBox>
+        <Button Grid.Row="0" Grid.Column="4" x:Name="btn_Load" Width="75"
+                VerticalAlignment="Center" Margin="5,10,10,5" IsDefault="True" Click="btn_Load_Click">Load</Button>
+        <TextBox Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="5" Margin="10,5,10,5"
+                 IsReadOnly="True" ScrollViewer.VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"
+                 x:Name="tbx_QuestionDesc"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="5" Margin="10,5,10,5"
+                 IsReadOnly="True" ScrollViewer.VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"
+                 x:Name="tbx_AnswerDesc"></TextBox>
+
+        <DockPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="5">
+            <TextBlock Margin="10,5,5,10" x:Name="tb_Status" VerticalAlignment="Center" HorizontalAlignment="Left"
+                       Text="Basic mode and Advanced mode are supported for searching." />
+
+            <StackPanel Margin="10,5,10,10" VerticalAlignment="Center" HorizontalAlignment="Right" Orientation="Horizontal">
+                <Button x:Name="btn_Previous" Margin="10,5,5,0" VerticalAlignment="Center" Width="75" Click="btn_Previous_Click">Previous</Button>
+                <Button x:Name="btn_Next" Margin="5,5,0,0" VerticalAlignment="Center" Width="75" Click="btn_Next_Click">Next</Button>
+            </StackPanel>
+        </DockPanel>
+
+        
+
+    </Grid>
+</Window>

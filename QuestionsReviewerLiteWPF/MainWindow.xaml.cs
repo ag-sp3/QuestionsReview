@@ -1,37 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Windows.UI;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Input;
+using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
-
-namespace QuestionsReview
+namespace QuestionsReviewerLiteWPF
 {
     /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public sealed partial class MainPage : Page
+    public partial class MainWindow : Window
     {
         public IEnumerable<Question> Questions;
         public List<Question> QuestionQueue;
         public Question Current;
         public int Count;
-        public int Cursor;
+        public int CursorQ;
 
-        public MainPage()
+        private void InitializeUI()
         {
-            this.InitializeComponent();
-
-            var titleBar = Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().TitleBar;
-            titleBar.BackgroundColor = Colors.Black;
-            titleBar.ForegroundColor = Colors.White;
-            titleBar.ButtonHoverBackgroundColor = Colors.DarkGreen;
-            //titleBar.ButtonBackgroundColor = Colors.DarkCyan;
-            titleBar.ButtonForegroundColor = Colors.White;
-
             var howtouse1 = "1. Basic mode: search with multiple batches and question ranges.\r\n" +
                             "For example, '1:45,78-81,100;2:[23]0,1;3:67'\r\n" +
                             "Of course, if you want to simply load Questions #1-#20 in Batch 1,\r\n" +
@@ -57,57 +52,60 @@ namespace QuestionsReview
             tbx_QuestionDesc.Text = howtouse1;
             tbx_AnswerDesc.Text = howtouse2;
 
-            //CoreApplication.GetCurrentView().TitleBar.ExtendViewIntoTitleBar = true;
-            //Window.Current.SetTitleBar(@"ACP Questions Reviewer Lite");
+            btn_Next.IsEnabled = false;
+            btn_Previous.IsEnabled = false;
+        }
 
+        private void InitializeData()
+        {
             var folder = @"Homework\";
 
-            if(Questions == null)
+            if (Questions == null)
             {
                 var initialQuestions = folder.InitializeQuestions();
                 Questions = folder.EnrichAnswersOn(initialQuestions).ToList();
             }
+        }
 
-            btn_Next.IsEnabled = false;
-            btn_Previous.IsEnabled = false;
+        public MainWindow()
+        {
+            InitializeComponent();
 
+            InitializeUI();
             
         }
 
         private void btn_Load_Click(object sender, RoutedEventArgs e)
         {
-                    
-
+            InitializeData();
             var filter = tbx_QuestionRange.Text.Trim();
             var results = Questions.FilterBy(filter).ToList();
             if (chbx_Randomized.IsChecked == true)
                 results = results.OrderBy(q => Guid.NewGuid()).ToList();
-            
-
-            //tbx_QuestionDesc.Text = QuestionQueue.Count.ToString() + " questions loaded.";
-            
 
             if (results.Count > 0)
             {
-                btn_Next.IsEnabled = true;
-                //btn_Previous.IsEnabled = false;
-
-                Count = results.Count;
-                Cursor = 0;
-
                 QuestionQueue = results;
-
                 tb_Status.Text = QuestionQueue.Count.ToString() + " questions loaded.";
+
+                Count = results.Count;                
+
+                btn_Next.IsEnabled = true;             
+
+                
 
             }
             else
             {
-                Count = 0;
+                
                 QuestionQueue = null;
-
                 tb_Status.Text = "0 questions loaded.";
+
+                Count = 0;
             }
 
+
+            CursorQ = 0;
             tbx_AnswerDesc.Text = "";
             tbx_QuestionDesc.Text = "";
             btn_Previous.IsEnabled = false;
@@ -115,45 +113,57 @@ namespace QuestionsReview
 
         private void btn_Next_Click(object sender, RoutedEventArgs e)
         {
-            if(Count > 0 && Cursor < Count)
+            if (Count > 0 && CursorQ < Count)
             {
-                Current = QuestionQueue[Cursor];
+                Current = QuestionQueue[CursorQ];
 
-                Cursor++;
+                CursorQ++;
 
                 tbx_QuestionDesc.Text = Current.QuestionDesc;
 
                 if (chbx_ViewAnswer.IsChecked == true) tbx_AnswerDesc.Text = Current.AnswerDesc;
 
-                tb_Status.Text = $"{Cursor} of {Count} Questions: Batch {Current.BatchID}, Number {Current.ID}";
+                tb_Status.Text = CursorQ.ToString() + " of " + Count.ToString() + " Questions: Batch " + Current.BatchID + ", Number " + Current.ID;
             }
             else
             {
                 btn_Next.IsEnabled = false;
             }
 
-            if(Cursor > 1)
+            if (CursorQ > 1)
             {
                 btn_Previous.IsEnabled = true;
             }
         }
 
-        
-
-        private void chbx_ViewAnswer_Tapped(object sender, TappedRoutedEventArgs e)
+        private void btn_Previous_Click(object sender, RoutedEventArgs e)
         {
-            if (chbx_ViewAnswer.IsChecked == true)
-            {
-                if (Current != null)
-                    tbx_AnswerDesc.Text = Current.AnswerDesc;
+            if (CursorQ > 1)
+            {           
+
+                Current = QuestionQueue[CursorQ - 2];
+
+                CursorQ--;
+
+
+                tbx_QuestionDesc.Text = Current.QuestionDesc;
+
+                if (chbx_ViewAnswer.IsChecked == true) tbx_AnswerDesc.Text = Current.AnswerDesc;
+
+                tb_Status.Text = CursorQ.ToString() + " of " + Count.ToString() + " Questions: Batch " + Current.BatchID + ", Number " + Current.ID;
+
+                btn_Next.IsEnabled = true;
+
+                
 
             }
-            else
+
+
+            if (CursorQ == 1)
             {
-                tbx_AnswerDesc.Text = "";
+                btn_Previous.IsEnabled = false;
             }
 
-            
         }
 
         private void chbx_ViewAnswer_Click(object sender, RoutedEventArgs e)
@@ -168,39 +178,6 @@ namespace QuestionsReview
             {
                 tbx_AnswerDesc.Text = "";
             }
-        }
-
-        private void btn_Previous_Click(object sender, RoutedEventArgs e)
-        {
-            
-
-            if (Cursor > 1)
-            {           
-
-                Current = QuestionQueue[Cursor - 2];
-
-                Cursor--;
-
-
-                tbx_QuestionDesc.Text = Current.QuestionDesc;
-
-                if (chbx_ViewAnswer.IsChecked == true) tbx_AnswerDesc.Text = Current.AnswerDesc;
-
-                tb_Status.Text = $"{Cursor} of {Count} Questions: Batch {Current.BatchID}, Number {Current.ID}";
-
-                btn_Next.IsEnabled = true;
-
-                
-
-            }
-
-
-            if (Cursor == 1)
-            {
-                btn_Previous.IsEnabled = false;
-            }
-
-
         }
     }
 }
