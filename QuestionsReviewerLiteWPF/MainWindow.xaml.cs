@@ -1,16 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Text;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace QuestionsReviewerLiteWPF
 {
@@ -35,10 +27,10 @@ namespace QuestionsReviewerLiteWPF
                             " - digit like 45\r\n" +
                             " - range like 78-81\r\n" +
                             " - pattern in Regular Expression like [23]0\r\n" +
-                            "Values for question ranges should be separated by comma(,).\r\n";
+                            "Values for question ranges within batch should be separated by comma(,);\r\n" + 
+                            "Batches are separated by semi-colon(;).";
 
-            var howtouse2 = "!!!NOT AVAILABLE FOR WPF VERSION!!!\r\n" +
-                            "Advanced mode: search with filter combination of batch, \r\nquestion number, question description and answer description\r\n" +
+            var howtouse2 = "Advanced mode: search with filter combination of batch, \r\nquestion number, question description and answer description\r\n" +
                             "via the support of patterns in Regular Expression.\r\n" +
                             "For example, 'Re>b:1;n:^4;q:osmotic'\r\n" +
                             "If you want to just load Questions with 'osmotic' in the question description,\r\n" +
@@ -48,7 +40,8 @@ namespace QuestionsReviewerLiteWPF
                             " - n means Question Number like ^4\r\n" +
                             " - q means Question Description like osmotic\r\n" +
                             " - a means Answer Description like osmotic\r\n" +
-                            "Values for question ranges should be separated by semi-colon(;).\r\n";
+                            "Values for question ranges should be separated by semi-colon(;).\r\n" +
+                            "The pattern must start with 'Re>' so that it can be switched to utilizing Regular Expression.";
 
             tbx_QuestionDesc.Text = howtouse1;
             tbx_AnswerDesc.Text = howtouse2;
@@ -62,13 +55,31 @@ namespace QuestionsReviewerLiteWPF
 
         private void InitializeData()
         {
-            var folder = @"Homework\";
+            ////Source files version.
+            //var folder = @"Homework\";
 
-            if (Questions == null)
-            {
-                var initialQuestions = folder.InitializeQuestions();
-                Questions = folder.EnrichAnswersOn(initialQuestions).ToList();
-            }
+            //if (Questions == null)
+            //{
+            //    var initialQuestions = folder.InitializeQuestions();
+            //    Questions = folder.EnrichAnswersOn(initialQuestions).ToList();
+            //}
+
+            //Serialized file version.
+            DeserializeData();
+        }
+
+        private void SerializeData()
+        {
+            var dir = Directory.GetCurrentDirectory();
+            var filename = dir + @"\" + "qa.datx";
+            Questions.SerializeWithCompression(filename);
+        }
+
+        private void DeserializeData()
+        {
+            var dir = Directory.GetCurrentDirectory();
+            var filename = dir + @"\" + "qa.datx";
+            Questions = filename.DeserializedWithDecompression();
         }
 
         public MainWindow()
@@ -76,13 +87,18 @@ namespace QuestionsReviewerLiteWPF
             InitializeComponent();
 
             InitializeUI();
-            InitializeData();
+            
+
+            
 
         }
 
         private void btn_Load_Click(object sender, RoutedEventArgs e)
         {
-            
+            ////One time serialization.
+            //SerializeData();
+            //MessageBox.Show("Done!");
+
             var filter = tbx_QuestionRange.Text.Trim();
             var results = Questions.FilterBy(filter).ToList();
             if (chbx_Randomized.IsChecked == true)
@@ -91,7 +107,7 @@ namespace QuestionsReviewerLiteWPF
             if (results.Count > 0)
             {
                 QuestionQueue = results;
-                tb_Status.Text = QuestionQueue.Count.ToString() + " questions loaded.";
+                tb_Status.Text = "已加载" + QuestionQueue.Count.ToString() + "道作业题目。";
 
                 Count = results.Count;                
 
@@ -104,7 +120,7 @@ namespace QuestionsReviewerLiteWPF
             {
                 
                 QuestionQueue = null;
-                tb_Status.Text = "0 questions loaded.";
+                tb_Status.Text = "根据您输入的题目范围，搜索不到任何结果。";
 
                 Count = 0;
             }
@@ -128,7 +144,7 @@ namespace QuestionsReviewerLiteWPF
 
                 if (chbx_ViewAnswer.IsChecked == true) tbx_AnswerDesc.Text = Current.AnswerDesc;
 
-                tb_Status.Text = CursorQ.ToString() + " of " + Count.ToString() + " Questions: Batch " + Current.BatchID + ", Number " + Current.ID;
+                tb_Status.Text = CursorQ.ToString() + " / " + Count.ToString() + " (作业批次: " + Current.BatchID + ", 题目编号: " + Current.ID + ")";
             }
 
             if(CursorQ == Count)
@@ -156,7 +172,7 @@ namespace QuestionsReviewerLiteWPF
 
                 if (chbx_ViewAnswer.IsChecked == true) tbx_AnswerDesc.Text = Current.AnswerDesc;
 
-                tb_Status.Text = CursorQ.ToString() + " of " + Count.ToString() + " Questions: Batch " + Current.BatchID + ", Number " + Current.ID;
+                tb_Status.Text = CursorQ.ToString() + " / " + Count.ToString() + " (作业批次: " + Current.BatchID + ", 题目编号: " + Current.ID + ")";
 
                 btn_Next.IsEnabled = true;
 
@@ -184,6 +200,11 @@ namespace QuestionsReviewerLiteWPF
             {
                 tbx_AnswerDesc.Text = "";
             }
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            InitializeData();
         }
     }
 }

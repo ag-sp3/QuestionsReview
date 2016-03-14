@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.IO.Compression;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -9,6 +11,66 @@ namespace QuestionsReviewerLiteWPF
 {
     public static class AppHelper
     {
+        public static void SerializeWithCompression(this IEnumerable<Question> qs, string filename)
+        {
+            var formatter = new BinaryFormatter();
+            using (var ms = new MemoryStream())
+            {
+                formatter.Serialize(ms, qs);
+                var buffer = ms.ToArray();
+
+                using (var fs = File.Create(filename))
+                {
+                    using (var gs = new GZipStream(fs, CompressionMode.Compress, true))
+                    {
+                        gs.Write(buffer, 0, buffer.Length);
+                    }
+                }
+            }
+                
+            
+        }
+
+        public static IEnumerable<Question> DeserializedWithDecompression(this string filename)
+        {
+            using (var fs = File.OpenRead(filename))
+            {
+                fs.Position = 0;
+
+                using (var gs = new GZipStream(fs, CompressionMode.Decompress))
+                {
+                    var buffer = new byte[4096];
+
+                    var offset = 0;
+
+                    using (var ms = new MemoryStream())
+                    {
+                        while((offset = gs.Read(buffer,0,buffer.Length)) != 0)
+                        {
+                            ms.Write(buffer, 0, offset);
+                        }
+
+                        var formatter = new BinaryFormatter();
+
+                        ms.Position = 0;
+
+                        var results = new List<Question>();
+
+                        try
+                        {
+                            results = (List<Question>)formatter.Deserialize(ms);
+                        }
+                        catch(Exception ex)
+                        {
+                            throw ex;
+                        }
+
+                        return results;
+                    }
+                }
+            }
+        }
+
         public static string LoadText(this string filename)
         {
             return File.ReadAllText(filename, Encoding.UTF8);
@@ -100,52 +162,52 @@ namespace QuestionsReviewerLiteWPF
             if (filter.ToUpper().StartsWith("RE>"))//advanced mode
             {
                 //limited version
-                ////Re>b:[25];n:^1[1-9]$;q:meeting;a:meeting
-                //var re_Patterns = filter.Substring(3).Split(";".ToCharArray());
+                //Re>b:[25];n:^1[1-9]$;q:meeting;a:meeting
+                var re_Patterns = filter.Substring(3).Split(";".ToCharArray());
 
-                //var temp_Target = questions.ToList();
+                var temp_Target = questions.ToList();
 
-                //foreach (var re_Pattern in re_Patterns)
-                //{
-                //    if (re_Pattern.ToUpper().StartsWith("B:"))
-                //    {
-                //        var batch_Pattern = re_Pattern.Substring(2);
-                //        var target = from q in temp_Target
-                //                     where Regex.IsMatch(q.BatchID, batch_Pattern)
-                //                     select q;
-                //        temp_Target = target.ToList();
-                //    }
-                //    else if (re_Pattern.ToUpper().StartsWith("N:"))
-                //    {
-                //        var number_Pattern = re_Pattern.Substring(2);
-                //        var target = from q in temp_Target
-                //                     where Regex.IsMatch(q.ID, number_Pattern)
-                //                     select q;
-                //        temp_Target = target.ToList();
-                //    }
-                //    else if (re_Pattern.ToUpper().StartsWith("Q:"))
-                //    {
-                //        var question_Pattern = re_Pattern.Substring(2);
-                //        var target = from q in temp_Target
-                //                     where Regex.IsMatch(q.QuestionDesc, question_Pattern, RegexOptions.IgnoreCase)
-                //                     select q;
-                //        temp_Target = target.ToList();
-                //    }
-                //    else if (re_Pattern.ToUpper().StartsWith("A:"))
-                //    {
-                //        var answer_Pattern = re_Pattern.Substring(2);
-                //        var target = from q in temp_Target
-                //                     where Regex.IsMatch(q.AnswerDesc, answer_Pattern, RegexOptions.IgnoreCase)
-                //                     select q;
-                //        temp_Target = target.ToList();
-                //    }
-                //    else
-                //    {
-                //        temp_Target = questions.ToList();
-                //    }
-                //}
+                foreach (var re_Pattern in re_Patterns)
+                {
+                    if (re_Pattern.ToUpper().StartsWith("B:"))
+                    {
+                        var batch_Pattern = re_Pattern.Substring(2);
+                        var target = from q in temp_Target
+                                     where Regex.IsMatch(q.BatchID, batch_Pattern)
+                                     select q;
+                        temp_Target = target.ToList();
+                    }
+                    else if (re_Pattern.ToUpper().StartsWith("N:"))
+                    {
+                        var number_Pattern = re_Pattern.Substring(2);
+                        var target = from q in temp_Target
+                                     where Regex.IsMatch(q.ID, number_Pattern)
+                                     select q;
+                        temp_Target = target.ToList();
+                    }
+                    else if (re_Pattern.ToUpper().StartsWith("Q:"))
+                    {
+                        var question_Pattern = re_Pattern.Substring(2);
+                        var target = from q in temp_Target
+                                     where Regex.IsMatch(q.QuestionDesc, question_Pattern, RegexOptions.IgnoreCase)
+                                     select q;
+                        temp_Target = target.ToList();
+                    }
+                    else if (re_Pattern.ToUpper().StartsWith("A:"))
+                    {
+                        var answer_Pattern = re_Pattern.Substring(2);
+                        var target = from q in temp_Target
+                                     where Regex.IsMatch(q.AnswerDesc, answer_Pattern, RegexOptions.IgnoreCase)
+                                     select q;
+                        temp_Target = target.ToList();
+                    }
+                    else
+                    {
+                        temp_Target = questions.ToList();
+                    }
+                }
 
-                //global.AddRange(temp_Target);
+                global.AddRange(temp_Target);
 
             }
 
@@ -160,58 +222,67 @@ namespace QuestionsReviewerLiteWPF
                     var batchID = elements[0];
                     if (!String.IsNullOrEmpty(batchID))
                     {
-                        var patterns = elements[1].Split(",".ToCharArray());
-
-                        foreach (var p in patterns)
+                        try
                         {
-                            if (Regex.IsMatch(p, @"^\d+$"))
+                            var patterns = elements[1].Split(",".ToCharArray());
+
+                            foreach (var p in patterns)
                             {
-                                var target = from q in questions
-                                             where q.BatchID == batchID && q.ID == p
-                                             select q;
-
-                                global.AddRange(target);
-                            }
-
-                            else if (Regex.IsMatch(p, @"^(\d+?)\-(\d+)$"))
-                            {
-                                var match = Regex.Match(p, @"^(\d+?)\-(\d+)$");
-                                var start = Int32.Parse(match.Groups[1].Value);
-                                var end = Int32.Parse(match.Groups[2].Value);
-
-                                if (end > start)
+                                if (Regex.IsMatch(p, @"^\d+$"))
                                 {
                                     var target = from q in questions
-                                                 let id = Int32.Parse(q.ID)
-                                                 where q.BatchID == batchID && id >= start && id <= end
+                                                 where q.BatchID == batchID && q.ID == p
                                                  select q;
 
                                     global.AddRange(target);
                                 }
 
-                                if (end == start)
+                                else if (Regex.IsMatch(p, @"^(\d+?)\-(\d+)$"))
+                                {
+                                    var match = Regex.Match(p, @"^(\d+?)\-(\d+)$");
+                                    var start = Int32.Parse(match.Groups[1].Value);
+                                    var end = Int32.Parse(match.Groups[2].Value);
+
+                                    if (end > start)
+                                    {
+                                        var target = from q in questions
+                                                     let id = Int32.Parse(q.ID)
+                                                     where q.BatchID == batchID && id >= start && id <= end
+                                                     select q;
+
+                                        global.AddRange(target);
+                                    }
+
+                                    if (end == start)
+                                    {
+                                        var target = from q in questions
+                                                     let id = Int32.Parse(q.ID)
+                                                     where q.BatchID == batchID && id == start
+                                                     select q;
+
+                                        global.AddRange(target);
+                                    }
+                                }
+
+
+                                else //match Regex
                                 {
                                     var target = from q in questions
-                                                 let id = Int32.Parse(q.ID)
-                                                 where q.BatchID == batchID && id == start
+                                                 where q.BatchID == batchID && Regex.IsMatch(q.ID, p)
                                                  select q;
 
                                     global.AddRange(target);
                                 }
+
+
                             }
-
-
-                            else //match Regex
-                            {
-                                var target = from q in questions
-                                             where q.BatchID == batchID && Regex.IsMatch(q.ID, p)
-                                             select q;
-
-                                global.AddRange(target);
-                            }
-
-
                         }
+                        catch
+                        {
+                            
+                            global = new List<Question>();
+                        }
+                        
 
                     }
 
