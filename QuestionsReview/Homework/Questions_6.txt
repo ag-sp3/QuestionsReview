@@ -1090,6 +1090,16 @@ D.合作
 
 
 80、Of the following, which is a key soft skill negotiation quality? 
+A.Collaboration intelligence
+B.Emotion aladaptation 
+C.Capitulation 
+D.Collaboration 
+以下哪一项是关键软技能谈判能力？ 
+A. 合作智商 
+B. 情绪适应 
+C. 协定 
+D. 合作
+
 81、Which of the following best defines negotiation? 
 A. Holding reflection workshops to remove any obstacles from team processes and practices 
 B. Holding discussions to come to agreement between two or more parties. 
@@ -1134,6 +1144,8 @@ C.成本
 
 D.约束 
 
+84、WhichofthefollowingisNOTacharacteristicofagileprojectmanagement? 
+
 A. Focus on business priorities 
 
 B. Incremental development of products and services 
@@ -1152,7 +1164,12 @@ C.注重客户的价值
 
 D.进度和预算控制中设置基线 
 
-85、Rebecca and her agile team are discussing the project and quality standards it will hold itself accountable against for a new effort.When is typically the best time to have this discussion? A.After the first iteration B.At the beginning of an effort C.After refactoring D.After the first accepted user story Rebecca和她的 AGILE团队正讨论项目和其中不利于已有成果的质量标准。通常情况下应在何时最适合讨论？ 
+85、Rebecca and her agile team are discussing the project and quality standards it will hold itself accountable against for a new effort.When is typically the best time to have this discussion? 
+A.After the first iteration 
+B.At the beginning of an effort 
+C.After refactoring 
+D.After the first accepted user story 
+Rebecca和她的 AGILE团队正讨论项目和其中不利于已有成果的质量标准。通常情况下应在何时最适合讨论？ 
 
 A.在第一次迭代之后 
 
@@ -1163,7 +1180,6 @@ C.在重构之后
 D.在第一次可接受用户故事之前 
 
 
-84、Which of the following is NOT a characteristic of agile project management? 
 86、Select the best adjective that describes an agile team’s project and quality standards. 
 A. Tailorable 
 B. Firm 

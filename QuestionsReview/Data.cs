@@ -40,7 +40,7 @@ namespace QuestionsReview
         public override string ToString()
         {
             var sb = new StringBuilder();
-            sb.AppendLine($"Review Log from {StartTime.ToString("yyyy-MM-dd hh:mm:ss")} to {FinishTime.ToString("yyyy-MM-dd hh:mm:ss")}");
+            sb.AppendLine($"Review Log from {StartTime.ToString("yyyy-MM-dd HH:mm:ss")} to {FinishTime.ToString("yyyy-MM-dd HH:mm:ss")}");
             sb.AppendLine($"Review Pattern: {ReviewPattern}");
             sb.AppendLine($"Review Summary: ");
             sb.AppendLine($"{ReviewSummary}");

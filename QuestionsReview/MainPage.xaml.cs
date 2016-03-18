@@ -43,8 +43,8 @@ namespace QuestionsReview
                             "Of course, if you want to simply load Questions #1-#20 in Batch 1,\r\n" +
                             "you can use '1:1-20' in the search textbox.\r\n" +
                             "3 types of values are accepted for question ranges:\r\n" +
-                            " - digit like 45\r\n" +
-                            " - range like 78-81\r\n" +
+                            " - digits like 45\r\n" +
+                            " - ranges like 78-81\r\n" +
                             " - patterns in Regular Expression like [23]0\r\n" +
                             "Values for question ranges should be separated by comma(,).\r\n";
 
@@ -556,6 +556,10 @@ namespace QuestionsReview
             {
                 sb_ReviewSummary.AppendLine($"All your actual answers of {CurrentReviewLog.ReviewItems.Count} questions in this review are expected.");
             }
+            else if(c == 0)
+            {
+                sb_ReviewSummary.AppendLine($"All your actual answers of finished questions in this review are expected.");
+            }
             else
             {
                 sb_ReviewSummary.AppendLine($"{c} of {CurrentReviewLog.ReviewItems.Count} questions are with unexpected answers.");
@@ -569,13 +573,8 @@ namespace QuestionsReview
 
             }
 
-
-
-
-            CurrentReviewLog.ReviewPattern = tbx_QuestionRange.Text;
-            CurrentReviewLog.IncorrectItemsPattern = sb_IncorrectItemsPattern.ToString();
-            CurrentReviewLog.ReviewSummary = sb_ReviewSummary.ToString();
-            CurrentReviewLog.ReviewDetail = sb_ReviewDetail.ToString();
+            
+            CurrentReviewLog.IncorrectItemsPattern = sb_IncorrectItemsPattern.ToString();            
             CurrentReviewLog.UnfinishedItemsPattern = sb_UnfinishedItemsPattern.ToString();
             CurrentReviewLog.UncertainItemsPattern = sb_UncertainItemsPattern.ToString();
 
@@ -587,12 +586,46 @@ namespace QuestionsReview
             if (!string.IsNullOrEmpty(CurrentReviewLog.IncorrectItemsPattern))
                 sb_Patterns.AppendLine($"Incorrect Items: {CurrentReviewLog.IncorrectItemsPattern}");
 
+            if(!string.IsNullOrEmpty(CurrentReviewLog.UncertainItemsPattern) &&
+                !string.IsNullOrEmpty(CurrentReviewLog.IncorrectItemsPattern))
+            {
+                var uncertainItemsNew = CurrentReviewLog.UncertainItemsPattern.Split(";".ToCharArray()).ToList();
+                var incorrectItemsNew = CurrentReviewLog.IncorrectItemsPattern.Split(";".ToCharArray()).ToList();
+
+                uncertainItemsNew.Remove("");
+                incorrectItemsNew.Remove("");
+
+                var guessWrongCount = uncertainItemsNew.Intersect(incorrectItemsNew).Count();
+                var guessRightCount = uncertainItemsNew.Except(incorrectItemsNew).Count();
+                sb_ReviewSummary.AppendLine($"{guessRightCount} of {UncertainItems.Count} questions are guessed right.");
+                sb_ReviewSummary.AppendLine($"{guessWrongCount} of {UncertainItems.Count} questions are guessed wrong.");
+
+                var incorrectUnexpectedlyCount = incorrectItemsNew.Except(uncertainItemsNew).Count();
+                if(incorrectUnexpectedlyCount == 0)
+                {
+                    sb_ReviewSummary.AppendLine($"All incorrect questions are in the uncertain list.");
+                }
+                else
+                {
+                    sb_ReviewSummary.AppendLine($"{incorrectUnexpectedlyCount} of {incorrectItems.Count()} incorrect questions are wrong unexpectedly.");
+
+                }
+
+
+            }
+
             if(string.IsNullOrEmpty(CurrentReviewLog.UncertainItemsPattern)
                 && string.IsNullOrEmpty(CurrentReviewLog.UnfinishedItemsPattern)
                 && string.IsNullOrEmpty(CurrentReviewLog.IncorrectItemsPattern))
             {
                 sb_Patterns.Clear();
             }
+
+            CurrentReviewLog.ReviewPattern = tbx_QuestionRange.Text;
+            CurrentReviewLog.ReviewSummary = sb_ReviewSummary.ToString();
+            CurrentReviewLog.ReviewDetail = sb_ReviewDetail.ToString();
+
+
 
             var basic = CurrentReviewLog.ToString();
             var additional = sb_Patterns.ToString();
@@ -604,7 +637,7 @@ namespace QuestionsReview
 
             //output to file
             
-            var file = $"ReviewLog_{CurrentReviewLog.StartTime.ToString("yyyyMMddhhmmss")}-{CurrentReviewLog.FinishTime.ToString("yyyyMMddhhmmss")}.txt";
+            var file = $"ReviewLog_{CurrentReviewLog.StartTime.ToString("yyyyMMddHHmmss")}-{CurrentReviewLog.FinishTime.ToString("yyyyMMddHHmmss")}.txt";
             
 
             var localFolder = ApplicationData.Current.LocalFolder;

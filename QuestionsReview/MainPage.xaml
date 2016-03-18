@@ -37,14 +37,14 @@
 
             <CheckBox x:Name="chbx_Randomized" IsChecked="False" VerticalContentAlignment="Stretch"
                       Margin="10,0,10,0" RelativePanel.LeftOf="chbx_ViewAnswer"
-                      RelativePanel.AlignVerticalCenterWithPanel="True"
+                      RelativePanel.AlignVerticalCenterWithPanel="True" BorderThickness="0.5"
                       >Randomized</CheckBox>
 
             <CheckBox x:Name="chbx_ViewAnswer" 
                        IsChecked="False"
                       Margin="10,0,10,0" RelativePanel.LeftOf="btn_Load"
                       Content="View Answer" VerticalContentAlignment="Stretch"
-                      RelativePanel.AlignVerticalCenterWithPanel="True" Tapped="chbx_ViewAnswer_Tapped" Click="chbx_ViewAnswer_Click" ></CheckBox>
+                      RelativePanel.AlignVerticalCenterWithPanel="True" Tapped="chbx_ViewAnswer_Tapped" Click="chbx_ViewAnswer_Click" BorderThickness="0.5" ></CheckBox>
 
 
         </RelativePanel>
@@ -91,7 +91,7 @@
                         RelativePanel.LeftOf="btn_Previous"
                         RelativePanel.AlignVerticalCenterWithPanel ="True">
                 <RadioButton x:Name="rtbn_A" Margin="0,8,-60,8" Content="A" GroupName="myAnswer" IsChecked="False" 
-                             VerticalAlignment="Center" Width="36" Canvas.ZIndex="1"/>
+                             VerticalAlignment="Center" Width="36" Canvas.ZIndex="1" BorderThickness="0.5"/>
                 <RadioButton x:Name="rtbn_B" Margin="0,8,-60,8" Content="B" GroupName="myAnswer" IsChecked="False" 
                              VerticalAlignment="Center" Width="36" Canvas.ZIndex="2"/>
                 <RadioButton x:Name="rtbn_C" Margin="0,8,-60,8" Content="C" GroupName="myAnswer" IsChecked="False" 
@@ -101,7 +101,7 @@
             </StackPanel>
 
             <CheckBox x:Name="chbx_Uncertain" Content="Uncertain"  Width="36" Margin="0,8,-4,8"
-                      RelativePanel.LeftOf="sp_Answers" RelativePanel.AlignVerticalCenterWithPanel="True"></CheckBox>
+                      RelativePanel.LeftOf="sp_Answers" RelativePanel.AlignVerticalCenterWithPanel="True" BorderThickness="0.5"></CheckBox>
             
         </RelativePanel>
 
