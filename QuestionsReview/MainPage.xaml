@@ -11,19 +11,19 @@
         <Grid.RowDefinitions>
 
             <RowDefinition Height="Auto" />
-            <RowDefinition Height="2.5*"/>
-            <RowDefinition Height="3*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="2*"/>
             <RowDefinition Height="Auto" />
 
         </Grid.RowDefinitions>
 
-        <RelativePanel x:Name="rp_Header" Margin="10,10,10,10" >
+        <RelativePanel x:Name="rp_Header" Margin="20,20,20,20" >
 
             <TextBlock x:Name="tb_Questions" VerticalAlignment="Center" 
                        
                        RelativePanel.AlignVerticalCenterWithPanel="True">Questions:</TextBlock>
 
-            <Button x:Name="btn_Load" Width="75"                 
+            <Button x:Name="btn_Load" Width="80"                 
                     RelativePanel.AlignRightWithPanel="True"
                     RelativePanel.AlignVerticalCenterWithPanel="True" Click="btn_Load_Click" VerticalAlignment="Top">Load</Button>
 
@@ -41,7 +41,7 @@
                       >Randomized</CheckBox>
 
             <CheckBox x:Name="chbx_ViewAnswer" 
-                       IsChecked="True"
+                       IsChecked="False"
                       Margin="10,0,10,0" RelativePanel.LeftOf="btn_Load"
                       Content="View Answer" VerticalContentAlignment="Stretch"
                       RelativePanel.AlignVerticalCenterWithPanel="True" Tapped="chbx_ViewAnswer_Tapped" Click="chbx_ViewAnswer_Click" ></CheckBox>
@@ -52,25 +52,57 @@
         <TextBox 
             Grid.Row="1"
             x:Name="tbx_QuestionDesc" 
-            Margin="10,5,10,5" IsReadOnly="True"            
+            Margin="20,8,20,8" IsReadOnly="True"            
             ScrollViewer.VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"
              BorderThickness="0.5" AcceptsReturn="True"></TextBox>
 
         <TextBox 
             Grid.Row="2"
             x:Name="tbx_AnswerDesc" 
-            Margin="10,5,10,5" IsReadOnly="True"            
+            Margin="20,8,20,8" IsReadOnly="True"            
             ScrollViewer.VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"
             BorderThickness="0.5" AcceptsReturn="True"></TextBox>
 
-        <RelativePanel Margin="10,5,10,5" x:Name="rp_Footer" Grid.Row="3">
-            <Button x:Name="btn_Next" RelativePanel.AlignRightWithPanel="True" Width="75"
-                    Margin="10,0,0,5" Click="btn_Next_Click" >Next</Button>
-            <Button x:Name="btn_Previous" RelativePanel.LeftOf="btn_Next" Width="75"
-                    Margin="10,0,0,5" Click="btn_Previous_Click" >Previous</Button>
+        <RelativePanel Margin="20,8,20,8" x:Name="rp_Footer" Grid.Row="3">
 
-            <TextBlock x:Name="tb_Status" RelativePanel.AlignLeftWithPanel="True" Margin="10,0,10,0"
-                       RelativePanel.AlignVerticalCenterWithPanel="True">Basic mode and Advanced mode are supported for searching.</TextBlock>
+            <Button x:Name="btn_Submit" RelativePanel.AlignRightWithPanel="True" Width="80"
+                    RelativePanel.AlignVerticalCenterWithPanel ="True"
+                    Margin="0,0,0,8" Click="btn_Submit_Click" >Submit</Button>
+            
+            <Button x:Name="btn_Next"  Width="80"
+                    RelativePanel.LeftOf="btn_Submit"
+                    RelativePanel.AlignVerticalCenterWithPanel ="True"
+                    Margin="0,0,8,8" Click="btn_Next_Click" >Next</Button>
+            
+
+            
+
+            <Button x:Name="btn_Previous" RelativePanel.LeftOf="btn_Next" Width="80"
+                    RelativePanel.AlignVerticalCenterWithPanel ="True" 
+                    Margin="0,0,8,8" Click="btn_Previous_Click" Canvas.ZIndex="5" >Previous</Button>
+
+
+
+            <TextBlock x:Name="tb_Status" RelativePanel.AlignLeftWithPanel="True" Margin="0,0,20,0"
+                       RelativePanel.AlignVerticalCenterWithPanel="True" Text="Please load your questions."/>
+
+
+            <StackPanel x:Name="sp_Answers" Margin="0,8,0,8" Orientation="Horizontal"
+                        RelativePanel.LeftOf="btn_Previous"
+                        RelativePanel.AlignVerticalCenterWithPanel ="True">
+                <RadioButton x:Name="rtbn_A" Margin="0,8,-60,8" Content="A" GroupName="myAnswer" IsChecked="False" 
+                             VerticalAlignment="Center" Width="36" Canvas.ZIndex="1"/>
+                <RadioButton x:Name="rtbn_B" Margin="0,8,-60,8" Content="B" GroupName="myAnswer" IsChecked="False" 
+                             VerticalAlignment="Center" Width="36" Canvas.ZIndex="2"/>
+                <RadioButton x:Name="rtbn_C" Margin="0,8,-60,8" Content="C" GroupName="myAnswer" IsChecked="False" 
+                             VerticalAlignment="Center" Width="36" Canvas.ZIndex="3"/>
+                <RadioButton x:Name="rtbn_D" Margin="0,8,0,8" Content="D" GroupName="myAnswer" IsChecked="False" 
+                             VerticalAlignment="Center" Width="36" Canvas.ZIndex="4"/>
+            </StackPanel>
+
+            <CheckBox x:Name="chbx_Uncertain" Content="Uncertain"  Width="36" Margin="0,8,-4,8"
+                      RelativePanel.LeftOf="sp_Answers" RelativePanel.AlignVerticalCenterWithPanel="True"></CheckBox>
+            
         </RelativePanel>
 
 

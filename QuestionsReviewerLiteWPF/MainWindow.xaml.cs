@@ -30,7 +30,7 @@ namespace QuestionsReviewerLiteWPF
                             "Values for question ranges within batch should be separated by comma(,);\r\n" + 
                             "Batches are separated by semi-colon(;).";
 
-            var howtouse2 = "Advanced mode: search with filter combination of batch, \r\nquestion number, question description and answer description\r\n" +
+            var howtouse2 = "2. Advanced mode: search with filter combination of batch, \r\nquestion number, question description and answer description\r\n" +
                             "via the support of patterns in Regular Expression.\r\n" +
                             "For example, 'Re>b:1;n:^4;q:osmotic'\r\n" +
                             "If you want to just load Questions with 'osmotic' in the question description,\r\n" +

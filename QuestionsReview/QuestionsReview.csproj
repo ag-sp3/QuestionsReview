@@ -131,6 +131,7 @@
     <Content Include="Homework\Answers_5.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Homework\Answers_6.txt" />
     <Content Include="Homework\Questions_1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -146,6 +147,7 @@
     <Content Include="Homework\Questions_5.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Homework\Questions_6.txt" />
     <Content Include="Homework\Test.txt" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />

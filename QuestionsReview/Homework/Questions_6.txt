@@ -1,0 +1,1676 @@
+﻿1、EVM is a frequently used project management abbreviation. How is CPI calculated? A.CPI=BAC/EV B.CPI=EV/AC C.CPI=BAC/PV D.CPI=AC/EV EVM是一个经常使用的项目管理词语。如何计算 CPI呢？ 
+A. CPI=BAC/EV 
+B. CPI=EV/AC 
+C. CPI=BAC/PV 
+D. CPI=AC/EV 
+2、Of the following responses, which is NOT a community value per the PMI agile community of practice community charter? 
+A. Courage 
+B. Humble 
+C. Openness 
+D. Honesty基于《 PMI敏捷社区实践章程，以下哪一项不属于社区价值？ 
+
+A.勇气 
+
+B.谦卑 
+
+C.开放 
+
+D.诚实 
+
+
+3、Select the response that lists one of the five core risk areas that can impact a project. 
+A. Personnel loss 
+B. Configuration management 
+C. Release management 
+D. Version management属于影响项目的 5个核心风险区的是 
+
+A.人才流失 
+
+B.配置管理 
+
+C.发布管理 
+
+D.版本管理 
+
+
+4、What is the first step of the ATDD four step process? 
+A. Distill 
+B. Demo 
+C. Discuss 
+D. Develop
+验收测试驱动开发的第一个步骤是 
+A.提取 
+
+B.示范 
+
+C.讨论 
+
+D.开发
+
+
+5、Calculate the IRR for the following one year investment. The initial investment cost is $500. The expected income in year 1 is $550 
+A. 15% 
+B. 5% 
+C. 7.38% 
+D. 10%
+请计算以下一年投资的内部收益率：初始投资成本是 500美元， 1年的预期收入是 550美元，
+那么内部收益率是 
+
+
+A. 15% 
+
+B. 5% 
+
+C. 7.38% 
+
+D. 10% 
+
+
+6、Select a technique used for value-based analysis? 
+A. ADILE 
+B. Risk-to-value matrix 
+C. Strength 
+D. IDEF
+基于价值的分析，以下属于其中的一个技术是 
+A.ADILE 
+B.风险价值矩阵 
+
+C.强度 D.IDEF 
+
+
+7、In the lean manufacturing, just-in-time concept of Kanban, is inventory control based on pull or push? 
+A. Push 
+B. Both pull and push 
+C. Neither pull nor push 
+D. Pull在精益生产中， Kanban的适时生产概念中，库存控制是基于拉动生产还是推动生产？ 
+
+A.推动 
+
+B.既推动也拉动 
+
+C.既不推动也不拉动 
+
+D.拉动 
+
+8、 Jan is looking at an important agile document that includes the project vision and mission. What document is Jan most likely reviewing? A.Statement of work B.Request for proposal C.Project home page D.Project charter Jan正在看一份含有项目展望和目标的重要的敏捷文件。 Jan在看什么文件呢？ 
+
+A.工作说明
+
+B.建议书 
+
+C.项目主页 
+
+D.项目章程 
+
+
+9、Which is the best definition of prioritization? A.The vector ordering of user stories with respect value B.The fixed ordering of user stories with respect to value C.The relative ordering of user stories with respect to value D.The scalar ordering of user stories with respect to value
+以下哪一项是对优化级的最佳定义 
+A.基于价值下对用户故事进行矢量排序 
+
+B.基于价值对用户故事进行固定排序 
+
+C.基于价值对用户故事进行相对排序 
+
+D.基于价值对用户故事进行标量排序 
+
+10、Hanna as a product owner believes steadfastly in the feature prioritization.Why might Hanna believe in prioritization? A.Because it ranks the team members in order of velocity B.Because it provides for an optimized early ROI C.Because time provides for a local pessimism in product delivery D.Because it provides for value-based ranking of developer tasks作为一个产品负责人， Hanna坚信要将特征进行优选级排序。原因是： 
+
+A.因为它按速度顺序排列了团队成员的等级 
+
+B.因为它提供了一个优化的早期投资回报率 
+
+C.因为时间提供了在产品交付里的当地的劣势 
+
+D.因为它提供了价值导向的开发任务 
+
+
+11、Select a method used in agile for the purpose of prioritization . A.MoSCoW B.Cano C.WIDETOM D.Cannon
+在以下选项中选择一个适用于敏捷的以优化为目的的方法。 
+A.MoSCoW B.Cano C.WIDETOM D.Cannon 
+12、 Perry is explaining the MoSCoW technique which is often used in agile to prioritize user stories. What does the S stand for? 
+A. Should not have 
+B. Small 
+C. Specific 
+D. Should have 
+MoSCoW技术常用于敏捷，佩里将此技术实践到用户故事优先处理中。 S在 MoSCoW中表示 
+A.不应该含有 
+
+B.小的 
+
+C.详细的 
+
+D.应该含有 
+
+
+13、In the SMART acronym, which is used to guide the creation of well-defined tasks, what does the T stand for? 
+A. Tangible 
+B. Testable 
+C. Torrent 
+D. Timeboxed
+在用来指导明确的任务创建的 SMART的缩写，其中 T代表什么？ 
+
+
+A.有形的 
+
+
+B.可测试的 
+
+
+C.洪流的 
+
+
+D.时间限定的 
+
+
+
+14、 What acronym helps the agile practitioner remember the characteristics of a well-defined task? 
+A. SPORT 
+B. SMART 
+C. STRONG 
+D. SMALL
+哪一个缩略词能帮助敏捷从业人员记住一个明确任务的特点？ 
+A. SPORT 
+B. SMART 
+C. STRONG 
+D. SMALL 
+15、 When value stream mapping it is important to identify areas of waste that exist in the process .The pneumatic device WIDETOM may be used to remember the different forms of muda (or waste ).What does the I in WIDETOM stand for with respect to waste? A.inspection B.Interest C.Inventory D.Installation价值流程图中，发现过程中存在的浪费具有重大的意义。 WIDETOM可用于记录不同形式的浪费。 I在 WIDETOM中代表什么？ 
+A.检验 
+
+B.利益 
+
+C.存货 
+
+D.设施
+
+
+16、When value stream mapping it is important to identify areas of waste that exist in the process. The pneumonic device WIDETOM may be used to remember the different forms of muda (or waste). What does the W in WINDETOM stand for with respect to waste? 
+A. Wanting 
+B. Watching 
+C. Waiting 
+D. Working价值流程图对于识别流程中存在的浪费区域相当重要，而 WIDETOM则用来记录浪费的不同形式。在浪费问题上 W在 WIDETOM中代表 
+
+A.缺乏 
+
+B.观察 
+
+C.等待 
+
+D.进行中 
+
+
+17、Henry and his agile team have just made a group decision about how many features to build, test, and integrate in the upcoming sprint. What type of decision making model is it when a team makes decisions collaboratively? 
+A. Exclusive 
+B. Participatory 
+C. Inclusive 
+D. Merit
+亨利和他的团队刚作了团队决策，这个决策是关于即将发生的冲刺中需建立，测试和集成的特性的数量，在此团队协作中进行决策时所使用的决策模式是 
+A.排他性 
+
+B.参与性 
+
+C.包容性 
+
+D.长处性 
+
+
+18、What is an iteration backlog? 
+A. A list of all product features to developed in a release 
+B. A list of the product features to be developed in an iteration 
+C. A list of possible product features to be developed in an iteration 
+D. A list of product features
+迭代待办事项是指 
+A.发布中需要开发的产品特性清单 
+
+B.迭代中需要开发的产品特性清单 
+
+C.迭代中可能需要开发的产品特性清单 
+
+D.产品特性清单 
+
+19、Thomas is explaining the purpose a product roadmap to Christy, a new agile developer. Select the response that best defines a product roadmap. 
+
+A.A high level overview of the product requirement 
+
+B. A high level overview of the sprint backlog 
+
+C. A high level overview of the iteration backlog 
+
+D. A highly detailed document describing the product requirements Thomas正向 AGILE新来的开发商 Christy解释产品路线图的功能。选择对产品路线图的最佳定义。 
+
+A.一个对产品要求的高级概述 
+
+B.一个对冲刺待办事项的高级概述 
+
+C.一个对迭代待办事项的高级概述 
+
+D.一个描述产品要求的十分详细的文档 
+
+
+20、When is the product roadmap initially created ? A.After the first release B.At the beginning of a project ,usually after the vision statement has been defined C.After the first iteration D.During closing as end-user documentation to understand the product
+产品路线图初始创建时间是？ 
+A.在第一次发布后 
+
+B.在项目开始时，通常在视觉声明已被确认后 
+
+C.在第一次迭代后 
+
+D.在关闭最终用户文档以了解产品时 
+
+
+21、 What typically occurs directly before an agile team and product owner will work on developing an initial product roadmap? 
+A. Definition of the product backlog. 
+B. Definition of the product vision 
+C. Definition of the iteration duration 
+D. Release planning
+敏捷团队和产品负责人开发初始产品路线图前，往往会直接产生以下哪一项？ 
+A.产品待办事项的定义 
+
+B.产品前景的定义 
+
+C.迭代持续时长的定义 
+
+D.发布计划 
+
+
+22、Select a common agile framework/methodology 
+A. sprint 
+B. scrum 
+C. LP 
+D. PMI
+以下哪一项是常用敏捷框架或方法论？ 
+A. sprint 
+B. scrum 
+C. LP 
+D. PMI 
+23、From the following ,select a common agile framework /methodology . A.Extreme programming (XP ) B.Peer perfect programming (3P) C.Ultra programming (UP) D.Paired programming (PP)
+以下哪一项是常用敏捷框架或方法论？ 
+A.极限编程（ XP） 
+
+B.同辈完美编程（ 3P） 
+
+C.超编程（ UP） 
+
+D.结对编程（ PP） 
+
+
+24、How might an agile team continuously improve ? A.By isolating team members so that they may focus on developing code without interruption B.By reviewing customer feedback at the end of a project C.By using software techniques that are outdated but functional D.By keeping up with industry developments in technology
+怎么样能使一个敏捷团队不断提高？ 
+A.通过分离的团队成员，使他们可以专注于开发代码而不被打扰 
+
+B.通过在项目结束时评审客户的反馈 
+
+C.通过使用过时的但实用的软件技术 
+
+D.通过在技术上紧跟行业的发展 
+
+
+25、Being continuously integrated theoretically means 
+A. Having integrated but incomplete units of source code 
+B. Having a working product ready to ship at any time 
+C. Having semi-working functionality at any time 
+D. Having integrated but untested source code
+持续整合理论上是指 
+A.有已集成但不完整的源代码单元 
+
+B.随时有可传输的工作产品 
+
+C.随时有产品功能的半成品 
+
+D.有已集成但未测试的源代码 
+
+
+26、Drew and his pair programming partner Steve have just finished integrating new code into the production code base. What should happen next according to the XP principle of continuous integration? 
+A. The production code is postfactored to add redundancy measures. 
+B. The production code base is tested to identify any integration defects. 
+C. Other code is integrated before testing the production code at the end of the day 
+D. The production code is reviewed in its entirety by pair programmers
+德鲁和他的结对编程搭档史蒂夫刚结束了将新代码集成到产品代码库的过程，根据持续整合的 XP极限编程原则，下一步会发生 
+A.产品代码进行延迟重构，以便添加冗余计量 
+
+B.测试产品代码库以识别任何集成缺陷 
+
+C.一天测试产品代码前先集成其他代码 
+
+D.结对编程人员查看产品代码整体
+
+27、 Becky and her agile team have just performed decomposition on several user stories and wants to prioritize them .What common technique might she and her team use to prioritize the user stories ? A.Cost-to-schedule matrix B.Cost-to-value matrix C.Cost-to-risk matrix D.Cost-to-constraint matrix Becky和她的敏捷团队刚刚完成几个用户故事分解，并且想要对它们排优先级。她和她的团队可能会使用什么样的常用技术来优化用户故事？ 
+
+A.进度成本模型 
+
+B.价值成本模型 
+
+C.风险成本模型 
+
+D.约束成本模型 
+
+
+28、 Becky and her agile team have just performed decomposition on several user stories and want to prioritize them. What common technique might she and her team use to prioritize the user stories? 
+A. Kano 
+B. Cano 
+C. Cannon 
+D. Agile Becky和她的敏捷团队在对个别用户故事进行分解，并对它们重新优化排序。她和自己的团队可以采用哪种技巧来优化用户故事？ 
+
+A. Kano 
+
+B. Cano 
+
+C. Cannon 
+
+D.敏捷 
+
+
+29、When an agile team decomposes user stories into tasks and prioritizes them based on value what is the process called? 
+A. Agile-based decomposition and prioritization 
+B. Risk-based decomposition and prioritization 
+C. Quality-based decomposition and prioritization 
+D. Value-based decomposition and prioritization
+基于价值，当敏捷团队将一个用户故事分解成若干任务和优先级时，这一流程称为 
+A.基于敏捷的分解和优先级 
+
+B.基于风险的分解和优先级 
+
+C.基于质量的分解和优先级 
+
+D.基于价值的分解和优先级 
+
+
+30、 Becky and her agile team have just performed decomposition on several user stories and wants to prioritize them. What common technique might she and her team use to prioritize the user stories? 
+A. SMART B. INVEST 
+C. WoSCoM 
+D. MoSCoW Becky和她的敏捷团队刚对几个用户故事进行了分析，并想优先处理它们。她和其团队可能会用什么普遍的方法去优先处理这些用户故事呢？ 
+
+A. SMART 
+
+B. INVEST 
+
+C. WoSCoM 
+
+D. MoSCoW 
+
+
+31、How often does iteration planning occur? 
+A. Before each iteration 
+B. During an iteration 
+C. During daily planning 
+D. After each iteration
+迭代计划的发生频率是 
+A.每一迭代前 
+
+B.每一迭代期间 
+
+C.每日计划期间 
+
+D.每一迭代后 
+
+
+32、n release planning, where does an agile team typically record acceptance criteria for a user story? 
+A. On the product data sheet 
+B. On the back of user story cards 
+C. In the user story Excel database 
+D. On the user story acceptance criteria information radiator
+在发布计划中，敏捷团队通常将用户故事的验收标准记录在 
+A.产品数据表 
+
+B.用户故事卡片背面 
+
+C.用户故事数据库 
+
+D.用户故事验收标准信息发射源 
+
+
+33、 Feedback techniques are ubiquitous in agile projects.Select the response which lists a feedback technique. A.Timeboxing B.Daily stand-up meeting C.Process tree D.Console mapping
+反馈技术在敏捷项目中是普遍存在的。下列哪个是反馈技术？ 
+A.时间箱 
+
+B.每日站立会议 
+
+C.进程树 
+
+D.控制台地图
+
+
+34、 What is the activity called when a team constructively criticizes its performance for the purpose of improving performance going forward? 
+A. A refactoring 
+B. A retrospective C.Are-imaging 
+D.A resolution
+一个团队为改进将来绩效而对自身表现进行建设性批评时，这一现象叫 
+A.重构 
+
+B.回顾 
+
+C.重新成象 
+
+D.决议 
+
+
+35、In a self-assessment or reflection event, what is a likely topic a team will focus on? 
+A. Team standards that failed B.The tester who caught the fewest bugs C.Customer inconsistencies in requirements D.Product owner values
+在一个自我评估或反思工作中，团队可能会着重于什么议题呢？ 
+A.失败团队的标准的 
+
+B.抓住最少缺陷的测试者 
+
+C.客户要求的不一致 
+
+D.产品负责人价值观 
+
+
+36、Which type of risk category is typically given a lower priority when creating the risk-adjusted backlog: a) high-value, high risk or b) low-value, low risk? A.Both are equivalent 
+B. Low-value,low risk 
+C. High-value,high risk D.High-severity,low-likelihood当建立风险调整待办事项时，哪类风险是通常给予较低的优先级的 ?（a）高价值，高风险或
+
+（b）低价值，低风险？ 
+
+A.两者相当 
+
+B.低价值，低风险 
+
+C.高价值，高风险 
+
+D.高强度，低可能性 
+
+
+37、Which of the following is the best definition of a risk burndown graph? 
+A. A chart that tracks risk impact over time 
+B. A chart that tracks risk management over time 
+C. A chart that tracks risk severity over time 
+D. A chart that tracks risk severity over time
+风险燃尽图的定义是 
+A.记录随着时间风险影响力情况的图表 
+
+B.记录随着时间风险管理情况的图表
+
+C.记录随着时间风险严重度情况的图表 
+
+D.记录随着时间风险严重度情况的图表 
+
+
+38、What is one piece of information a stakeholder can review using a risk-based burnup chart? 
+A. The amount of defects identified to date in a release 
+B. The amount of story points remaining to complete in an iteration 
+C. The amount of remaining use stories to decompose in a release 
+D. The most likely amount of story points that will be completed in a project干系人能够通过基于风险的燃起图（ burn up chart）查阅到的信息是？ 
+
+A.在发布中到目前为止已查明的缺陷量 
+
+B.在一个循环中待完成故事点量 
+
+C.在发布中剩余用户故事待分解量 
+
+D.将在一个项目中被完成的故事点最有可能的数量 
+
+
+39、Ethan as project leader, has been discussing the importance of stakeholder management with his team. Why is stakeholder management so important? 
+A. Chances of project success are inversely related to stakeholder involvement 
+B. Chances of project success are independent of stakeholder management 
+C. Chances of project success are greatly improved with engaged stakeholders 
+D. Chances of project success are greatly reduced with engaged stakeholders Ethan是一位项目领导者，一直和自己的队伍在讨论干系人管理的重要性。为什么干系人管理如此重要？ 
+
+A.项目成功的机会与干系人的参与呈负相关 
+
+B.项目成功的机会是独立于干系人管理的 
+
+C.项目成功的机会因干系人的参与而提高 
+
+D.项目成功的机会因干系人的参与而降低 
+
+
+40、 What topic area within strategic management helps with the facilitation of a collaborative environment where stakeholders are heavily involved in a project? 
+A. Brainstorming management 
+B. Stakeholder management 
+C. Teamwork management 
+D. Collaborating management
+战略管理里的什么主题帮助促成干系人充分参与到项目的合作环境中： 
+A.头脑风暴管理 
+
+B.干系人管理 
+
+C.团队工作管理 
+
+D.合作管理 
+
+
+41、 What topic area within strategic management helps with the facilitation of a collaborative environment where stakeholders are engaged? 
+A. Kanban management 
+B. Constraint management 
+C. Stakeholder management D. Negotiation management
+干系人所在的环境中，以下哪一主题范围可提供帮助？ 
+A.看板管理 
+
+B.限制管理 
+
+C.干系人管理 
+
+D.谈判管理 
+
+
+42、What topic area within strategic management deals with fostering a welcoming environment where stakeholders actively participate？ 
+A. Team member management 
+B. Agile management 
+C. Stakeholder management 
+D. Schedule management
+在策略管理中，哪个专题领域探讨如何营造一个干系人活跃参与的友好环境？ 
+A.团队成员管理 
+
+B.敏捷管理 
+
+C.干系人管理 
+
+D.进度管理 
+
+
+43、 Jill, as project lead, has been using coaching to help mentor her team to improve its performance. What is Jill doing when she provides coaching? 
+A. Motivating the team 
+B. Mobilizing the team 
+C. Guiding the team 
+D. Refactoring the team作为项目领导， Jill一直使用训练促使她的团队提高绩效，这种行为实际是在 
+
+A.鼓励团队 
+
+B.调动团队 
+
+C.指导团队 
+
+D.重构团队 
+
+
+44、What is one method that can be used to improve communication for a team that cannot be collocated? 
+A. Setting up an e-mail distribution list 
+B. Setting up an internal memorandum system 
+C. Setting up a virtual team room 
+D. Setting up a fax machine system
+以下哪项是可以让无法集中的团队提高沟通交流的方法？ 
+A.建立邮件通讯组列表 
+
+B.建立内部备忘录系统 
+
+C.建立虚拟团队房间 
+
+D.建立传真机系统 
+
+
+45、What should a scrum master do if he or she notices disruptive behavior during a scrum? 
+A.Abruptly cancel the meeting 
+B.Let the team,as self-organizing,resolve the issue. 
+C.Ignore the disruptive discussion knowing that it will be handled during the next performance 
+review. 
+D.Call attention to the disruption and order that everyone pay attention to the speaker.
+在冲刺时期，倘若出现了分裂行为，作为 Scrum主管需要怎么做 
+
+A.马上取消会议 
+
+B.让团队自行组织，解决问题 
+
+C.忽略具有分裂性的讨论，等下次评审时再处理问题 
+
+D.关注分裂问题，要求全体人员注意发言人的讲话 
+
+
+46、Becky, as project leader, intends on building a high-performance team. What is a practice or technique she can use to build a high performance team? 
+A. Building in pressure 
+B. Working at a sustainable pace 
+C. Preventing the customer for interfering 
+D. Empowering the customer Becky作为项目领导者，计划建立一支高绩效的团队，那么她可用的实践或者技术是 
+
+A.在压力中建立 
+
+B.以可持续速度工作 
+
+C.防止客户干涉 
+
+D.授权客户 
+
+
+47、Becky, as project leader, intends on building a high-performance team. What is a practice she should follow to build a high-performance team? 
+A. using overtime to incentivize the team to delivery early 
+B. building in pressure 
+C. empowering the customer 
+D. having the right team members (i.e. a cross-functional team)作为项目领导， Becky努力尝试建立一支高绩效的团队，那么她可采用的实践或技能是： 
+
+A.通过加班促使团队早点交付 
+
+B.施加压力建立 
+
+C.授权顾客 
+
+D.拥有合适的团队成员（各技能组合型团队） 
+
+48、Why is a warm,welcoming team space environment important in agile development efforts? A.Because it promotes an inflexible atmosphere B.Because it produces more efficient software code C.Because it decreases employee retention D.Because it promotes effective communication, collaboration,and innovation为什么在 AGILE研发过程中，需要一个温暖热情的团队空间环境 
+
+A.因为它提供了一个僵化的环境 
+
+B.因为它能创造出更多高效的软件代码 
+
+C.因为它有助于员工留任
+
+
+D.因为它能促进有效沟通，合作与创新 
+49、 In agile,he team space is an important place that should foster effective communication .What is a guideline for promoting such an environment? A.Collocation of team members B.Isolation of team members C.Rotation of team members D.Separation of team members by function
+在敏捷中，团队空间是要促进有效沟通的重要场所。为改善这一环境的方针是什么？ 
+A.团队成员的集中办公 
+
+B.团队成员的隔离 
+
+C.团队成员的轮换 
+
+D.团队成员的按功能分离 
+
+
+50、In agile, the team space is an important place that should foster effective communication. What is a guideline for promoting such an environment? 
+A. Use of headphones so developers can drown out background noise 
+B. Fluorescent lighting 
+C. Infrequent updates of information radiator 
+D. Pairing or sharing workstations
+在敏捷中，团队空间是要促进有效沟通的重要场所。那么改善这一环境的方针是什么？ 
+A.使用头戴式耳机，这样开发者可清除背景杂音 
+
+B.荧光灯 
+
+C.不频繁更新信息发射源 
+
+D.结对或分享工作站 
+
+
+51、Of the following select the response that holds one layer of Highsmith’s agile enterprise framework 
+A. Technical practices layer 
+B. Risk management layer 
+C. Methodology management layer 
+D. Product layer
+以下哪一项属于海史密斯敏捷企业架构中的一个层次？ 
+A.技术实践分层 
+
+B.风险管理分层 
+
+C.方法论管理分层 
+
+D.产品分层 
+
+
+52、Stacey,the head of a multi-national corporation,is considering hiring an agile team to develop a new database system. However,the agile team Stacey is working with tells her that estimating final cost can be difficult .Why is it more difficult to estimate cost on an agile project? A.Because agile contracts have no scheduling or planning B.Because customers have little experience with the agile quality to cost and value triangle C.Because agile welcomes changing scope 
+D.Because the cost of developers is constantly in flux Stacey，是一个跨国公司的领导，正考虑雇佣一个 AGILE团队来研发一个新的数据库系统。然而，与 Stacey一起工作中的 AGILE团队则告诉她对最终成本的预算是很困难的。为什么说在一个 AGILE项目中，估算成本是件困难的事？ 
+A.因为 AGILE协议没有任何规划或计划 
+
+B.因为客户对 AGILE的质量成本和价值三角缺乏认识 
+
+C.因为 AGILE接受变化范围 
+
+D.因为开发者的成本在不断变化 
+
+
+53、Harry is the financial executive for an upcoming project that is slated to use agile. In terms of estimating time, budget, and cost for an agile effort, what does Harry typically have defined? 
+A. Time and cost 
+B. Cost 
+C. Budget and cost 
+D. Budget and time Harry即将进行的项目计划使用敏捷，若估算敏捷工作的时间、预算和成本， Harry作为财务主管，他的决定应该是 
+
+A.时间和成本 
+
+B.成本 
+
+C.预算和成本 
+
+D.预算和时间 
+
+
+54、 Victor, as an agile leader, practices with an adaptive leadership style. What are the two dimensions Highsmith uses to define adaptive leadership? 
+A. Practicing agile and playing agile 
+B. Living agile and breathing agile 
+C. Being agile and doing agile 
+D. Thinking agile and living agile
+维克托作为敏捷领导者，采取适应型领导风格，海史密斯定义的适应型领导力包含哪两层含义？ 
+A.实践敏捷和玩敏捷 
+
+B.焕生敏捷和呼吸敏捷 
+
+C.保持敏捷和行事敏捷 
+
+D.思维敏捷和焕生敏捷 
+
+
+55、Jake, as an agile leader, knows that adaptive leadership is an important leadership quality. What are the two dimensions Highsmith uses to define adaptive leadership? 
+A. Being agile and doing agile 
+B. Thinking agile and practicing agile 
+C. Coaching agile and practicing agile 
+D. Living agile and breathing agile
+杰克作为敏捷领导者，知晓适应型领导力是重要的领导品质，那么海史密斯定义的适应型领导力包含哪两层含义？ 
+A.保持敏捷和行事敏捷
+
+B.思维敏捷和实践敏捷 
+
+C.训练敏捷和实践敏捷 
+
+D.焕生敏捷和呼吸敏捷 
+
+
+56、Tom is currently executing the speculation phase of HIghsmith’s agile project management model. In addition to estimating iteration and release plans, what else will Tom be developing? 
+A. Project requirements 
+B. Feature breakdown and a rough project plan 
+C. Project schedule and constraints 
+D. Project vision and scope Tom当前在执行海史密斯敏捷项目管理模型的推测阶段，除了估算迭代和发布计划，他还会进行的是 
+
+A.项目需求 
+
+B.特性分解和粗略的项目计划 
+
+C.项目进度和约束 
+
+D.项目前景和大局 
+
+
+57、Jerry has just entered Highsmith’s agile project management closing phase. What are he and his team focusing on? 
+A. Completing all outstanding project work, like recording lessons learned and performing other tasks with the product release 
+B. Making adjustments to the feature breakdown structure specification 
+C. Adapting product features to customer feedback 
+D. Adapting project plans for the next iteration
+杰瑞刚进入了海史密斯敏捷项目管理的结束阶段，那么他的团队此时注重的是 
+A.完成所有尚未解决的项目工作，比如记录学习的课程，执行其他任务和产品发布 
+
+B.为特性分解结构说明作调整 
+
+C.据客户反馈调整产品特性 
+
+D.为下一迭代调整项目计划 
+
+58、What is the primary input to Highsmith’ agile project management adapting phase ? A.Built-in test output B.Iteration schedule slip points C.Feature feedback and critique D.Scrum error analysis Highsmith的敏捷项目管理在适应阶段的主要输入是什么？ 
+
+A.内置的测试输出 
+
+B.迭代进度滑移点 
+
+C.特征的反馈和评论 D.Scrum的误差分析 
+
+
+59、As project leader of an agile effort, in Highsmith’s agile project management adapting phase you are expected to make adjustments. What are some of the types of adjustments that a project leader may perform in the adapting phase? 
+A. Adjustments to the cost sheet 
+B. Adjustments to any team dynamics, like handling problems raised by team members 
+C. Adjustments to the feature breakdown structure specification 
+D. Adjustments to software licenses
+你作为一项敏捷工作的项目领导者，在海史密斯敏捷项目管理的适应阶段，他人希望你做出些适应。那么在调整阶段项目领导者会执行以下哪一类型的适应？ 
+A.适应成本单 
+
+B.适应任何团队动力，比如解决由团队成员提出的问题 
+
+C.适应特性分解结构说明 
+
+D.适应软件许可证 
+
+
+60、Which of the following responses is NOT a part of active listening? A.Being present and focusing your attention on the speaker 
+B. Closed-ended questions C.Being silent D.Taking notes
+以下哪个反应不是积极倾听的一部分？ 
+A.在场和集中你的注意力在说话人身上 
+
+B.封闭式问题 
+
+C.保持沉默 
+
+D.记笔记 
+
+
+61、Of the following, which is NOT a part of active listening? 
+A. Interrupting speaker 
+B. Being present and focusing your attention on the speaker 
+C. Taking notes 
+D. Summarizing
+下列选项中不是积极倾听行为的一项是？ 
+A.打断说话人 B心思在场并集中你的注意力在说话人身上 
+
+C.做笔记 
+
+D.总结 
+
+
+62、Why is the presence of a product owner necessary when playing a game of planning poker? A.Because the product owner provides an overview of user stories and answers any questions the development team may have B.Because the product owner must report any outliers (i.e.,extremely long or the customer the range of story points assigned to each user story C.Because the product owner must relay tasks to the customer the range of story points assigned to each user story D.Because the product owner must moderate the planning poker session
+为什么在计划扑克游戏时，产品负责人需要在场？ 
+A.由于产品负责人提供了用户故事概述并回答了开发团队可能存在的任何问题 
+
+B.因为产品负责人必须报告任何异常误差（例如，过长的或过短的估算）
+
+C.因为产品负责人必须转发任务给客户，这些任务是分配给每个用户故事的故事点范围 
+
+D.因为产品负责人必须节制计划扑克的时间 
+
+
+63、Peter, Jacob, Ralph, Brandy, and Sue have just voted in a planning poker meeting. Peter voted a 1, Jacob a 2. Ralph a 3. Brandy a 2, and Sue an 8. What should the team do next? 
+A. Take the mode as the estimate (2) 
+B. Use 3.2 as the estimate 
+C. Err on the side of caution and use 8 as the estimate 
+D. Have peter and Sue explain their votes and repeat the voting process.彼特，雅各，拉尔夫，布兰迪和苏刚在一计划扑克中进行投票，彼特投了 1，雅各投了 3，拉尔夫投了 3，布兰迪投了 2，苏投了 8，团队接下来应 
+
+A.以此样式作为估算 (2) 
+
+B.以 3.2作为估算值 
+
+C.出于谨慎，以 3.2作为估算值 
+
+D.让彼特和苏解释他们的投票并重复投票流程 
+
+
+64、What is another name for planning poker? 
+A. Iteration poker 
+B. Scrum poker 
+C. Kanban poker 
+D. Sprint poker
+计划扑克也称为 
+A.迭代扑克 
+
+B. Scrum扑克 
+
+C.看板扑克 
+
+D.冲刺扑克 
+
+
+65、Wendy is concerned with the recent stagnant performance of the agile team. She believes it to be highly capable but stuck in a rut. What agile knowledge and skill technique might Wendy consider? 
+A. Coaching and mechanizing 
+B. Crowd sourcing and mentoring 
+C. Symptom and solution 
+D. Coaching and mentoring 
+Wendy正在担心近来敏捷团队中的衰退行为。她认为这是个瓶颈现象。请问哪些敏捷知识和方法技能能够帮助 Wendy？ 
+A.教练和架构化 
+
+B.群策群议和辅助 
+
+C.症状和解决 
+
+D.教练和启发 
+
+
+66、Which of the following is the best definition of coaching and mentoring ? 
+A. Helping a person or team come up with new ideas 
+B. Helping a person or team prioritize features in the backlog C. Providing guidance and direction to a person or group in an effort to improve performance 
+D. Helping a person or team work together effectively
+教练和指导的定义是 
+A.帮助个人或团队创造新思想 
+
+B.帮助个人或团队优先处理待办事项中的特性 
+
+C.指导个人或团队提高绩效 
+
+D.帮助个人或团队与他人有效共事 
+
+
+67、Anna is concerned with the recent stagnant performance of her agile team. She believes it to be highly capable but the team seems to be in a bit of a malaise. What agile knowledge and skill technique might Anna consider? 
+A. Coaching and mentoring 
+B. Symptom and solution 
+C. Capturing and mentoring 
+D. Coaching and mobilizing
+安娜正为敏捷团队最近停滞的绩效担忧，她认为团队潜力无限但是团队看起来有点低迷，这时她应考虑的敏捷知识和技能是 
+A.教练和指导 
+
+B.表状和解决方法 
+
+C.记录和指导 
+
+D.教练和调动 
+
+
+68、Select a common agile problem-solving technique 
+A. ask it loud 
+B. root reflection 
+C. root inspection 
+D. probe it loud
+以下哪一个是常用的敏捷解决问题技巧？ 
+A.大声提问 
+
+B.根反映 
+
+C.根检测 
+
+D.大胆探索 
+
+69、In agile estimating and planning, what is retained revenue? 
+A.Revenue retained through the development of new product features or services that prevent 
+existing customers from stopping use of the existing product. 
+B.Additional revenue realized through the sales of new product features or services to existing 
+customers. 
+C.New revenue realized through the sales of products or services to new customers. 
+D.New revenue found in a hidden value stream.
+在 AGILE的估计与计划中，什么是留存收益？ 
+
+
+A.通过研发新产品的特征或服务，防止现有顾客停止使用现有的产品所保留的收益 
+
+B.通过销售新产品的特征或服务给现有顾客而实现的额外收益 
+
+C.通过销售新产品的特征或服务给新顾客所实现的新的收益
+
+
+D.隐藏价值流中所发现的新的收益 
+70、Lisa is describing the four Agile Manifesto values to her co-workers. Which response lists one of its primary values? 
+A. Comprehensive documentation 
+B. Following a plan 
+C. Individuals and interactions 
+D. Contract negotiation Lisa正向她的同事解说四个敏捷宣言价值观。以下哪个选项列出了首要价值观？ 
+
+A.全面文档 
+
+B.遵循计划 
+
+C.个体和交互 
+
+D.合同谈判 
+
+
+71、What process,performed frequently,helps ensure high product quality? 
+A.Planning poker B.Affinity planning C.Milestone reviews D.Verification and validation
+
+下列哪一过程，被经常使用来确保产品的高质量？ 
+A.计划扑克 
+
+B.亲和规划 
+
+C.里程碑审查 
+
+D.验证和确认 
+
+72、Why is verification and validation performed frequently on an agile project? A.Because a product release typically lasts several sprints,verification and validation take place frequently to keep sprints on track B.Verification and validation are not performed frequently C.Because a product release typically lasts several iterations,verification and validation take place frequently to keep iterations on track D.Because iterations are typically short in duration and a working product is delivered at the end of each iteration,verification and validation must take place frequently to ensure product quality在 AGILE项目中，为什么要经常使用到验证和确认 
+
+A.因为产品发布通常持续几次冲刺，通过不停的验证和确认能跟踪这些冲刺 
+
+B.验证和确认并非经常使用 
+
+C.因为产品发布通常持续几次迭代，通过不停的验证和确认能跟踪这些迭代 
+
+D.因为迭代过程通常占用时间短，而成品却总是在每次迭代结束时才完成的，通过不停的验证和确认可以保证产品质量 
+
+
+73、How might a manager use a burndown chart and team velocity to manage risks with respect to a sustainable pace of development? 
+A. A burndown chart is not used to manage risks on an agile project. Instead it is used to chart the progress of a team with respect to completing assigned work 
+B. A manager may use a risk burndown chart by taking the team’s risk burndown velocity and forecasting when all risks will be completely mitigated 
+C. A manager may use a risk burndown chart by taking the team’s risk burndown velocity and forecasting when all risks will be completely eliminated 
+D. A manager may use a burndown chart to determine whether a team is under or over 
+committing to an iteration base on the team’s velocity prediction考虑到可持续开发速度，管理者该如何使用燃尽图和团队速度来管理风险？ 
+A.燃尽图不用于敏捷项目的风险管理，而是考虑到完成指派工作方面，用于绘制团队的流程 
+
+B.管理者会使用风险燃尽图，来提取团队风险燃尽速度及预测所有风险完全缓解的时间 
+
+C.管理者会使用风险燃尽图，来提取团队风险燃尽速度和预测所有风险完全消除的时间 
+
+D.管理者会使用风险燃尽图，基于团队的速度预测，来确认团队是否未提交或已提交一项迭代 
+
+74、As team lead,Xavier is constantly monitoring the effectiveness of communication among his team and stakeholders.What is the knowledge and skill area that deals with communication? A.Communications management B.Command and control C.Stakeholder analysis D.Brainstorming作为团队领导， Xavier不断地监控自己的团队和干系人之间沟通的有效性。处理沟通的知识和技巧是什么？ 
+
+A.沟通管理 
+
+B.命令与控制 
+
+C.干系人分析 
+
+D.头脑风暴 
+
+
+75、Adrienne is concerned about her agile team’s communication with key stakeholders. What is the agile knowledge and skill area that concerns itself with effective communication? 
+A. Inventory management 
+B. Dynamic management 
+C. Communications management 
+D. Materials flow management
+埃德里安娜正为团队与重要干系人的沟通担忧。哪一敏捷知识和技能领域讨论了有效沟通的内容？ 
+A.库存管理 
+
+B.动态管理 
+
+C.沟通管理 
+
+D.物流管理 
+
+
+76、Ursula has several user stories the she and her agile team need to provide an estimate for regarding their relative size to one another .What scoring system might Ursula and her team use to estimate relative size? A.Story marks B.Story pips C.Story points D.Story cards 
+Ursula有几个用户故事，她和她的团队要提供关于它们相对大小的估计给另一个团队。他们会用什么来估计相对的规模？ 
+A.故事标记 
+
+B.故事信号 
+
+C.故事点 
+
+D.故事地图 
+
+
+77、 What person in the agile framework empowers the team to be self-organized and self-disciplined? 
+A. Customer 
+B. Business analyst 
+C. Product owner 
+D. Project leader
+在敏捷架构里，谁可授权团队自主管理和自我约束？ 
+A.客户 
+
+B.商业分析师 
+
+C.产品负责人 
+
+D.项目领导者 
+
+
+78、 What person in the agile framework inspires the team to be innovative and to try new technologies? 
+A. Project leader 
+B. Product tester 
+C. Product owner 
+D. Customer
+在敏捷架构里，激励团队创新力和尝试新技术的角色是？ 
+A.项目领导者 
+
+B.产品测试者 
+
+C.产品负责人 
+
+D.客户 
+
+
+79、What person in the agile framework adapts the leadership style to the working environment? 
+A. release planner 
+B. project leader 
+C. project scheduler 
+D. product owner
+在敏捷框架中，哪种人改变领导风格来适应工作环境？ 
+A.发布计划者 
+
+B.项目领导人 
+
+C.项目规划者 
+
+D.产品负责人 
+
+A. Collaboration intelligence 
+
+B. Emotional adaptation 
+
+C. Capitulation 
+
+D. Collaboration
+
+以下哪一项是关键软技能谈判能力？ 
+
+A.合作智商 
+
+B.情绪适应 
+
+C.协定 
+
+D.合作 
+
+
+80、Of the following, which is a key soft skill negotiation quality? 
+81、Which of the following best defines negotiation? 
+A. Holding reflection workshops to remove any obstacles from team processes and practices 
+B. Holding discussions to come to agreement between two or more parties. 
+C. Having the customer define expectations of software deliverables. 
+D. Adapting to change in team dynamics through constant collaboration
+谈判的定义是 
+A.进行回顾研讨会，以清除团队流程和实践中的任何障碍 
+
+B.进行讨论，以达成双方或多方的意见一致 
+
+C.由客户提出对软件交付件的期望 
+
+D.通过不断的协作来适应变动的团队动力 
+
+
+82、Which of the following is a key soft skill negotiation quality? 
+A. Emotional equivalence 
+B. Emotional rigidity 
+C. Emotional obsolescence 
+D. Emotional intelligence
+哪一项是至关紧要的软技能谈判能力？ 
+A.情感的等价性 
+
+B.情感的刚度 
+
+C.情感的老化 
+
+D.情商 
+
+
+83、Select the parameter that does NOT belong in the agile iron triangle: 
+A. Schedule 
+B. Scope 
+C. Cost 
+D. Constraints选择下列不属于 AGILE铁三角的参数 
+
+A.进度 
+
+B.范围 
+
+C.成本 
+
+D.约束 
+
+A. Focus on business priorities 
+
+B. Incremental development of products and services 
+
+C. Focus on customer value 
+
+D. Use of baselines for schedule and budget control
+
+以下哪一项不是敏捷项目管理的特征？ 
+
+A.注重商业优先权 
+
+B.对产品和服务的增量开发 
+
+C.注重客户的价值 
+
+D.进度和预算控制中设置基线 
+
+85、Rebecca and her agile team are discussing the project and quality standards it will hold itself accountable against for a new effort.When is typically the best time to have this discussion? A.After the first iteration B.At the beginning of an effort C.After refactoring D.After the first accepted user story Rebecca和她的 AGILE团队正讨论项目和其中不利于已有成果的质量标准。通常情况下应在何时最适合讨论？ 
+
+A.在第一次迭代之后 
+
+B.在工作的最开始 
+
+C.在重构之后 
+
+D.在第一次可接受用户故事之前 
+
+
+84、Which of the following is NOT a characteristic of agile project management? 
+86、Select the best adjective that describes an agile team’s project and quality standards. 
+A. Tailorable 
+B. Firm 
+C. Set 
+D. Inelastic
+以下对敏捷团队项目和质量标准的最佳形容是 
+A.可裁剪的 
+
+B.坚固的 
+
+C.固定的 
+
+D.无弹性的 
+
+
+87、Servant leadership is a desirable feature for a team leader in agile. What is the best short description of servant leadership? 
+A. A translator 
+B. A task driver 
+C. An enabler 
+D. An interpreter
+敏捷中，服务式领导是一个团队领导者的主要特征，可简单表述为 
+A.一名翻译 
+
+B.一名任务驱动者 
+
+C.一名促成者 
+
+D.一名口头翻译者 
+
+
+88、Peter is at a planning event where the relative development effort of user stories of a large product backlog is to be estimated. The team is to assign user stories to various soft drink sizes (small, medium, large, extra-large).What type of planning event is Peter most likely attending? 
+A. Planning game estimating B. Agility estimating 
+C. Planning poker D. Affinity estimating Peter正着手于测试大量产品待办事项中用户故事的相关开发工作。团队把用户故事归类到不同的软包装饮料的大小（小，中，大，超大）。Peter最有可能正在参与以下哪种计划活动？ 
+
+A.计划游戏评估 
+
+B.敏捷估算 
+
+C.计划扑克 
+
+D.亲和估算 
+
+
+89、What agile estimation technique is useful for efficiently estimating the relative work effort of large product backlogs? 
+A. Planning game 
+B. MoSCoW 
+C. Planning poker 
+D. Affinity estimating
+有助于有效估算大型产品待办事项的相对工作量的敏捷估算技术是 
+A.计划游戏 
+
+B. MoSCoW 
+
+C.计划扑克 
+
+D.亲和估算 
+
+
+90、Having a high emotional intelligence is important to promote effective communication in an agile team. What is one of the seven components of emotional intelligence as defined by Higgs & Dulewicz? 
+A. Competitiveness 
+B. Introversion 
+C. Intuitiveness 
+D. Self determination高情商对促进有在敏捷团队中的有效沟通很重要。哪个是 Higgs和 Dulewicz定义的情商 7个组成部分之一？ 
+
+A.竞争性 
+
+B.内向性 
+
+C.自觉性 
+
+D.自己决定 
+
+
+91、Having a high emotional intelligence is important to promote effective communication in an agile team. What is one of the seven components of emotional intelligence as defined by Higgs & Dulewicz? 
+A. Emotional resilience B.Reticence C.Confidence D.Self-aggrandizement 
+在敏捷团队中拥有较高的情商对提升有效谈话起着很大的作用。 Higgs和 Dulewicz定义情商由七个部分组成，以下哪一个是其中之一？ 
+A.情感恢复 
+
+B.沉默 
+
+C.自信 
+
+D.自我强化 
+
+
+92、 Usually peer pressure has a negative connotation .Why is peer pressure viewed as an advantage of the daily stand-up meetings ? A.Because competition breeds high productivity and peer pressure has been identified by human resource experts to be the best method for increasing competition in the workplace B.Because in an agile project the team is dependent upon each member to provide consistent and sustainable results for the success of the project .Peer pressure in this context is a positive attribute because team members ,or peer ,feel responsible for providing positive results so the team can function efficiently C.Because peer pressure encourages team members to take huge project risks that otherwise would never transpire and an underlying theme of agile project management is risk seeking D.This question is incorrect .Peer pressure is not an advantage of the daily stand-up meeting
+通常，来自同辈的压力有负面影响。为什么同辈压力被视为每日站立会议一种优势？ 
+A.因为竞争催生高生产率，而同辈压力已被人力资源专家确定为在职场中增加竞争的最好方法 
+
+B.因为在 AGILE项目中，团队是依赖每个成员提供一致的、可持续发展的结果取得成功的。在这种情况下，同辈压力是一个积极的属性，因为团队成员，或同辈，感到有责任去提供积极的结果，因而这样的团队能有效地起作用 
+
+C.因为同辈压力会鼓励团队成员承担巨大的项目风险，否则这些风险将永远存在。另外 AGILE项目管理的一个基本主题是寻求风险 
+
+D.这个问题是不正确的。同辈压力不是每日站立会议的一种优势 
+
+
+93、What daily meeting often uses timeboxing to ensure it lasts no longer than fifteen minutes? 
+A. Daily task board update 
+B. Daily risk meeting 
+C. Daily stand-up meetings/Daily scrum 
+D. Daily defect meeting哪一种每日会议通常使用时间箱来确保会议时长不超过 15分钟？ 
+
+A.每日任务板更新 
+
+B.每日风险会议 
+
+C.每日站立会议 /每日 scrum 
+
+D.每日缺陷会议 
+
+
+94、In agile, a business case should include which of the following topics? 
+A. Milestones 
+B. Work breakdown structure 
+C. Product version 
+D. Configuration plan 
+在敏捷中，一项商业论证应包含以下哪项内容？ 
+A.里程碑 
+
+B.工作分解结构 
+
+C.产品版本 
+
+D.配置计划 
+
+
+95、What agile artifact outlines the project’s milestones? 
+A. Product roadmap 
+B. Product backlog 
+C. Business case 
+D. Kanban board
+以下哪一敏捷工件概述了项目的重大事件？ 
+A.产品路线图 
+
+B.产品待办事项 
+
+C.商业论证 
+
+D.看板图 
+
+
+96、What agile artifact outlines the project’s required investment cost? 
+A. Business case 
+B. Risk burndown chart 
+C. Kanban board 
+D. Product roadmap
+提出项目所需的投资成本的是以下哪一项敏捷工件？ 
+A.商业论证 
+
+B.风险燃尽图 
+
+C.看板图 
+
+D.产品路线图 
+
+
+97、When information is shared between collocated team members unconsciously, it is known as? 
+A. Osmotic communication 
+B. Active listening 
+C. Chaordic communication 
+D. Entropic communication
+当信息在集中的团队成员间无意识地进行共享时，这就是 
+A.渗透沟通 
+
+B.积极倾听 
+
+C.混序沟通 
+
+D.沟通 
+
+
+98、If a team believes during sprint planning that a task is expected to take approximately 8 hours to complete, what would be a good timebox value to assign to the task? 
+A. 16 hours 
+B. 8 hours C. 4 hours 
+D. 24 hours
+在冲刺计划期间，团队认为一项任务要花费八小时去完成，时间限制在几小时内去安排任务为好？ 
+A.16小时 
+
+B.8小时 
+
+C.4小时 
+
+D.24小时 
+
+
+99、Mark is reviewing the upcoming user stories for the next iteration. He notices that there will be a few tasks with high uncertainty Why might Mark want to use risk-based spike tasks in this scenario? 
+A. To convey to the product owner the extreme complexity of the user story 
+B. To understand the impacts of the high risk tasks 
+C. To understand the nature of the development team when performing under risk 
+D. To convey to the scrum master the extreme complexity of the user story
+马克正在查看下一次迭代的用户故事，他注意到部分任务带有较高的不确定性。这种情况下，他使用基于风险的试验任务的原因是 
+A.向产品负责人传达用户故事的极端复杂性 
+
+B.了解高风险任务的影响力 
+
+C.了解开发团队风险情况下执行时的本质 
+
+D.向 Scrum主管产品负责人传达用户故事的极端复杂性 
+
+
+100、 John and his agile team are planning an iteration with several tasks having high risk. To manage the risk, what type of task can john and his team build into the iteration plan? 
+A. risk-based spike tasks 
+B. risk-mitigation reflection tasks 
+C. risk-seeking tasks 
+D. risk-averse tasks John和他的敏捷团队正在计划具有几种高风险的任务的迭代。为了管理风险，哪种类型的任务是 John和他的团队建立到迭代计划中的？ 
+
+A.基于风险的试验任务 
+
+B.风险缓解反思任务 
+
+C.寻找风险的任务 
+
+D.规避风险的任务 
+
+101、Roger as an experienced agile team leader is keen on having an empowered team. What does an empowered team mean? 
+
+A.A team that is risk-averse and focused solely on minimizing risk. 
+
+B.A team that solves problems through the use of customer feedback mechanisms 
+
+C. A team that is capable of powering up to different iteration velocities to reach customer expectations. 
+
+D. A team that is self-organizing and takes ownership of the product it is developing Roger作为一个经验老道的敏捷团队领导者，非常热衷于拥有一个授权团队。授权团队指的
+
+是什么？ 
+
+A.一个不愿承担风险，只关注风险最小化的团队 
+
+B.一个只能通过顾客反馈来解决问题的机器 
+
+C.一个能胜任从不同的迭代速度到满足顾客需求的团队 
+
+D.一个自我组织，对研发产品拥有所有权的团队 
+
+
+102、What type of team uses collaboration to solve problems and decides on the path forward? 
+A. spring team 
+B. empowered team 
+C. parry team 
+D. iteration team
+下列哪种类型的团队通过合作解决问题，并决定前进的路线？ 
+A.冲刺团队 
+
+B.授权团队 C.parry团队 
+
+D.迭代团队 
+
+
+103、In which step of the project chartering activity of the Crystal development methodology is project soundness evaluated? 
+A. Exploratory 360 
+B. Team convention and standards assignment 
+C. Team formation 
+D. Project plan definition
+在水晶开发方法论中，项目章程的哪一步骤是评价项目的可靠性的？ 
+A.探索性 360 
+
+B.团队协议和标准分配 
+
+C.团队组成 
+
+D.项目计划定义 
+
+
+104、Match the most appropriate crystal family member to the notional project efforts. A) Crystal clear, B) Crystal red; 1)Small effort, 2)Large effort 
+A. Small effort: crystal clear; Large effort: crystal red 
+B. Either family member is appropriate 
+C. Large effort: crystal clear; Small effort: crystal red 
+D. Small effort: crystal red; Large effort: crystal clear
+（A）水晶透明；（B）水晶红；（C）小工作负荷；（D）大工作负荷，下列选项正确匹配以上水晶方法论和概念性项目工作负荷的是 
+
+A.小工作负荷：水晶透明；大工作负荷：水晶红 
+
+B.任何水晶方法都是正确的 
+
+C.大工作负荷：水晶透明；小工作负荷：水晶红 
+
+D.小工作负荷：水晶红；大工作负荷：水晶透明 
+
+A. It helps the team predict duration of the daily stand-up meetings during the iteration 
+
+B. It helps the team predict customer value 
+
+C. It helps the team determine how many user stories may be developed in the forthcoming iteration 
+
+D. It helps the team predict task durations or timeboxing values
+
+速度如何利于迭代计划？ 
+
+A.它有助于团队预测迭代期间每日站立会议的持续时长 
+
+B.它有助于团队预测客户价值 
+
+C.它有助于团队决定在即将发生的迭代中开发的用户故事数量 
+
+D.它有助于团队预测任务持续时长或者时间箱价值 
+
+
+105、How does velocity play into the iteration plan? 
+106、David’s agile team just finished building, testing, and releasing 8 user story points in its most recent 3 week iteration. What is the team’s velocity? 
+A. 24 
+B. 3 
+C. 8. 
+D. 2.67在最近 3周的迭代中，大卫他们的敏捷团队刚完成了 8个用户故事点的建立，测试和发布，那么他们团队的速度是 
+
+A. 24 
+
+B. 3 
+
+C. 8. 
+
+D. 2.67 
+
+
+107、What type of testing is encouraged throughout an agile project on completed software to test system design and potentially identify new features that may add value to the product? 
+A. Refactor testing 
+B. Exploratory testing 
+C. Interface testing 
+D. Unit testing
+为测试系统设计以及大概地识别可增加产品价值的新特性，在整个软件成品的敏捷项目中，鼓励使用的测试是 
+A.重构测试 
+
+B.探索测试 
+
+C.界面测试 
+
+D.单元测试 
+
+
+108、 John,as project leader, mentors and coaches his team.He always makes sure to highlight important team achievements.What is John doing when he provides mentoring and coaching? 
+A. Refactoring the team 
+B. Guiding the team 
+C. Reforming the team 
+D. Motivating the team John，作为一个项目领导人，指导和训练他的团队。他经常确保突出重要的团队成就。请问 John在为团队提供指导和训练时采取了什么行为？
+
+A.重构团队 
+
+B.引导团队 
+
+C.重组团队 
+
+D.激励团队 
+
+
+109、 Jill, as project lead, has been using mentoring to help coach her team to improve its performance. What is Jill doing when she provides mentoring? 
+A. Leading the team 
+B. Motivating the team 
+C. Criticizing the team 
+D. Reforming the team
+吉尔作为项目领导者，正指导帮助她的团队提高绩效，她的这种指导行为是 
+A.领导团队 
+
+B.激励团队 
+
+C.批评团队 
+
+D.改革团队 
+
+110、As agile team leader, Stacey intends to schedule a brainstorming session to generate ideas 
+that may help solve some of the team's current issues. Which of the following is NOT a good 
+brainstorming technique that Stacey should use? 
+A.Delaying any criticism that may hamper idea generation. 
+B.Hosting the meeting in a neutral and comfortable environment. 
+C.Having an engaging and experienced facilitator lead the brainstorming session. 
+
+
+D. Never follow up with the results,conclusions, or action items of the brainstorming session.作为一个 AGILE的领导者， Stacey打算组织一个头脑风暴环节来收集想法，这样或许能帮助解决当今团队中的一些问题。以下哪一选项不是良好的头脑风暴方法？ 
+
+A.延后所有可能阻碍想法萌发的批评 
+
+B.在一个中立的轻松的环境中举行会议 
+
+C.由一位有趣的经验老道的协调者领导头脑风暴会议 
+
+D.永远不要跟进头脑风暴环节中的任何结果，结论或交办事项 
+
+
+111、Defined Cohn’s square root of the sum of squares method that is often used to calculate a project buffer. 
+A. First find the 90% confidence level value of all tasks. Next, sum the square of these values. Finally, find the square root of the sum 
+B. First find the 10% confidence level value of all tasks. Next, sum the square of these values. Finally, find the square root of the sum 
+C. First find the local pessimum value of all tasks. Next, sum the square of these values. Finally, find the square root of the sum 
+D. First find the local safety value of all tasks. Next, sum the square of these values. Finally, find the square root of the sum
+科恩的平方和的平方根方法是常用于计算一个项目的缓冲的，它的计算方法是 
+A.首先寻找所有任务可信水平价值的 90%，接着计算这些价值平方的总和，最后，计算总和的平方根
+
+B.首先寻找所有任务可信水平价值的 10%，接着计算这些价值平方的总和，最后，计算总和的平方根 
+
+C.首先寻找所有任务的当地最劣点价值，接着计算这些价值平方的总和，最后，计算总和的平方根 
+
+D.首先寻找所有任务的当地安全价值，接着计算这些价值平方的总和，最后，计算总和的平方根 
+
+
+112、Select an advantage of using an information radiator. 
+A. Improves development skills for junior software programmers 
+B. Decreases team morale 
+C. Improves team communication 
+D. Increases competition among team members to improve productivity
+使用信息发射源的优点是 
+A.提高下级软件程序员的开发技能 
+
+B.削弱团队士气 
+
+C.促进团队沟通 
+
+D.提高团队成员之间的竞争以提高生产率 
+
+
+113、What do the three Cs mean with respect to user stories? 
+A. Card, collaboration, conformance 
+B. Card, collaboration, confirmation 
+C. Card, conversation, confirmation 
+D. Collaboration, conformance, configurable关于用户故事 3个 C代表什么 
+
+A.卡，合作，一致 
+
+B.卡，合作，确认 
+
+C.卡，对话，确认 
+
+D.合作，一致，可配置的 
+
+
+114、 Which of the following is NOT a typical grouping of user stories for purposes of organization ? A.By alphabetical letter B.By relation to product feature C.By priority D.By logical sequence and dependency
+下列哪一项不是为组织目标而进行的用户故事的典型分组？ 
+A.按字母顺序 
+
+B.按产品特征的关系 
+
+C.按优先级 
+
+D.按逻辑顺序和从属 
+
+
+115、Of the following, select the response which holds the three aspects of a user story 
+A. Written description; conversations; and testing criteria 
+B. Spoken dialogue; written rationale; and done done criteria C. Spoken description; written dialogue; and testing criteria 
+D. Spoken description; collaborative dialogue; and testing criteria一个用户故事包含的 3个方面是 
+
+A.书面描述；对话和测试标准 
+
+B.口头对话；书面原理和完成标准 
+
+C.口头描述；书面对话和测试标准 
+
+D.口头描述；协作对话和测试标准 
+
+
+116、Prototyping is a common project management technique to reduce risk.Select the response which is NOT a common form of prototyping in agile projects. A.XAML B.Paper C.HTML D.Wireframe原型制造是一个可以降低风险的项目管理技巧。选出下列不属于 AGILE项目中原型制造的普遍形式 
+A.XAML B.Paper C.HTML 
+D.线框图 
+117、As a product owner, Hanna believes in the value of incremental delivery. Why might Hanna see value in incremental delivery? 
+A. As product owner, she can choose to pair program during the delivery demonstration to remove defects. 
+B. As product owner, she can choose which developers are working on the project 
+C. As product owner, she can refactor the code herself 
+D. As product owner, she can review the state of the product and provide feedback
+作为产品负责人，汉娜坚持增量交付的价值，她为什么会意识到增量交付的价值？ 
+A.作为产品负责人，她可以在交付展示阶段选择结对编程来清除缺陷 
+
+B.作为产品负责人，她可以选择项目的开发者 
+
+C.作为产品负责人，她自己可重构代码 
+
+D.作为产品负责人，她可观察产品的状态并提供反馈 
+
+
+118、Gerald, as the product owner, likes being able to provide immediate feedback to the agile team regarding the latest iteration of a product. Although Gerald has other opportunities to provide feedbacks, this particular type occurs at frequent, set intervals. What type of delivery concept provides this type of customer feedback? 
+A. Incremental delivery 
+B. Iteration delivery 
+C. Demo delivery 
+D. Daily stand-up delivery
+作为产品负责人，在谈论产品的最新迭代时，保罗倾向于能够为敏捷团队提供及时反馈。虽然保罗还有其他机会提供反馈，但是这种特殊的反馈类型常发生在频繁，定期的间隔中，那么哪一项交付概念提及这一种客户反馈方式？ 
+A.增量交付 
+
+B.迭代交付
+
+C.示范交付 
+
+D.每日站立交付 
+
+
+119、 Help Jill select the correct agile delivery concept where a product is delivered and demonstrated at set intervals to the product owner to receive feedback? 
+A. Sprint delivery 
+B. Incremental delivery 
+C. Kanban delivery 
+D. Iteration delivery
+产品在定期的间隔中向产品负责人交付和展示，目的是为了获得反馈，这种方式属于以下哪一项敏捷交付概念？ 
+A.冲刺交付 
+
+B.增量交付 
+
+C.看板交付 
+
+D.迭代交付 
+
+
+120、Which of the following is the best definition of incremental delivery? 
+A. The immediate delivery of a working product to a customer for customer unit testing 
+B. The semi-annual delivery of a working product to a customer for continuous feedback and acceptance 
+C. The frequent delivery of a working product to a customer for continuous feedback and acceptance 
+D. The occasional delivery of a working product, which improves steadily, over non-standard periods of time
+增量交付的最佳定义是？ 
+A.以客户单元测试为目的的把工作产品给客户的即时交付 
+
+B.以连续的反馈和验收为目的的把工作产品给客户的半年度交付 
+
+C.以连续的反馈和验收为目的的把工作产品给客户的频繁交付 
+
+D.一个工作产品的不定期交付，这提高稳定性，超过非标准时间
+
+
+ZZZZZ

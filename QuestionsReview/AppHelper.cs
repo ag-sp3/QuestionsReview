@@ -77,13 +77,15 @@ namespace QuestionsReview
                 var results = from a in rawAnwsers
                               let length = a.IndexOf(@"、")
                               let answerID = a.Substring(0, length)
+                              let answerRef = a.Substring(length + 1,1)
                               let question = (from q in questions where q.BatchID == batchID && q.ID == answerID select q).FirstOrDefault()
                               select new Question
                               {
                                   ID = question.ID,
                                   BatchID = question.BatchID,
                                   QuestionDesc = question.QuestionDesc,
-                                  AnswerDesc = a
+                                  AnswerDesc = a,
+                                  AnswerRef = answerRef
                               };
 
                 global.AddRange(results);
