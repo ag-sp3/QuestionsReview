@@ -9,6 +9,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 using Windows.Storage;
 using Windows.UI.Popups;
+using Windows.UI.ViewManagement;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -29,7 +30,7 @@ namespace QuestionsReview
 
         public MainPage()
         {
-            this.InitializeComponent();
+            InitializeComponent();
 
             var titleBar = Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().TitleBar;
             titleBar.BackgroundColor = Colors.Black;
@@ -37,6 +38,8 @@ namespace QuestionsReview
             titleBar.ButtonHoverBackgroundColor = Colors.DarkGreen;
             //titleBar.ButtonBackgroundColor = Colors.DarkCyan;
             titleBar.ButtonForegroundColor = Colors.White;
+
+            
 
             var howtouse1 = "1. Basic mode: search with multiple batches and question ranges.\r\n" +
                             "For example, '1:45,78-81,100;2:[23]0,1;3:67'\r\n" +
@@ -83,6 +86,8 @@ namespace QuestionsReview
             btn_Submit.IsEnabled = false;
             rtbn_A.IsEnabled = rtbn_B.IsEnabled = rtbn_C.IsEnabled = rtbn_D.IsEnabled = false;
             chbx_Uncertain.IsEnabled = false;
+
+            ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.FullScreen;
 
 
         }
@@ -672,5 +677,7 @@ namespace QuestionsReview
 
 
         }
+
+        
     }
 }
