@@ -360,6 +360,15 @@ namespace QuestionsReview
 
         private void chbx_ViewAnswer_Click(object sender, RoutedEventArgs e)
         {
+            //if(tbx_AnswerDesc.Visibility == Visibility.Visible)
+            //{
+            //    tbx_AnswerDesc.Visibility = Visibility.Collapsed;
+            //}
+            //else
+            //{
+            //    tbx_AnswerDesc.Visibility = Visibility.Visible;
+            //}
+
             if (chbx_ViewAnswer.IsChecked == true)
             {
                 if (Current != null)
